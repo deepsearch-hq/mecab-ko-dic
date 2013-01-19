@@ -14,7 +14,7 @@ def hasAscii(s):
     return False
 
 def getEndWithJongSung(s):
-    if not isHangul(s):
+    if not isHangul(s[-1]):
         return '*'
     if endWithJongSung(s):
         return 'T'
@@ -29,7 +29,7 @@ def isHangul(s):
     return True
 
 def endWithJongSung(s):
-    if not isHangul(s):
+    if not isHangul(s[-1]):
         return False
     lastChar = s[-1]
     uni = ord(lastChar)
