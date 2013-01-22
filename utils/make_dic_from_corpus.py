@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf8 -*-
 # vim: set ts=4 sws=4 sw=4:
 import sys
@@ -25,7 +25,7 @@ class FileParser:
 		self.parseEojeol(fields[2])	
 
 	def parse(self, fileName):
-		file = open(fileName)
+		file = open(fileName, mode='r', encoding='UTF-16LE')
 		textStart = False
 		for line in file:
 			stripedLine = line.strip()
@@ -53,24 +53,21 @@ def main():
 
 	files = sys.argv
 	print("input...")
-	directory = "corpus/utf8/talk"
+	directory = "corpus/talk"
 	for file in os.listdir(directory):
 		fileParser.setSeparator("+")
 		print(file)
 		fileParser.parse(directory+"/"+file)
-
-	directory = "corpus/utf8/write"
+	directory = "corpus/write"
 	for file in os.listdir(directory):
 		fileParser.setSeparator(" + ")
 		print(file)
 		fileParser.parse(directory+"/"+file)
-	
 	dic = fileParser.getDic()
-
 	print("output...")
-	for pos, surfaces in dic.iteritems():
+	for pos, surfaces in dic.items():
 		print(pos)
-		outFile = open("corpus_dic/" + pos, "w")
+		outFile = open("corpus_dic/" + pos, mode="w", encoding="UTF-8")
 		for surface in sorted(surfaces):
 			outFile.write(surface + "\n")
 		outFile.close()
