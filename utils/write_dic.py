@@ -42,12 +42,26 @@ if __name__ == '__main__':
     tag = sys.argv[1]
 
     for line in sys.stdin:
-        surface = line.strip()
+        items = line.strip().split(',')
+        surface = items[0]
+        form = None
+        if len(items) > 1:
+            form = items[1]
+        if not isHangul(surface):
+            continue
         jongSungType = 'F'
         if endWithJongSung(surface):
             jongSungType = 'T'
-        print('%s,0,0,0,%s,%s,%s,*,*,*,*' %
-                (surface,
-                tag,
-                getEndWithJongSung(surface),
-                surface))
+        if form:
+            print('%s,0,0,0,%s,%s,%s,Compound,*,*,%s' %
+                    (surface,
+                    tag,
+                    getEndWithJongSung(surface),
+                    surface,
+                    form))
+        else:
+            print('%s,0,0,0,%s,%s,%s,*,*,*,*' %
+                    (surface,
+                    tag,
+                    getEndWithJongSung(surface),
+                    surface))
