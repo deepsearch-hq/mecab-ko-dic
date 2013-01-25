@@ -26,6 +26,7 @@ done
 
 rm -f ../final/* 
 $DICT_GEN -o ../final -m $model_file
+cp pos-id.def ../final/.
 
 pushd ../final
 $DICT_INDEX -d . -c UTF-8 -t UTF-8 -f UTF-8
