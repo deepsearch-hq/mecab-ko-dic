@@ -42,7 +42,10 @@ if __name__ == '__main__':
     tag = sys.argv[1]
 
     for line in sys.stdin:
-        items = line.strip().split(',')
+        line = line.strip()
+        if line == '':
+            continue
+        items = line.split(',')
         surface = items[0]
         form = None
         if len(items) > 1:
