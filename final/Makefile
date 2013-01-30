@@ -106,7 +106,7 @@ MECAB_CONFIG = /usr/local/bin/mecab-config
 MECAB_DICDIR = /usr/local/lib/mecab/dic/mecab-ko-dic
 MECAB_DICT_INDEX = /usr/local/libexec/mecab/mecab-dict-index
 MECAB_GENDATA = model.bin matrix.bin char.bin sys.dic unk.dic
-MECAB_LEXICAL_DIC = E.csv IC.csv Inflect.csv J.csv MAG.csv MAJ.csv MM.csv NN-Compound.csv NN-Foreign.csv NN-Proper.csv NN.csv NNB-Classfier.csv NNB.csv NP.csv NR.csv Symbol.csv VA.csv VCN.csv VCP.csv VV.csv VX.csv XPN.csv XR.csv XSA.csv XSN.csv XSV.csv
+MECAB_LEXICAL_DIC = CoinedWord.csv E.csv IC.csv Inflect.csv J.csv MAG.csv MAJ.csv MM.csv NN-Compound.csv NN-Foreign.csv NN-Proper.csv NN.csv NNB-Classfier.csv NNB.csv NP.csv NR.csv Symbol.csv VA.csv VCN.csv VCP.csv VV.csv VX.csv XPN.csv XR.csv XSA.csv XSN.csv XSV.csv
 MECAB_MECABRC = /usr/local/etc/mecabrc
 MECAB_PREDATA = char.def feature.def left-id.def matrix.def model.def pos-id.def rewrite.def right-id.def unk.def dicrc
 MKDIR_P = /bin/mkdir -p
@@ -166,7 +166,7 @@ dicdir = /usr/local/lib/mecab/dic/mecab-ko-dic
 
 # SUBDIRS    = doc script
 dic_DATA = model.bin matrix.bin char.bin sys.dic unk.dic left-id.def right-id.def rewrite.def pos-id.def dicrc
-EXTRA_DIST = E.csv IC.csv Inflect.csv J.csv MAG.csv MAJ.csv MM.csv NN-Compound.csv NN-Foreign.csv NN-Proper.csv NN.csv NNB-Classfier.csv NNB.csv NP.csv NR.csv Symbol.csv VA.csv VCN.csv VCP.csv VV.csv VX.csv XPN.csv XR.csv XSA.csv XSN.csv XSV.csv char.def feature.def left-id.def matrix.def model.def pos-id.def rewrite.def right-id.def unk.def dicrc RESULT
+EXTRA_DIST = CoinedWord.csv E.csv IC.csv Inflect.csv J.csv MAG.csv MAJ.csv MM.csv NN-Compound.csv NN-Foreign.csv NN-Proper.csv NN.csv NNB-Classfier.csv NNB.csv NP.csv NR.csv Symbol.csv VA.csv VCN.csv VCP.csv VV.csv VX.csv XPN.csv XR.csv XSA.csv XSN.csv XSV.csv char.def feature.def left-id.def matrix.def model.def pos-id.def rewrite.def right-id.def unk.def dicrc RESULT
 CLEANFILES = model.bin matrix.bin char.bin sys.dic unk.dic
 all: all-am
 
