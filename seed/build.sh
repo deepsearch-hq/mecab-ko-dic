@@ -24,11 +24,11 @@ for file in `ls corpus/*.txt`; do
 	mv ${model_file}.tmp ${model_file}
 done
 
-rm -f ../final/* 
-$DICT_GEN -o ../final -m $model_file
+rm -f ../final/*.csv ../final/*.def ../final/dicrc 
 cp pos-id.def ../final/.
+$DICT_GEN -o ../final -m $model_file
 
 pushd ../final
-$DICT_INDEX -d . -c UTF-8 -t UTF-8 -f UTF-8
+./configure; make
 popd
 date
