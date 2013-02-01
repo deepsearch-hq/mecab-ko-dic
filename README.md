@@ -1,5 +1,4 @@
-mecab-ko-dic 소개
-=================
+# mecab-ko-dic 소개
 [mecab-ko-dic](https://bitbucket.org/bibreen/mecab-ko-dic)은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.googlecode.com/svn/trunk/mecab/doc/index.html)을 사용하여, 한국어 형태소 분석을 하기 위한 프로젝트입니다. 말뭉치 학습과 사전 목록은 모두 21세기 세종계획의 성과물을 사용하였습니다.
 
 형태소 분석 학습에 사용된 말뭉치는 다음과 같습니다.
@@ -14,12 +13,10 @@ mecab-ko-dic 소개
   - 슬픈 시인의 바다 - BTEO0085
   - 해남 가는 길 - BTEO0088
 
-설치 및 사용
-============
+# 설치 및 사용
 mecab-ko-dic을 설치하고 사용하기 위해서 다음과 같은 작업이 필요합니다. 모든 작업은 Linux 기준입니다. 양해바랍니다.
 
-MeCab 설치
-----------
+## MeCab 설치
 http://code.google.com/p/mecab/downloads/detail?name=mecab-0.994.tar.gz&can=1&q= 에서 MeCab의 소스를 다운 받고 설치합니다. (현재 mecab-ko-dic을 0.994 버전에서 테스트 하였기 때문에, 해당 버전을 추천합니다.)
 tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 순서로 설치할 수 있습니다.
     % tar zxfv mecab-XXtar.gz
@@ -30,8 +27,7 @@ tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 �
     % su
     # make install
 
-mecab-ko-dic 설치
------------------
+## mecab-ko-dic 설치
 https://bitbucket.org/bibreen/mecab-ko-dic/downloads 에서 mecab-ko-dic의 최신 버전을 다운 받습니다.
 tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 순서로 설치할 수 있습니다.
 기본으로 /usr/local/lib/mecab/dic/mecab-ko-dic에 설치됩니다.
@@ -42,8 +38,7 @@ tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 �
     % su
     # make install
 
-사용
-----
+## 사용
 다음과 같이 mecab을 실행하여 한국어 형태소 분석 결과를 보실 수 있습니다. 
     % mecab -d /usr/local/lib/mecab/dic/mecab-ko-dic
     mecab-ko-dic은 MeCab을 사용하여, 한국어 형태소 분석을 하기 위한 프로젝트입니다.
