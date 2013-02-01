@@ -26,7 +26,7 @@ mecab-ko-dic을 설치하고 사용하기 위해서 다음과 같은 작업이 �
 [여기 (MeCab-0.994)](http://code.google.com/p/mecab/downloads/detail?name=mecab-0.994.tar.gz&can=1&q=) 에서 MeCab의 소스를 다운 받고 설치합니다. (현재 mecab-ko-dic을 0.994 버전에서 테스트 하였기 때문에, 해당 버전을 추천합니다.)
 tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 순서로 설치할 수 있습니다.
 
-    :::none
+    :::text
     $ tar zxfv mecab-XXtar.gz
     $ cd mecab-XX
     $ ./configure 
@@ -46,7 +46,7 @@ MeCab 설치의 자세한 내용은 [MeCab 홈페이지](http://mecab.googlecode
 tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 순서로 설치할 수 있습니다.
 기본으로 /usr/local/lib/mecab/dic/mecab-ko-dic에 설치됩니다.
 
-    :::none
+    :::text
     $ tar zxfv mecab-ko-dic-XX.tar.gz
     $ cd mecab-ko-dic-XX
     $ ./configure 
@@ -58,7 +58,7 @@ tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 �
 
 다음과 같이 mecab을 실행하여 한국어 형태소 분석 결과를 보실 수 있습니다. 
 
-    :::none
+    :::text
     $ mecab -d /usr/local/lib/mecab/dic/mecab-ko-dic
     mecab-ko-dic은 MeCab을 사용하여, 한국어 형태소 분석을 하기 위한 프로젝트입니다.
     mecab   SL,*,*,*,*,*,*
