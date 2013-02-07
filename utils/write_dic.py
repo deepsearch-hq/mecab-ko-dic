@@ -24,7 +24,9 @@ def getEndWithJongSung(s):
 def isHangul(s):
     for c in s:
         uni = ord(c)
-        if not (0x0AC00 <= uni and uni <= 0xD7A3):
+        if not ((0xAC00 <= uni and uni <= 0xD7A3) or
+               (0x3130 <= uni and uni <= 0x318F) or
+               (0x1100 <= uni and uni <= 0x11FF)):
             return False
     return True
 
