@@ -1,6 +1,6 @@
 # mecab-ko-dic 소개
 
-[mecab-ko-dic](https://bitbucket.org/bibreen/mecab-ko-dic)은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.googlecode.com/svn/trunk/mecab/doc/index.html)을 사용하여, 한국어 형태소 분석을 하기 위한 프로젝트입니다. 말뭉치 학습과 사전 목록은 모두 [21세기 세종계획](http://www.sejong.or.kr/)의 성과물을 사용하였습니다.
+[mecab-ko-dic](https://bitbucket.org/bibreen/mecab-ko-dic)은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.googlecode.com/svn/trunk/mecab/doc/index.html)을 사용하여, 한국어 형태소 분석을 하기 위한 프로젝트입니다. 말뭉치 학습과 사전 목록일부는 [21세기 세종계획](http://www.sejong.or.kr/)의 성과물을 사용하였습니다.
 
 형태소 분석 학습에 사용된 말뭉치는 다음과 같습니다.
 
@@ -89,3 +89,8 @@ tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 �
 mecab-ko-dic에서 사용하는 사전 형식이나 품사 태그에 대한 정보는 다음의 페이지에서 보실 수 있습니다.
 
   - [mecab-ko-dic 품사 태그 설명](https://docs.google.com/spreadsheet/ccc?key=0ApcJghR6UMXxdEdURGY2YzIwb3dSZ290RFpSaUkzZ0E&usp=sharing)
+
+## 기타
+  - 형태소 분석기 학습에 사용된 말뭉치(corpus)는 저작권이 있기 때문에 배포가 불가능합니다.
+  - 단어 추가 방법은 다음의 URL에서 확인하실 수 있습니다.
+    [MeCab 단어 추가 방법](http://mecab.googlecode.com/svn/trunk/mecab/doc/dic.html) \(일본어\)
