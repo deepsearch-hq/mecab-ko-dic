@@ -16,7 +16,7 @@ model_file="model"
 for file in `ls corpus/*.txt`; do
 	echo $file
 	if [ "$first" == "yes" ]; then
-		$COST_TRAIN -c 1.0 $file ${model_file}.tmp
+		$COST_TRAIN -p 2 -c 1.0 $file ${model_file}.tmp
 		first="no"
 	else
 		$COST_TRAIN -p 2 -c 1.0 -M ${model_file} $file ${model_file}.tmp
