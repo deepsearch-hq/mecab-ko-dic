@@ -172,7 +172,7 @@ def parsewpxml(file, page_handler):
     parser.parse(file)
 
 def printNounFromWikipediaTitle(title):
-    if len(title) > 7:
+    if len(title) > 8:
         return
 
     pos = title.find(':')
@@ -189,37 +189,51 @@ def printNounFromWikipediaTitle(title):
 
     # 조사를 가지고 있다고 의심되는 문장이 타이틀인 경우 키워드를 추출하지
     # 않는다.
-    hasJosa = False
-    for k in keywords:
-        if (len(keywords) > 1 and
-            ((len(k) >= 2 and k[-1] == '의') or
-            (len(k) >= 2 and k[-1] == '은') or
-            (len(k) >= 2 and k[-1] == '는') or
-            (len(k) >= 2 and k[-1] == '에') or
-            (len(k) >= 2 and  k[-1] == '을') or
-            (len(k) >= 2 and k[-1] == '를'))):
-            hasJosa = True
-            break
-    if hasJosa:
-        return
+    for i in range(len(keywords) - 1):
+        k = keywords[i]
+        if len(keywords) >= 2 and hasJosa(k):
+            return
 
-    # 특정 키워드로 끝나는 키워드는 제외한다.
     for k in keywords:
-        if (len(k) >= 2 and
-            (k[-2:] == '학교' or
-            k[-2:] == '에서' or
-            k[-2:] == '공사' or
-            k[-2:] == '공원' or
-            k[-2:] == '원회' or
-            k[-2:] == '교회' or
-            k[-2:] == '대학' or
-            k[-2:] == '병원' or
-            k[-1:] == '법' or
-            k[-1:] == '죄')):
+        if len(k) > 6:
+            continue
+        # 특정 키워드로 끝나는 키워드는 제외한다.
+        if isSkippableWord(k):
             continue
 
         if isHangul(k) and hasNoun(k) == False:
             print(k)
+
+def hasJosa(s):
+    josaList = {'의', '은', '는', '에', '을', '를', '와', '과',
+                '며', '들', '만', '이', '가'}
+    if len(s) >= 3:
+        for josa in josaList:
+            if s[-1] == josa:
+                return True
+
+    return False
+
+def isSkippableWord(s):
+    # 특정 문자열로 끝나는 경우
+    tailList = {'학교', '에서', '공사', '공원', '원회', '교회', '대학',
+                '병원', '방송', '신문', '운동', '공항', '식품', '극장',
+                '니다', '합시다', '해요', '세요', '와요', '까요', '어요',
+                '도시', '어라', '해라', '법', '학', '회', '원', '청',
+                '관', '죄', '들', '봐'}
+    if len(s) >= 4:
+        for tail in tailList:
+            tailLen = len(tail)
+            if s[tailLen * -1:] == tail:
+                return True
+
+    # 특정 문자열을 포함하는 경우
+    strList = {'좋', '같'}
+    for each in strList:
+        if s.find(each) > -1:
+            return True
+
+    return False
 
 def createNounSurfaceHashTable():
     global surfaceHashTable
