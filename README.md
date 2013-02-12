@@ -14,6 +14,7 @@
   - 수필공원 94 봄 - BTBF0265
   - 슬픈 시인의 바다 - BTEO0085
   - 해남 가는 길 - BTEO0088
+  - 미학 오디세이 - BTHO0367
   - 한국의 마케팅 사례 - BTHO0425
 
 mecab-ko-dic은 [아파치 라이센스 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)에 따라 소프트웨어를 사용, 재배포 할 수 있습니다.
