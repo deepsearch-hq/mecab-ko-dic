@@ -17,9 +17,15 @@ for file in `ls corpus/*.txt`; do
 	echo $file
 	if [ "$first" == "yes" ]; then
 		$COST_TRAIN -p 2 -c 1.0 $file ${model_file}.tmp
+        if [ "$?" != 0 ]; then
+            exit -1
+        fi
 		first="no"
 	else
 		$COST_TRAIN -p 2 -c 1.0 -M ${model_file} $file ${model_file}.tmp
+        if [ "$?" != 0 ]; then
+            exit -1
+        fi
 	fi
 
 	rm -f ${model_file}
