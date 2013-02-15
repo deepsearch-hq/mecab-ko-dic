@@ -8,6 +8,11 @@ COST_TRAIN=$MECAB_EXEC_PATH/mecab-cost-train
 
 # clear final directory
 rm -f ../final/*.csv ../final/*.def ../final/*.bin ../final/*.dic ../final/dicrc 
+pushd ../final
+./clean
+popd
+
+# clear seed directory
 rm -f *.dic *.bin model model.txt
 $DICT_INDEX -p -d . -c UTF-8 -t UTF-8 -f UTF-8
 
@@ -34,6 +39,8 @@ done
 
 cp pos-id.def ../final/.
 $DICT_GEN -o ../final -m $model_file
+
+./change_connection_cost.sh
 
 pushd ../final
 ./configure; make

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+make clean
+rm -f Makefile config.status aclocal.m4 config.log

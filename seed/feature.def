@@ -8,9 +8,11 @@
 # %F[n] : UNIGRAM의 n번째 소성(素性)으로 전개됩니다.
 
 # POS Unigram
-UNIGRAM U1:%F[0]
-UNIGRAM U2:%F[0],%F?[1]
-UNIGRAM U3:%F[0],%F[1],%F?[2]
+UNIGRAM U00:%F[0]
+
+# Word-Read-POS
+UNIGRAM R00:%F[0],%F?[1]
+UNIGRAM R01:%F[0],%F?[1],%F?[2]
 
 # 품사
 BIGRAM B00:%L[0]/%R[0]
