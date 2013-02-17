@@ -41,6 +41,7 @@ cp pos-id.def ../final/.
 $DICT_GEN -o ../final -m $model_file
 
 ./change_connection_cost.sh
+./create_atomic_dic.sh
 
 pushd ../final
 ./configure; make

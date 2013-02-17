@@ -6,6 +6,7 @@ mecab-ko-dic은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.go
 
 각 사전(CSV 파일)에 대한 설명은 다음과 같습니다.
 
+  * Atomic.csv - 더 이상의 형태소 분석을 하지 않도록 출현 비용을 매우 낮춘 형태소를 등록한 사전
   * CoinedWord.csv - 신조어, 준말, 비속어
   * EC.csv - 연결 어미
   * EF.csv - 종결 어미
