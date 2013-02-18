@@ -7,7 +7,7 @@ DICT_GEN=$MECAB_EXEC_PATH/mecab-dict-gen
 COST_TRAIN=$MECAB_EXEC_PATH/mecab-cost-train
 
 # clear final directory
-rm -f ../final/*.csv ../final/*.def ../final/*.bin ../final/*.dic ../final/dicrc 
+rm -f ../final/*.csv ../final/*.def ../final/*.def.org ../final/*.bin ../final/*.dic ../final/dicrc 
 pushd ../final
 ./clean
 popd
