@@ -220,7 +220,8 @@ def isSkippableWord(s):
                 '병원', '방송', '신문', '운동', '공항', '식품', '극장',
                 '니다', '합시다', '해요', '세요', '와요', '까요', '어요',
                 '도시', '어라', '해라', '법', '학', '회', '원', '청',
-                '관', '죄', '들', '봐'}
+                '관', '죄', '들', '봐', '반응', '일기', '공장', '보험',
+                '교통', '연맹'}
     if len(s) >= 4:
         for tail in tailList:
             tailLen = len(tail)
@@ -228,7 +229,7 @@ def isSkippableWord(s):
                 return True
 
     # 특정 문자열을 포함하는 경우
-    strList = {'좋', '같'}
+    strList = {'좋', '같', '놓', '묻', '흡혈', '까불', '삶', '방송'}
     for each in strList:
         if s.find(each) > -1:
             return True
@@ -239,7 +240,7 @@ def createNounSurfaceHashTable():
     global surfaceHashTable
     seedDir = '../seed'
     for fileName in os.listdir(seedDir):
-        if fileName[0:2] != 'NN' or fileName[-3:] != 'csv':
+        if fileName[0:1] == '_' or fileName[-3:] != 'csv':
             continue
         srcFileName = seedDir + '/' + fileName
         with open(srcFileName, mode='r', encoding='utf-8') as dicFile:
