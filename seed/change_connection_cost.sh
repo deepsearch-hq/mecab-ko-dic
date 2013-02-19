@@ -49,7 +49,7 @@ cp $DIC_PATH/$MATRIX_DEF $DIC_PATH/$ORG_MATRIX_DEF
 sed_patterns=''
 
 # 종성으로 끝나는 명사와 주격 조사 '이'의 연접 비용을 늘림
-incr_num=2400 # '김영삼 시절 이양호'가 제대로 분석되는 최소값 (백단위로 테스트)
+incr_num=2600 # '김영삼 시절 이양호'가 제대로 분석되는 최소값 (백단위로 테스트)
 right_id=$(get_right_id "NN" "T")
 left_id=$(get_left_id "JKS" "이")
 sed_patterns="$sed_patterns$(get_sed_command_for_increasing_cost $left_id $right_id $incr_num);"
