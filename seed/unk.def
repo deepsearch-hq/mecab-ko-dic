@@ -7,7 +7,7 @@ HANGUL,0,0,0,NN,*,*,*,*,*,*
 HANJA,0,0,0,SH,*,*,*,*,*,*
 HIRAGANA,0,0,0,SL,*,*,*,*,*,*
 KANJI,0,0,0,SL,*,*,*,*,*,*
-KANJINUMERIC,0,0,0,SL,*,*,*,*,*,*
+HANJANUMERIC,0,0,0,SH,*,*,*,*,*,*
 KATAKANA,0,0,0,SL,*,*,*,*,*,*
 NUMERIC,0,0,0,SN,*,*,*,*,*,*
 SYMBOL,0,0,0,SY,*,*,*,*,*,*

@@ -35,6 +35,10 @@ mecab-ko-dic은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.go
   * NNB.csv - 의존 명사
   * NP.csv - 대명사
   * NR.csv - 수사
+  * SH-NN.csv - 한자 명사
+  * SH-XPN.csv - 한자 접두사
+  * SH-XR.csv - 한자 어근
+  * SH-XSN.csv - 한자 접미사
   * Symbol.csv - 형태소 분석에 사용하는 기호 모음
   * VA.csv - 형용사
   * VCN.csv - 부정 지정사

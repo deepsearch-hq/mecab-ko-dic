@@ -31,14 +31,13 @@ function get_connection_cost()
     grep -E -m 1 "^$right_id $left_id " $DIC_PATH/$MATRIX_DEF | cut -d ' ' -f 3
 }
 
-function get_sed_command_for_increasing_cost()
+function get_sed_command_for_new_cost()
 {
     local left_id=$1
     local right_id=$2
-    local incr_num=$3
+    local new_cost=$3
 
     local cost=$(get_connection_cost $left_id $right_id)
-    local new_cost=$((cost + incr_num))
     echo "s/$right_id $left_id $cost\$/$right_id $left_id $new_cost/g"
 }
 
@@ -49,10 +48,10 @@ cp $DIC_PATH/$MATRIX_DEF $DIC_PATH/$ORG_MATRIX_DEF
 sed_patterns=''
 
 # 종성으로 끝나는 명사와 주격 조사 '이'의 연접 비용을 늘림
-incr_num=2600 # '김영삼 시절 이양호'가 제대로 분석되는 최소값 (백단위로 테스트)
+new_cost=-350 # '김영삼 시절 이양호'가 제대로 분석되는 값
 right_id=$(get_right_id "NN" "T")
 left_id=$(get_left_id "JKS" "이")
-sed_patterns="$sed_patterns$(get_sed_command_for_increasing_cost $left_id $right_id $incr_num);"
+sed_patterns="$sed_patterns$(get_sed_command_for_new_cost $left_id $right_id $new_cost);"
 
 echo "connection cost change... '$sed_patterns'"
 sed "$sed_patterns" $DIC_PATH/$ORG_MATRIX_DEF > $DIC_PATH/$MATRIX_DEF

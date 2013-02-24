@@ -11,8 +11,9 @@
 UNIGRAM U00:%F[0]
 
 # Word-Read-POS
-UNIGRAM R00:%F[0],%F?[1]
-UNIGRAM R01:%F[0],%F?[1],%F?[2]
+UNIGRAM R00:%F?[2]
+UNIGRAM R01:%F[0],%F?[1]
+UNIGRAM R02:%F[0],%F?[1],%F?[2]
 
 # 품사
 BIGRAM B00:%L[0]/%R[0]
