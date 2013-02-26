@@ -19,8 +19,13 @@ function get_right_id()
 {
     local tag=$1
     local has_last_jongsung=$2
+    local reading=$3
 
-    grep -E -m 1 "^[0-9]+ $tag,$has_last_jongsung" $DIC_PATH/$RIGHT_ID_DEF | cut -d ' ' -f 1
+    if [ -z "$reading" ]; then
+        grep -E -m 1 "^[0-9]+ $tag,$has_last_jongsung" $DIC_PATH/$RIGHT_ID_DEF | cut -d ' ' -f 1
+    else
+        grep -E -m 1 "^[0-9]+ $tag,$has_last_jongsung,$reading" $DIC_PATH/$RIGHT_ID_DEF | cut -d ' ' -f 1
+    fi
 }
 
 function get_connection_cost()
@@ -51,6 +56,18 @@ sed_patterns=''
 new_cost=-350 # '김영삼 시절 이양호'가 제대로 분석되는 값
 right_id=$(get_right_id "NN" "T")
 left_id=$(get_left_id "JKS" "이")
+sed_patterns="$sed_patterns$(get_sed_command_for_new_cost $left_id $right_id $new_cost);"
+
+# JX/는 + JKO/을 연접 비용 늘림
+new_cost=10000
+right_id=$(get_right_id "JX" "T" "는")
+left_id=$(get_left_id "JKO" "을")
+sed_patterns="$sed_patterns$(get_sed_command_for_new_cost $left_id $right_id $new_cost);"
+
+# JX/은 + JKO/을 연접 비용 늘림
+new_cost=10000
+right_id=$(get_right_id "JX" "T" "은")
+left_id=$(get_left_id "JKO" "을")
 sed_patterns="$sed_patterns$(get_sed_command_for_new_cost $left_id $right_id $new_cost);"
 
 echo "connection cost change... '$sed_patterns'"
