@@ -6,6 +6,7 @@ DIC_PATH='../final'
 MATRIX_DEF=matrix.def
 LEFT_ID_DEF=left-id.def
 RIGHT_ID_DEF=right-id.def
+CONF_FILE=change_connection_cost.txt
 
 function get_left_id()
 {
@@ -52,23 +53,27 @@ cp $DIC_PATH/$MATRIX_DEF $DIC_PATH/$ORG_MATRIX_DEF
 
 sed_patterns=''
 
-# 종성으로 끝나는 명사와 주격 조사 '이'의 연접 비용을 늘림
-new_cost=-350 # '김영삼 시절 이양호'가 제대로 분석되는 값
-right_id=$(get_right_id "NN" "T")
-left_id=$(get_left_id "JKS" "이")
-sed_patterns="$sed_patterns$(get_sed_command_for_new_cost $left_id $right_id $new_cost);"
+while read line; do
+    if [ "${line:0:1}" == "#" ]; then
+        continue
+    fi
+    connection=$(echo $line | cut -d ' ' -f 1)
+    new_cost=$(echo $line | cut -d ' ' -f 2)
 
-# JX/는 + JKO/을 연접 비용 늘림
-new_cost=10000
-right_id=$(get_right_id "JX" "T" "는")
-left_id=$(get_left_id "JKO" "을")
-sed_patterns="$sed_patterns$(get_sed_command_for_new_cost $left_id $right_id $new_cost);"
+    left=$(echo $connection | cut -d '/' -f 1)
+    right=$(echo $connection | cut -d '/' -f 2)
 
-# JX/은 + JKO/을 연접 비용 늘림
-new_cost=10000
-right_id=$(get_right_id "JX" "T" "은")
-left_id=$(get_left_id "JKO" "을")
-sed_patterns="$sed_patterns$(get_sed_command_for_new_cost $left_id $right_id $new_cost);"
+    l_tag=$(echo $left | cut -d ',' -f 1)
+    l_jongsung=$(echo $left | cut -d ',' -f 2)
+    l_pron=$(echo $left | cut -d ',' -f 3)
+
+    r_tag=$(echo $right | cut -d ',' -f 1)
+    r_pron=$(echo $right | cut -d ',' -f 2)
+
+    right_id=$(get_right_id "$l_tag" "$l_jongsung" "$l_pron")
+    left_id=$(get_left_id "$r_tag" "$r_pron")
+    sed_patterns="$sed_patterns$(get_sed_command_for_new_cost $left_id $right_id $new_cost);"
+done < $CONF_FILE
 
 echo "connection cost change... '$sed_patterns'"
-sed "$sed_patterns" $DIC_PATH/$ORG_MATRIX_DEF > $DIC_PATH/$MATRIX_DEF
+sed -i.org "$sed_patterns" $DIC_PATH/$MATRIX_DEF
