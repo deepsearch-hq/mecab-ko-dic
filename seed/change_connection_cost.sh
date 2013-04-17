@@ -49,7 +49,9 @@ function get_sed_command_for_new_cost()
 
 ## MAIN
 ORG_MATRIX_DEF=matrix.def.org
-cp $DIC_PATH/$MATRIX_DEF $DIC_PATH/$ORG_MATRIX_DEF
+if [ ! -e $DIC_PATH/$ORG_MATRIX_DEF ]; then
+    cp $DIC_PATH/$MATRIX_DEF $DIC_PATH/$ORG_MATRIX_DEF
+fi
 
 sed_patterns=''
 
@@ -73,6 +75,9 @@ while read line; do
     right_id=$(get_right_id "$l_tag" "$l_jongsung" "$l_pron")
     left_id=$(get_left_id "$r_tag" "$r_pron")
     sed_patterns="$sed_patterns$(get_sed_command_for_new_cost $left_id $right_id $new_cost);"
+
+    cost=$(get_connection_cost $left_id $right_id)
+    echo "$left/$right $cost->$new_cost"
 done < $CONF_FILE
 
 echo "connection cost change... '$sed_patterns'"
