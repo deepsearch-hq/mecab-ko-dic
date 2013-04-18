@@ -81,4 +81,4 @@ while read line; do
 done < $CONF_FILE
 
 echo "connection cost change... '$sed_patterns'"
-sed -i.org "$sed_patterns" $DIC_PATH/$MATRIX_DEF
+sed "$sed_patterns" $DIC_PATH/$ORG_MATRIX_DEF > $DIC_PATH/$MATRIX_DEF
