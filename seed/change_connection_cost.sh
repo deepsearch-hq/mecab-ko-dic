@@ -34,7 +34,7 @@ function get_connection_cost()
     local left_id=$1
     local right_id=$2
 
-    grep -E -m 1 "^$right_id $left_id " $DIC_PATH/$MATRIX_DEF | cut -d ' ' -f 3
+    grep -E -m 1 "^$right_id $left_id " $DIC_PATH/$ORG_MATRIX_DEF | cut -d ' ' -f 3
 }
 
 function get_sed_command_for_new_cost()
