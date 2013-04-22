@@ -8012,7 +8012,6 @@
 넙적한,0,0,0,VA+ETM,T,넙적한,Inflect,VA,ETM,넙적하/VA+ᆫ/ETM
 넜,0,0,0,VV+EF,T,넜,Inflect,VV,EF,넣/VV+ㅓㅆ/EF
 넜,0,0,0,VV+EP,T,넜,Inflect,VV,EP,넣/VV+ㅓㅆ/EP
-네,0,0,0,EF,F,네,*,*,*,냬/EF
 네,0,0,0,NP+JKG,F,네,Inflect,NP,JKG,너/NP+의/JKG
 네,0,0,0,NP+VCP,F,네,Inflect,NP,VCP,너/NP+이/VCP
 네,0,0,0,VCP+EC,F,네,Inflect,VCP,EC,이/VCP+네/EC
@@ -28471,8 +28470,6 @@
 엇비껴,0,0,0,VV+EC,F,엇비껴,Inflect,VV,EC,엇비끼/VV+어/EC
 엇설켜,0,0,0,VV+EC,F,엇설켜,Inflect,VV,EC,엇설키/VV+어/EC
 엇지필,0,0,0,VV+ETM,T,엇지필,Inflect,VV,ETM,엇지피/VV+ᆯ/ETM
-었,0,0,0,EP+EP,T,었,Inflect,EP,EP,시/EP+었/EP
-었,0,0,0,EP,T,었,*,*,*,았/EP
 었,0,0,0,VA,T,었,*,*,*,없/VA
 었,0,0,0,VCP+EP,T,었,Inflect,VCP,EP,이/VCP+었/EP
 었,0,0,0,VX+EP,T,었,Inflect,VX,EP,오/VX+었/EP
@@ -28996,8 +28993,6 @@
 엿봄,0,0,0,VV+ETN,T,엿봄,Inflect,VV,ETN,엿보/VV+ᄆ/ETN
 엿봐야,0,0,0,VV+EC,F,엿봐야,Inflect,VV,EC,엿보/VV+아야/EC
 엿봤,0,0,0,VV+EP,T,엿봤,Inflect,VV,EP,엿보/VV+았/EP
-였,0,0,0,EP+EF,T,였,Inflect,EP,EF,았/EP+다/EF
-였,0,0,0,EP,T,였,*,*,*,었/EP
 였,0,0,0,VCP+EC,T,였,Inflect,VCP,EC,이/VCP+면/EC
 였,0,0,0,VCP+EF,T,였,Inflect,VCP,EF,이/VCP+ㅓㅆ/EF
 였,0,0,0,VCP+EP,T,였,Inflect,VCP,EP,이/VCP+ㅓㅆ/EP
