@@ -1,9 +1,11 @@
 # mecab-ko-dic ChangeLog
 
 ## mecab-ko-dic-1.1.5-20130407
+
   - 명사(NN.csv)와 복합명사(NN-Compound.csv)에 중복으로 등록되어있는 어휘 정리
 
 ## mecab-ko-dic-1.1.5-20130317
+
   - 관형형 전성 어미(ETM)가 앞 형태소의 종성 유무를 보도록 학습 방식 변경
   - seed에 테스트 스크립트 추가
 
