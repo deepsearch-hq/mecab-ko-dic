@@ -22,8 +22,7 @@
 텐데	NNB+VCP+EF,F,텐데,Inflect,NNB,VCP,터/NNB+이/VCP+ᆫ데/EF
 ]	SSC,*,*,*,*,*,*
 를	JKO,T,를,*,*,*,*
-안내	NN,F,안내,*,*,*,*
-서	JKB,F,서,*,*,*,*
+안내서	NN,F,안내서,Compound,*,*,안내+서
 삼	VV,T,삼,*,*,*,*
 아	EC,F,아,*,*,*,*
 말	NN,T,말,*,*,*,*

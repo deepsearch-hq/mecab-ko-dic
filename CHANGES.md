@@ -1,5 +1,11 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-1.2.0-20130427
+
+  - [mecab-ko](https://bitbucket.org/bibreen/mecab-ko)에 맞춰서 학습 규칙 및 설정 변경
+  - 인명사전(NN-Person.csv) 데이터 다량 추가
+  - \_Wikipedia.csv 사전을 단일 명사와 복합 명사 사전으로 나눔
+
 ## mecab-ko-dic-1.1.5-20130407
 
   - 명사(NN.csv)와 복합명사(NN-Compound.csv)에 중복으로 등록되어있는 어휘 정리

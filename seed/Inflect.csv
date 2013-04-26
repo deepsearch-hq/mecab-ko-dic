@@ -3402,7 +3402,6 @@
 그겁,0,0,0,NP+VCP,T,그겁,Inflect,NP,VCP,그것/NP+이/VCP
 그겁니다,0,0,0,NP+EF,F,그겁니다,Inflect,NP,EF,그거/NP+ㅂ니다/EF
 그겁니다,0,0,0,NP+VCP+EF,F,그겁니다,Inflect,NP,VCP,그것/NP+이/VCP+ᄇ니다/EF
-그것,0,0,0,NP,T,그것,*,*,*,그거/NP
 그게,0,0,0,NP+JKC,F,그게,Inflect,NP,JKC,그거/NP+ㅣ/JKC
 그게,0,0,0,NP+JKS,F,그게,Inflect,NP,JKS,그거/NP+ㅣ/JKS
 그게,0,0,0,NP+VCP,F,그게,Inflect,NP,VCP,그것/NP+이/VCP
@@ -30832,11 +30831,6 @@
 은철인,0,0,0,NN+JX,T,은철인,Inflect,NN,JX,은철이/NN+ᆫ/JX
 은철일,0,0,0,NN+JKO,T,은철일,Inflect,NN,JKO,은철이/NN+ᆯ/JKO
 은한,0,0,0,NN+JX,T,은한,Inflect,NN,JX,은하/NN+ᆫ/JX
-을,0,0,0,ETM+ETM,T,을,Inflect,ETM,ETM,은/ETM+을/ETM
-을,0,0,0,ETM,T,을,*,*,*,ᆯ/ETM
-을,0,0,0,JC+JKO,T,을,Inflect,JC,JKO,과/JC+을/JKO
-을,0,0,0,JKS+JKO,T,을,Inflect,JKS,JKO,이/JKS+을/JKO
-을,0,0,0,NN+JKO,T,을,Inflect,NN,JKO,점/NN+을/JKO
 을,0,0,0,VCP+ETM,T,을,Inflect,VCP,ETM,이/VCP+을/ETM
 을게요,0,0,0,EF,F,을게요,*,*,*,ㄹ게요/EF
 을까요,0,0,0,EF,F,을까요,*,*,*,ㄹ까요/EF
