@@ -24,6 +24,7 @@ mecab-ko-dic은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.go
     복합명사가 구분되어 있지 않습니다.
 
   * NN-Name.csv - 인물 이름을 제외한 회사, 상품 등의 이름
+  * NN-Person-Preanalysis.csv - 인물 이름 기분석 사전
   * NN-Person.csv - 인물 이름
   * NN-Place - 지역 이름 (ex: 행정 지역명, 산 이름 등)
   * NN.csv - 명사
@@ -34,6 +35,7 @@ mecab-ko-dic은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.go
   * NNB.csv - 의존 명사
   * NP.csv - 대명사
   * NR.csv - 수사
+  * Preanalysis.csv - 기분석 사전
   * SH-NN.csv - 한자 명사
   * SH-XPN.csv - 한자 접두사
   * SH-XR.csv - 한자 어근
