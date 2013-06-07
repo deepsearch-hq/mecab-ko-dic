@@ -1,5 +1,11 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-1.3.0-20130608
+
+  - mecab-ko-lucene-analyzer-0.10.0 버전을 위해 사전 구조 변경
+    - 각 사전 단어에 인덱스 표현 필드 추가
+    - Preanalysis 사전(기분석 사전) 추가
+
 ## mecab-ko-dic-1.2.0-20130427
 
   - [mecab-ko](https://bitbucket.org/bibreen/mecab-ko)에 맞춰서 학습 규칙 및 설정 변경
