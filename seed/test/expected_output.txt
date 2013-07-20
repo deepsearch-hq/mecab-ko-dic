@@ -373,3 +373,18 @@ EOS
 안된다	VA+EF,F,안된다,Inflect,VA,EF,안되/VA+ᆫ다/EF,*
 .	SF,*,*,*,*,*,*,*
 EOS
+은전한닢	NN+NR+NN,T,은전한닢,Preanalysis,NN,NN,은전+한+닢,은전/NN/1/1+한/NR/1/1+닢/NN/1/1
+프로젝트	NN,F,프로젝트,*,*,*,*,*
+는	JX,T,는,*,*,*,*,*
+오픈	NN,T,오픈,*,*,*,*,*
+소스	NN,F,소스,*,*,*,*,*
+형태소	NN,F,형태소,Compound,*,*,형태+소,형태/NN/1/1+형태소/Compound/0/2+소/NN/1/1
+분석기	NN,F,분석기,Compound,*,*,분석+기,분석/NN/1/1+분석기/Compound/0/2+기/NN/1/1
+엔진	NN,T,엔진,*,*,*,*,*
+인	VCP+ETM,T,인,Inflect,VCP,ETM,이/VCP+ㄴ/ETM,*
+MeCab	SL,*,*,*,*,*,*,*
+를	JKO,T,를,*,*,*,*,*
+사용	NN,T,사용,*,*,*,*,*
+한다	XSV+EF,F,한다,Inflect,XSV,EF,하/XSV+ㄴ다/EF,*
+.	SF,*,*,*,*,*,*,*
+EOS

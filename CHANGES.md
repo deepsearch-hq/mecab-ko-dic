@@ -1,7 +1,8 @@
 # mecab-ko-dic ChangeLog
 
-## mecab-ko-dic-1.3.1-20130720
+## mecab-ko-dic-1.4.0-20130720
 
+  - 조사,어미,명사 파생 접미사 활용어 띄어쓰기 패널티를 주기위해 pos-id 변경 및 설정(dicrc) 변경
   - 인명사전(NN-Person.csv, NN-Person-Preanalysis.csv) 데이터 추가. (약 10만 단어 추가)
   - 안되/VV, 안된/VA+ETM, 안된다/VA+EF, 안된다는/VA+ETM 단어 출현 비용 수동으로 수정하여, 오분석 방지
   - 띄어쓰기 있는 어미 페널티 비용 500 -> 3000으로 변경
