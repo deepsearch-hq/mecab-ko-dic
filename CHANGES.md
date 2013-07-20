@@ -1,5 +1,11 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-1.3.1-20130720
+
+  - 인명사전(NN-Person.csv, NN-Person-Preanalysis.csv) 데이터 추가. (약 10만 단어 추가)
+  - 안되/VV, 안된/VA+ETM, 안된다/VA+EF, 안된다는/VA+ETM 단어 출현 비용 수동으로 수정하여, 오분석 방지
+  - 띄어쓰기 있는 어미 페널티 비용 500 -> 3000으로 변경
+
 ## mecab-ko-dic-1.3.0-20130608
 
   - mecab-ko-lucene-analyzer-0.10.0 버전을 위해 사전 구조 변경
