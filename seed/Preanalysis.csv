@@ -1,2 +1,6 @@
 은전한닢,0,0,0,NN+NR+NN,T,은전한닢,Preanalysis,NN,NN,은전+한+닢,은전/NN/1/1+한/NR/1/1+닢/NN/1/1
 장애인협회,0,0,0,NN+NN,F,장애인협회,Preanalysis,NN,NN,장애인+협회,장애/NN/1/1+장애인/Compound/0/2+인/NN/1/1+협회/NN/1/1
+명강,0,0,0,XPN+NN,T,명강,Preanalysis,NN,NN,명+강,명/XPN/1/1+강/NN/1/1
+명강연자,0,0,0,XPN+NN,F,명강연자,Preanalysis,XPN,NN,명+강연자,명/XPN/1/1+강연/NN/1/1+강연자/Compound/0/2+자/NN/1/1
+명강의,0,0,0,XPN+NN,F,명강의,Preanalysis,XPN,NN,명+강의,명/XPN/1/1+강의/NN/1/1
+명연기자,0,0,0,XPN+NN,F,명연기자,Preanalysis,XPN,NN,명+연기자,명/XPN/1/1+연기/NN/1/1+연기자/Compound/0/2+자/NN/1/1
