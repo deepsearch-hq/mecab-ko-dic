@@ -29784,11 +29784,9 @@
 와도,0,0,0,VX+EC,F,와도,Inflect,VX,EC,오/VX+아도/EC,*
 와두,0,0,0,VV+EC,F,와두,Inflect,VV,EC,오/VV+ㅏ두/EC,*
 와들거렸,0,0,0,VV+EP,T,와들거렸,Inflect,VV,EP,와들거리/VV+었/EP,*
-와라,0,0,0,MM+NN,F,와라,Inflect,MM,NN,온/MM+힘/NN,*
 와라,0,0,0,VV+EC,F,와라,Inflect,VV,EC,오/VV+ㅏ라/EC,*
 와라,0,0,0,VV+EF,F,와라,Inflect,VV,EF,오/VV+ㅏ라/EF,*
 와라,0,0,0,VX+EF,F,와라,Inflect,VX,EF,오/VX+아라/EF,*
-와라가라,0,0,0,MM+NN+VV+EC,F,와라가라,Inflect,MM,NN,온/MM+힘/NN+가/VV+라/EC,*
 와바,0,0,0,VV+EC+VX+EF,F,와바,Inflect,VV,EC,오/VV+아/EC+보/VX+아/EF,*
 와버렸,0,0,0,VV+EC+VX+EP,T,와버렸,Inflect,VV,EC,오/VV+아/EC+버리/VX+었/EP,*
 와버렸잖,0,0,0,VV+EC+VX+EP+EC+VX,T,와버렸잖,Inflect,VV,EC,오/VV+아/EC+버리/VX+었/EP+지/EC+않/VX,*
