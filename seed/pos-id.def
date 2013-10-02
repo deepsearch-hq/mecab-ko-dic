@@ -14,7 +14,9 @@ UNKNOWN,*,*,*,*,*,*,* 0
 *,*,*,Inflect,JKS,*,*,* 210
 *,*,*,Inflect,JKV,*,*,* 210
 *,*,*,Inflect,JX,*,*,* 210
-*,*,*,Inflect,XSN,*,*,* 220
+*,*,*,Inflect,XSA,*,*,* 220
+*,*,*,Inflect,XSN,*,*,* 221
+*,*,*,Inflect,XSV,*,*,* 222
 *,*,*,Inflect,*,*,*,* 2
 *,*,*,Preanalysis,*,*,*,* 3
 EC,*,*,*,*,*,*,* 100

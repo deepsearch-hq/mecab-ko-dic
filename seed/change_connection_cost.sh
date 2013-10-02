@@ -62,8 +62,8 @@ while read line; do
     connection=$(echo $line | cut -d ' ' -f 1)
     new_cost=$(echo $line | cut -d ' ' -f 2)
 
-    left=$(echo $connection | cut -d '/' -f 1)
-    right=$(echo $connection | cut -d '/' -f 2)
+    left=$(echo $connection | cut -d '|' -f 1)
+    right=$(echo $connection | cut -d '|' -f 2)
 
     l_tag=$(echo $left | cut -d ',' -f 1)
     l_jongsung=$(echo $left | cut -d ',' -f 2)
