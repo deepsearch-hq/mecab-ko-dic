@@ -399,6 +399,7 @@
 가여워,0,0,0,VA+EF,F,가여워,Inflect,VA,EF,가엽/VA+어라/EF,*
 가여워서,0,0,0,VA+EC,F,가여워서,Inflect,VA,EC,가엽/VA+어서/EC,*
 가여은,0,0,0,VA+ETM,T,가여은,Inflect,VA,ETM,가엽/VA+ᆫ/ETM,*
+가여운,0,0,0,VA+ETM,T,가여운,Inflect,VA,ETM,가엽/VA+ᆫ/ETM,*
 가열찼,0,0,0,VA+EP,T,가열찼,Inflect,VA,EP,가열차/VA+았/EP,*
 가요,0,0,0,VCP+EF,F,가요,Inflect,VCP,EF,이/VCP+가요/EF,*
 가운덴,0,0,0,NN+JX,T,가운덴,Inflect,NN,JX,가운데/NN+ᆫ/JX,*
@@ -16355,6 +16356,7 @@
 머물러야했,0,0,0,VV+EC+VX+EP,T,머물러야했,Inflect,VV,EC,머무르/VV+어야/EC+하/VX+았/EP,*
 머물렀,0,0,0,VV+EP,T,머물렀,Inflect,VV,EP,머무르/VV+ㅓㅆ/EP,*
 머물렀었,0,0,0,VV+EP,T,머물렀었,Inflect,VV,EP,머무르/VV+었었/EP,*
+머뭄,0,0,0,VV+ETN,T,머뭄,Inflect,VV,ETN,머물/VV+ᄆ/ETN,*
 머묾,0,0,0,VV+ETN,T,머묾,Inflect,VV,ETN,머물/VV+ᄆ/ETN,*
 머뭅니다,0,0,0,VV+EF,F,머뭅니다,Inflect,VV,EF,머물/VV+ㅂ니다/EF,*
 머뭇거려야,0,0,0,VV+EC,F,머뭇거려야,Inflect,VV,EC,머뭇거리/VV+어야/EC,*

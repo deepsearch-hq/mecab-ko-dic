@@ -65,7 +65,7 @@ if __name__ == '__main__':
                     surface,
                     form))
         else:
-            print('%s,0,0,0,%s,%s,%s,*,*,*,*' %
+            print('%s,0,0,0,%s,%s,%s,*,*,*,*,*' %
                     (surface,
                     tag,
                     getEndWithJongSung(surface),
