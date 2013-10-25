@@ -17,6 +17,7 @@ UNKNOWN,*,*,*,*,*,*,* 0
 *,*,*,Inflect,XSA,*,*,* 220
 *,*,*,Inflect,XSN,*,*,* 221
 *,*,*,Inflect,XSV,*,*,* 222
+*,*,*,Inflect,VCP,*,*,* 230
 *,*,*,Inflect,*,*,*,* 2
 *,*,*,Preanalysis,*,*,*,* 3
 EC,*,*,*,*,*,*,* 100
