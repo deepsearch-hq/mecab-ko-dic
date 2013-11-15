@@ -30953,7 +30953,6 @@
 이감갑니다,0,0,0,NN+VCP+EF,F,이감갑니다,Inflect,NN,VCP,이감가/NN+이/VCP+ᄇ니다/EF,*
 이갔,0,0,0,VX+EP,T,이갔,Inflect,VX,EP,가/VX+았/EP,*
 이거,0,0,0,NP+VCP,F,이거,Inflect,NP,VCP,이것/NP+이/VCP,*
-이거,0,0,0,NP,F,이거,*,*,*,이것/NP,*
 이거예요,0,0,0,NP+VCP+EF,F,이거예요,Inflect,NP,VCP,이것/NP+이/VCP+에요/EF,*
 이거요,0,0,0,NP+VCP+EF,F,이거요,Inflect,NP,VCP,이것/NP+이/VCP+오/EF,*
 이건,0,0,0,NP+ETM,T,이건,Inflect,NP,ETM,이거/NP+ㄴ/ETM,*
@@ -30974,7 +30973,6 @@
 이겁니다,0,0,0,NP+EF,F,이겁니다,Inflect,NP,EF,이거/NP+ㅂ니다/EF,*
 이겁니다,0,0,0,NP+VCP+EF,F,이겁니다,Inflect,NP,VCP,이것/NP+이/VCP+ᄇ니다/EF,*
 이겁니다요,0,0,0,NP+VCP+EF,F,이겁니다요,Inflect,NP,VCP,이것/NP+이/VCP+ᄇ니다요/EF,*
-이것,0,0,0,NP,T,이것,*,*,*,이거/NP,*
 이게,0,0,0,NP+JKC,F,이게,Inflect,NP,JKC,이거/NP+ㅣ/JKC,*
 이게,0,0,0,NP+JKS,F,이게,Inflect,NP,JKS,이거/NP+ㅣ/JKS,*
 이게,0,0,0,NP+VCP,F,이게,Inflect,NP,VCP,이것/NP+이/VCP,*
@@ -32791,7 +32789,6 @@
 저,0,0,0,NP,F,저,*,*,*,제/NP,*
 저,0,0,0,VV,F,저,*,*,*,젓/VV,*
 저거,0,0,0,NP+VCP,F,저거,Inflect,NP,VCP,저것/NP+이/VCP,*
-저거,0,0,0,NP,F,저거,*,*,*,저것/NP,*
 저거야말로,0,0,0,NP+JX,F,저거야말로,Inflect,NP,JX,저것/NP+이야말로/JX,*
 저건,0,0,0,NP+ETM,T,저건,Inflect,NP,ETM,저거/NP+ㄴ/ETM,*
 저건,0,0,0,NP+JX,T,저건,Inflect,NP,JX,저거/NP+ㄴ/JX,*
