@@ -1,49 +1,121 @@
 #!/usr/bin/python3
 # -*-coding:utf-8-*-
+import csv
 import getpass
+import os
 
+from dictionary.utils import get_end_with_jongsung
 from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
 
 engine = None
-db_conn = None
+db_session = None
+base_dir = os.path.dirname(__file__) + '/../'
+target_dir = base_dir + '/../data'
 
 
 def connect_db(db_type, host, database, user, password):
     global engine
-    global db_conn
+    global db_session
     if db_type == 'mysql':
         url = 'mysql+mysqlconnector://%s:%s@%s/%s' % \
               (user, password, host, database)
         print('connect to ' + url)
         engine = create_engine(url)
-        db_conn = engine.connect()
-        return db_conn
+        Session = sessionmaker(bind=engine)
+        db_session = Session()
+        return db_session
     else:
         raise RuntimeError('Invalid db type: ' + type)
 
 
-def get_pos_and_type_names():
+def generate_dictionary_csv_files():
+    names = get_pos_names()
+    for name in names:
+        rows = select_pos_rows(name)
+        create_dictionary_csv_file(rows, name)
+
+    names = get_class_names()
+    for name in names:
+        rows = select_class_rows(name)
+        create_dictionary_csv_file(rows, name)
+
+
+def get_pos_names():
     output = []
     sql = """
-    SELECT pos, `type` FROM lexicon_new WHERE class IS NULL GROUP BY pos, `type`
+    SELECT distinct(pos) FROM lexicon_new WHERE class IS NULL
     """
-    rows = db_conn.execute(sql).fetchall()
+    rows = db_session.execute(sql).fetchall()
     for row in rows:
         pos = row['pos']
-        dic_type = row['type']
-        if dic_type == '*':
-            output.append(pos)
-        else:
-            output.append(pos + '-' + dic_type)
+        output.append(pos)
     return output
+
+
+def get_class_names():
+    output = []
+    sql = """
+    SELECT distinct(class) FROM lexicon_new WHERE class IS NOT NULL
+    """
+    rows = db_session.execute(sql).fetchall()
+    for row in rows:
+        pos = row['class']
+        output.append(pos)
+    return output
+
+
+def select_pos_rows(pos):
+    sql = """
+    SELECT  surface, pos, semantic_class, `read`, `type`, start_pos, end_pos,
+        compound_expression, index_expression
+    FROM lexicon_new
+    WHERE pos=:pos AND class IS NULL AND is_available = 1
+    ORDER BY surface ASC
+    """
+    rows = db_session.execute(sql, {'pos': pos}).fetchall()
+    return rows
+
+
+def select_class_rows(class_name):
+    sql = """
+    SELECT  surface, pos, semantic_class, `read`, `type`, start_pos, end_pos,
+        compound_expression, index_expression
+    FROM lexicon_new
+    WHERE class=:cls AND is_available = 1
+    ORDER BY surface ASC
+    """
+    rows = db_session.execute(sql, {'cls': class_name}).fetchall()
+    return rows
+
+
+def create_dictionary_csv_file(rows, file_name):
+    file_path = target_dir + '/' + file_name + '.csv'
+    with open(file_path, 'w') as csv_file:
+        writer = csv.writer(csv_file, 'unix', quoting=csv.QUOTE_MINIMAL)
+        for row in rows:
+            write_dic(writer, row)
+
+
+def write_dic(writer, row):
+    writer.writerow([row['surface'],
+                     '0', '0', '0',
+                     row['pos'],
+                     row['semantic_class'],
+                     get_end_with_jongsung(row['read']),
+                     row['read'],
+                     row['type'],
+                     row['start_pos'],
+                     row['end_pos'],
+                     row['compound_expression'],
+                     row['index_expression']])
 
 
 def main():
     user = input('User: ')
     password = getpass.getpass()
     connect_db('mysql', 'eunjeon.vps.phps.kr', 'eunjeon', user, password)
-    names = get_pos_and_type_names()
-    print(names)
+    generate_dictionary_csv_files()
 
 
 if __name__ == '__main__':
