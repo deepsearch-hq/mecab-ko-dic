@@ -4,6 +4,11 @@ import csv
 import getpass
 import os
 import sys
+<<<<<<< HEAD
+=======
+base_dir = os.path.dirname(__file__) + '/../'
+sys.path.append(base_dir)
+>>>>>>> 374aec5679a20608fcd9349905fbd732cb95bcbe
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -14,8 +19,12 @@ from dictionary.utils import get_end_with_jongsung
 
 engine = None
 db_session = None
+<<<<<<< HEAD
 base_dir = os.path.dirname(os.path.realpath(__file__))
 target_dir = base_dir + '/../../seed'
+=======
+target_dir = base_dir + '/../data'
+>>>>>>> 374aec5679a20608fcd9349905fbd732cb95bcbe
 
 
 def connect_db(db_type, host, database, user, password):
@@ -116,9 +125,10 @@ def write_dic(writer, row):
 
 
 def main():
+    host = input('Host: ')
     user = input('User: ')
     password = getpass.getpass()
-    connect_db('mysql', 'eunjeon.vps.phps.kr', 'eunjeon', user, password)
+    connect_db('mysql', host, 'eunjeon', user, password)
     generate_dictionary_csv_files()
 
 
