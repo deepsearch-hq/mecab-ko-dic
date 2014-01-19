@@ -114,9 +114,10 @@ def write_dic(writer, row):
 
 
 def main():
+    host = input('Host: ')
     user = input('User: ')
     password = getpass.getpass()
-    connect_db('mysql', 'eunjeon.vps.phps.kr', 'eunjeon', user, password)
+    connect_db('mysql', host, 'eunjeon', user, password)
     generate_dictionary_csv_files()
 
 
