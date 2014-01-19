@@ -3,15 +3,19 @@
 import csv
 import getpass
 import os
+import sys
 
-from dictionary.utils import get_end_with_jongsung
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
+script_path = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(script_path + '/..')
+from dictionary.utils import get_end_with_jongsung
+
 engine = None
 db_session = None
-base_dir = os.path.dirname(__file__) + '/../'
-target_dir = base_dir + '/../data'
+base_dir = os.path.dirname(os.path.realpath(__file__))
+target_dir = base_dir + '/../../seed'
 
 
 def connect_db(db_type, host, database, user, password):

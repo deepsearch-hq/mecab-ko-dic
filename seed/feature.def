@@ -9,18 +9,25 @@
 
 # POS Unigram
 UNIGRAM U00:%F[0]
+UNIGRAM U01:%F[0],%F?[1]
 
 # Word-Read-POS
 UNIGRAM R00:%F?[2]
-UNIGRAM R01:%F[0],%F?[1]
+UNIGRAM R01:%F[0],%F?[2]
 UNIGRAM R01:%F[0],%F[1],%F?[2]
 
 # 품사
-## '품사'/'품사'
+## 품사,의미->품사,의미 연접
 BIGRAM B00:%L[0]/%R[0]
-## '품사,종성'/'품사,읽기'
-BIGRAM B10:%L[0],%L?[1]/%R[0],%R?[2]
-## '품사,읽기'/'품사'
-BIGRAM B11:%L[0],%L?[2]/%R[0]
-## '품사,종성,읽기'/'품사,읽기'
-BIGRAM B12:%L[0],%L?[1],%L?[2]/%R[0],%R?[2]
+BIGRAM B00:%L[0],%L?[1]/%R[0]
+BIGRAM B00:%L[0]/%R[0],%R?[1]
+BIGRAM B00:%L[0],%L?[1]/%R[0],%R?[1]
+## 종성여부->읽기 연접
+BIGRAM B10:%L[0],%L?[2]/%R[0],%R?[3]
+BIGRAM B00:%L[0],%L?[2]/%R[0],%R?[1],%R?[3]
+BIGRAM B00:%L[0],%L?[1],%L?[2]/%R[0],%R?[3]
+BIGRAM B00:%L[0],%L?[1],%L?[2]/%R[0],%R?[1],%R?[3]
+## 읽기 연접
+BIGRAM B12:%L[0],%L?[3]/%R[0]
+BIGRAM B12:%L[0],%L?[3]/%R[0],%R?[3]
+BIGRAM B12:%L[0]/%R[0],%R?[3]

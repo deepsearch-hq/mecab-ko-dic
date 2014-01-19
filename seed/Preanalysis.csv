@@ -1,3 +1,3 @@
-은전한닢,0,0,0,NN+NR+NN,T,은전한닢,Preanalysis,NN,NN,은전+한+닢,은전/NN/1/1+한/NR/1/1+닢/NN/1/1
-명강,0,0,0,XPN+NN,T,명강,Preanalysis,NN,NN,명+강,명/XPN/1/1+강/NN/1/1
-명강의,0,0,0,XPN+NN,F,명강의,Preanalysis,XPN,NN,명+강의,명/XPN/1/1+강의/NN/1/1
+명강,0,0,0,XPN+NNG,*,T,명강,Preanalysis,XPN,NNG,명+강,명/XPN/1/1+강/NNG/*/1/1
+명강의,0,0,0,XPN+NNG,*,F,명강의,Preanalysis,XPN,NNG,명+강의,명/XPN/1/1+강의/NNG/*/1/1
+은전한닢,0,0,0,NNG+NR+NNG,*,T,은전한닢,Preanalysis,NNG,NR,은전+한+닢,은전/NNG/*/1/1+한/NR/1/1+닢/NNG/*/1/1
