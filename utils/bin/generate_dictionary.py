@@ -3,6 +3,9 @@
 import csv
 import getpass
 import os
+import sys
+base_dir = os.path.dirname(__file__) + '/../'
+sys.path.append(base_dir)
 
 from dictionary.utils import get_end_with_jongsung
 from sqlalchemy import create_engine
@@ -10,7 +13,6 @@ from sqlalchemy.orm import sessionmaker
 
 engine = None
 db_session = None
-base_dir = os.path.dirname(__file__) + '/../'
 target_dir = base_dir + '/../data'
 
 
