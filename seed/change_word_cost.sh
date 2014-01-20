@@ -9,7 +9,8 @@ function get_dicts()
 {
     local surface=$1
     local tag=$2
-    grep -l -E "^$surface,[0-9]+,[0-9]+,[-0-9]+,$tag," $DIC_PATH/*.csv
+    local semantic_class=$3
+    grep -l -E "^$surface,[0-9]+,[0-9]+,[-0-9]+,$tag,$semantic_class" $DIC_PATH/*.csv
 }
 
 function change_word_cost()
@@ -17,8 +18,9 @@ function change_word_cost()
     local dict=$1
     local surface=$2
     local tag=$3
-    local new_cost=$4
-    sed -i -re "s/($surface,[0-9]+,[0-9]+,)([-0-9]+)(,$tag,)/\\1$new_cost\\3/g" $dict
+    local semantic_class=$4
+    local new_cost=$5
+    sed -i -re "s/($surface,[0-9]+,[0-9]+,)([-0-9]+)(,$tag,$semantic_class,)/\\1$new_cost\\3/g" $dict
 }
 
 ## MAIN
@@ -28,11 +30,12 @@ while read line; do
     fi
     surface=$(echo $line | cut -d ',' -f 1)
     tag=$(echo $line | cut -d ',' -f 2)
-    new_cost=$(echo $line | cut -d ',' -f 3)
+    semantic_class=$(echo $line | cut -d ',' -f 3)
+    new_cost=$(echo $line | cut -d ',' -f 4)
 
-    dict_list=$(get_dicts "$surface" "$tag")
+    dict_list=$(get_dicts "$surface" "$tag" "$semantic_class")
     for each in $dict_list; do
-        echo "word cost change... $each:$surface,$tag -> $new_cost"
-        change_word_cost $each $surface $tag $new_cost
+        echo "word cost change... $each:$surface,$tag,$semantic_class -> $new_cost"
+        change_word_cost $each $surface $tag $semantic_class $new_cost
     done
 done < $CONF_FILE
