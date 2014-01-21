@@ -20,6 +20,7 @@ function change_word_cost()
     local tag=$3
     local semantic_class=$4
     local new_cost=$5
+    grep -E "^$surface,[0-9]+,[0-9]+,[-0-9]+,$tag,$semantic_class" $dict
     sed -i -re "s/($surface,[0-9]+,[0-9]+,)([-0-9]+)(,$tag,$semantic_class,)/\\1$new_cost\\3/g" $dict
 }
 
@@ -35,7 +36,7 @@ while read line; do
 
     dict_list=$(get_dicts "$surface" "$tag" "$semantic_class")
     for each in $dict_list; do
-        echo "word cost change... $each:$surface,$tag,$semantic_class -> $new_cost"
         change_word_cost $each $surface $tag $semantic_class $new_cost
+        echo "word cost change... $each:$surface,$tag,$semantic_class -> $new_cost"
     done
 done < $CONF_FILE
