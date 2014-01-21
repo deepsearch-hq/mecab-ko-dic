@@ -11,21 +11,23 @@ CONF_FILE=change_connection_cost.txt
 function get_left_id()
 {
     local tag=$1
-    local reading=$2
+    local semantic_class=$2
+    local reading=$3
 
-    grep -E -m 1 "^[0-9]+ $tag,\*,$reading" $DIC_PATH/$LEFT_ID_DEF | cut -d ' ' -f 1
+    grep -E -m 1 "^[0-9]+ $tag,$semantic_class,\*,$reading" $DIC_PATH/$LEFT_ID_DEF | cut -d ' ' -f 1
 }
 
 function get_right_id()
 {
     local tag=$1
-    local has_last_jongsung=$2
-    local reading=$3
+    local semantic_class=$2
+    local has_last_jongsung=$3
+    local reading=$4
 
     if [ -z "$reading" ]; then
-        grep -E -m 1 "^[0-9]+ $tag,$has_last_jongsung" $DIC_PATH/$RIGHT_ID_DEF | cut -d ' ' -f 1
+        grep -E -m 1 "^[0-9]+ $tag,$semantic_class,$has_last_jongsung" $DIC_PATH/$RIGHT_ID_DEF | cut -d ' ' -f 1
     else
-        grep -E -m 1 "^[0-9]+ $tag,$has_last_jongsung,$reading" $DIC_PATH/$RIGHT_ID_DEF | cut -d ' ' -f 1
+        grep -E -m 1 "^[0-9]+ $tag,$semantic_class,$has_last_jongsung,$reading" $DIC_PATH/$RIGHT_ID_DEF | cut -d ' ' -f 1
     fi
 }
 
@@ -66,18 +68,20 @@ while read line; do
     right=$(echo $connection | cut -d '|' -f 2)
 
     l_tag=$(echo $left | cut -d ',' -f 1)
-    l_jongsung=$(echo $left | cut -d ',' -f 2)
-    l_pron=$(echo $left | cut -d ',' -f 3)
+    l_semantic_class=$(echo $left | cut -d ',' -f 2)
+    l_jongsung=$(echo $left | cut -d ',' -f 3)
+    l_pron=$(echo $left | cut -d ',' -f 4)
 
     r_tag=$(echo $right | cut -d ',' -f 1)
-    r_pron=$(echo $right | cut -d ',' -f 2)
+    r_semantic_class=$(echo $right | cut -d ',' -f 2)
+    r_pron=$(echo $right | cut -d ',' -f 3)
 
-    right_id=$(get_right_id "$l_tag" "$l_jongsung" "$l_pron")
-    left_id=$(get_left_id "$r_tag" "$r_pron")
+    right_id=$(get_right_id "$l_tag" "$l_semantic_class" "$l_jongsung" "$l_pron")
+    left_id=$(get_left_id "$r_tag" "$r_semantic_class" "$r_pron")
     sed_patterns="$sed_patterns$(get_sed_command_for_new_cost $left_id $right_id $new_cost);"
 
     cost=$(get_connection_cost $left_id $right_id)
-    echo "$left/$right $cost->$new_cost"
+    echo "$left | $right $cost->$new_cost"
 done < $CONF_FILE
 
 echo "connection cost change... '$sed_patterns'"

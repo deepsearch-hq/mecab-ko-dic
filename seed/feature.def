@@ -12,9 +12,9 @@ UNIGRAM U00:%F[0]
 UNIGRAM U01:%F[0],%F?[1]
 
 # Word-Read-POS
-UNIGRAM R00:%F?[2]
-UNIGRAM R01:%F[0],%F?[2]
-UNIGRAM R01:%F[0],%F[1],%F?[2]
+UNIGRAM R00:%F?[3]
+UNIGRAM R01:%F[0],%F?[3]
+UNIGRAM R01:%F[0],%F[1],%F?[3]
 
 # 품사
 ## 품사,의미->품사,의미 연접
