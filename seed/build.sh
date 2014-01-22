@@ -40,7 +40,6 @@ done
 cp pos-id.def ../final/.
 $DICT_GEN -o ../final -m $model_file
 
-./change_word_cost_ex.sh
 ./change_word_cost.sh
 ./change_connection_cost.sh
 
