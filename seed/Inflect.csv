@@ -2416,7 +2416,7 @@
 고마,0,0,0,VA+EF,*,F,고마,Inflect,VA,EF,고맙/VA+어/EF,*
 고마와,0,0,0,VA+EC,*,F,고마와,Inflect,VA,EC,고맙/VA+아요/EC,*
 고마와,0,0,0,VA+EF,*,F,고마와,Inflect,VA,EF,고맙/VA+아요/EF,*
-고마왔어요,0,0,0,VA+EP+EC+SE,*,F,고마왔어요,Inflect,VA,EP,고맙/VA+았/EP+어요/EC+…/SE,*
+고마왔어요,0,0,0,VA+EP+EC,*,F,고마왔어요,Inflect,VA,EP,고맙/VA+았/EP+어요/EC,*
 고마우,0,0,0,VA+EC,*,F,고마우,Inflect,VA,EC,고맙/VA+면서/EC,*
 고마우,0,0,0,VA+EF,*,F,고마우,Inflect,VA,EF,고맙/VA+련만/EF,*
 고마우신,0,0,0,VA+EP,*,T,고마우신,Inflect,VA,EP,고맙/VA+으시/EP,*
@@ -2424,15 +2424,14 @@
 고마운지,0,0,0,VA+EC,*,F,고마운지,Inflect,VA,EC,고맙/VA+은지/EC,*
 고마워,0,0,0,VA+EF,*,F,고마워,Inflect,VA,EF,고맙/VA+어요/EF,*
 고마워,0,0,0,VA+EC+VX+EP,*,F,고마워,Inflect,VA,EC,고맙/VA+어/EC+하/VX+겠/EP,*
-고마워,0,0,0,VA+EC+SE,*,F,고마워,Inflect,VA,EC,고맙/VA+어/EC+…/SE,*
 고마워,0,0,0,VA+EC,*,F,고마워,Inflect,VA,EC,고맙/VA+어/EC,*
 고마워,0,0,0,VV+EF,*,F,고마워,Inflect,VV,EF,고맙/VV+어/EF,*
 고마워,0,0,0,VA+EC+VX+ETN,*,F,고마워,Inflect,VA,EC,고맙/VA+어/EC+하/VX+기/ETN,*
-고마워라,0,0,0,VA+EC+SE,*,F,고마워라,Inflect,VA,EC,고맙/VA+어라/EC+…/SE,*
+고마워라,0,0,0,VA+EC,*,F,고마워라,Inflect,VA,EC,고맙/VA+어라/EC,*
 고마워서,0,0,0,VA+EC,*,F,고마워서,Inflect,VA,EC,고맙/VA+어서/EC,*
 고마워서인지,0,0,0,VA+EC+VCP+EC,*,F,고마워서인지,Inflect,VA,EC,고맙/VA+어서/EC+이/VCP+ᆫ지/EC,*
 고마워요,0,0,0,VA+EC+VCP,*,F,고마워요,Inflect,VA,EC,고맙/VA+어요/EC+이/VCP,*
-고마워요,0,0,0,VA+EC+SE,*,F,고마워요,Inflect,VA,EC,고맙/VA+어요/EC+…/SE,*
+고마워요,0,0,0,VA+EC,*,F,고마워요,Inflect,VA,EC,고맙/VA+어요/EC,*
 고마워하던지,0,0,0,VA+EC+VX+EC,*,F,고마워하던지,Inflect,VA,EC,고맙/VA+어/EC+하/VX+던지/EC,*
 고마워하며,0,0,0,VA+EC+VX+EC,*,F,고마워하며,Inflect,VA,EC,고맙/VA+어/EC+하/VX+며/EC,*
 고마워한,0,0,0,VA+EC+VX+EF,*,T,고마워한,Inflect,VA,EC,고맙/VA+어/EC+하/VX+ᆫ다/EF,*
@@ -2444,7 +2443,7 @@
 고마워해야,0,0,0,VV+EC,*,F,고마워해야,Inflect,VV,EC,고마워하/VV+아야/EC,*
 고마워해야지,0,0,0,VV+EF,*,F,고마워해야지,Inflect,VV,EF,고마워하/VV+아야지/EF,*
 고마워했,0,0,0,VV+EP,*,T,고마워했,Inflect,VV,EP,고마워하/VV+았/EP,*
-고마웠어요,0,0,0,VA+EP+EC+SE,*,F,고마웠어요,Inflect,VA,EP,고맙/VA+었/EP+어요/EC+…/SE,*
+고마웠어요,0,0,0,VA+EP+EC,*,F,고마웠어요,Inflect,VA,EC,고맙/VA+었/EP+어요/EC,*
 고만둘,0,0,0,VV+ETM,*,T,고만둘,Inflect,VV,ETM,고만두/VV+ㄹ/ETM,*
 고만둬야,0,0,0,VV+EC,*,F,고만둬야,Inflect,VV,EC,고만두/VV+ㅓ야/EC,*
 고만한,0,0,0,VV+ETM,*,T,고만한,Inflect,VV,ETM,고만하/VV+ᆫ/ETM,*
@@ -2798,7 +2797,6 @@
 괴로울,0,0,0,VA+ETM,*,T,괴로울,Inflect,VA,ETM,괴롭/VA+을/ETM,*
 괴로울,0,0,0,VA+EC,*,T,괴로울,Inflect,VA,EC,괴롭/VA+ᆯ까/EC,*
 괴로울망정,0,0,0,VA+EC,*,T,괴로울망정,Inflect,VA,EC,괴롭/VA+ᆯ망정/EC,*
-괴로워,0,0,0,VA+EC+SE,*,F,괴로워,Inflect,VA,EC,괴롭/VA+어/EC+…/SE,*
 괴로워,0,0,0,VA+EC,*,F,괴로워,Inflect,VA,EC,괴롭/VA+어/EC,*
 괴로워,0,0,0,VA+EC+VX+EP,*,F,괴로워,Inflect,VA,EC,괴롭/VA+어/EC+지/VX+겠/EP,*
 괴로워도,0,0,0,VA+EC,*,F,괴로워도,Inflect,VA,EC,괴롭/VA+어도/EC,*
@@ -3819,7 +3817,6 @@
 그리워,0,0,0,VA+EC+VX+EP,*,F,그리워,Inflect,VA,EC,그립/VA+어/EC+하/VX+았/EP,*
 그리워,0,0,0,VA+EC,*,F,그리워,Inflect,VA,EC,그립/VA+어/EC,*
 그리워서,0,0,0,VA+EC,*,F,그리워서,Inflect,VA,EC,그립/VA+어서/EC,*
-그리워서,0,0,0,VA+EC+SE,*,F,그리워서,Inflect,VA,EC,그립/VA+어서/EC+…/SE,*
 그리워서인,0,0,0,VA+EC+VCP+ETM,*,T,그리워서인,Inflect,VA,EC,그립/VA+어서/EC+이/VCP+ᆫ/ETM,*
 그리워지고,0,0,0,VA+EC+VX+EC,*,F,그리워지고,Inflect,VA,EC,그립/VA+어/EC+지/VX+고/EC,*
 그리워지기,0,0,0,VA+EC+VX+ETN,*,F,그리워지기,Inflect,VA,EC,그립/VA+어/EC+지/VX+기/ETN,*
@@ -5194,7 +5191,6 @@
 꼬집혀,0,0,0,VV+EC,*,F,꼬집혀,Inflect,VV,EC,꼬집히/VV+어/EC,*
 꼬집힌,0,0,0,VV+ETM,*,T,꼬집힌,Inflect,VV,ETM,꼬집히/VV+ᆫ/ETM,*
 꼬집힐까,0,0,0,VV+EC,*,F,꼬집힐까,Inflect,VV,EC,꼬집히/VV+ᆯ까/EC,*
-꼭,0,0,0,SE+MAG,*,T,꼭,Inflect,SE,MAG,…/SE+꼭/MAG,*
 꼭질,0,0,0,NNG+JKO,*,T,꼭질,Inflect,NNG,JKO,꼭지/NNG+ᆯ/JKO,*
 꼰,0,0,0,VV+ETM,*,T,꼰,Inflect,VV,ETM,꼬/VV+ᆫ/ETM,*
 꼰다,0,0,0,VV+EC,*,F,꼰다,Inflect,VV,EC,꼬/VV+ᆫ다/EC,*
@@ -8605,7 +8601,6 @@
 누워,0,0,0,VV+EC,*,F,누워,Inflect,VV,EC,눕/VV+어/EC,*
 누워,0,0,0,VV+EC+VX+EC,*,F,누워,Inflect,VV,EC,눕/VV+어/EC+보/VX+자/EC,*
 누워,0,0,0,VV+EF,*,F,누워,Inflect,VV,EF,눕/VV+어요/EF,*
-누워,0,0,0,VV+EC+SE,*,F,누워,Inflect,VV,EC,눕/VV+어/EC+…/SE,*
 누워계신,0,0,0,VV+EC+VX+ETM,*,T,누워계신,Inflect,VV,EC,눕/VV+어/EC+계시/VX+ᆫ/ETM,*
 누워버,0,0,0,VV+EC+VX+EP,*,F,누워버,Inflect,VV,EC,눕/VV+어/EC+버리/VX+었/EP,*
 누워버리면,0,0,0,VV+EC+VX+EC,*,T,누워버리면,Inflect,VV,EC,눕/VV+어/EC+버리/VX+면/EC,*
@@ -8617,7 +8612,7 @@
 누워있으면,0,0,0,VV+EC+VX+EC,*,T,누워있으면,Inflect,VV,EC,눕/VV+어/EC+있/VX+으면/EC,*
 누워있으면서,0,0,0,VV+EC+VX+EC,*,F,누워있으면서,Inflect,VV,EC,눕/VV+어/EC+있/VX+으면서/EC,*
 누웠,0,0,0,VV+EP+ETN+JKB,*,T,누웠,Inflect,VV,EP,눕/VV+었/EP+음/ETN+에/JKB,*
-누웠는데,0,0,0,VV+EP+EC+SE,*,F,누웠는데,Inflect,VV,EP,눕/VV+었/EP+는데/EC+…/SE,*
+누웠는데,0,0,0,VV+EP+EC,*,F,누웠는데,Inflect,VV,EC,눕/VV+었/EP+는데/EC,*
 누웠는데도,0,0,0,VV+EP+EC+JX,*,F,누웠는데도,Inflect,VV,EP,눕/VV+었/EP+는데/EC+도/JX,*
 누웠다가도,0,0,0,VV+EP+EC+JX,*,F,누웠다가도,Inflect,VV,EP,눕/VV+었/EP+다가/EC+도/JX,*
 누음,0,0,0,VV+ETN,*,T,누음,Inflect,VV,ETN,눕/VV+ᄆ/ETN,*
@@ -10405,7 +10400,6 @@
 더우면,0,0,0,VA+EC,*,T,더우면,Inflect,VA,EC,덥/VA+으면/EC,*
 더운,0,0,0,VA+EF,*,T,더운,Inflect,VA,EF,덥/VA+ᆫ지/EF,*
 더운데,0,0,0,VA+EC,*,F,더운데,Inflect,VA,EC,덥/VA+은데/EC,*
-더운데,0,0,0,VA+EC+SE,*,F,더운데,Inflect,VA,EC,덥/VA+ᆫ데/EC+…/SE,*
 더운데두,0,0,0,VA+EC,*,F,더운데두,Inflect,VA,EC,덥/VA+은데두/EC,*
 더운물과,0,0,0,VA+ETM+NNG+JC,*,F,더운물과,Inflect,VA,ETM,덥/VA+ᆫ/ETM+물/NNG+과/JC,*
 더운피가,0,0,0,VA+ETM+NNG+JKS,*,F,더운피가,Inflect,VA,ETM,덥/VA+ᆫ/ETM+피/NNG+가/JKS,*
@@ -10416,7 +10410,6 @@
 더워,0,0,0,VA+EC+VX,*,F,더워,Inflect,VA,EC,덥/VA+어/EC+지/VX,*
 더워,0,0,0,VA+EF,*,F,더워,Inflect,VA,EF,덥/VA+어요/EF,*
 더워서,0,0,0,VA+EC,*,F,더워서,Inflect,VA,EC,덥/VA+어서/EC,*
-더워서,0,0,0,VA+EC+SE,*,F,더워서,Inflect,VA,EC,덥/VA+어서/EC+…/SE,*
 더워서였,0,0,0,VA+EC+VCP+EP+EP+EF,*,T,더워서였,Inflect,VA,EC,덥/VA+어서/EC+이/VCP+었/EP+겠/EP+지/EF,*
 더워오,0,0,0,VA+EC+VV+ETN,*,F,더워오,Inflect,VA,EC,덥/VA+어/EC+오르/VV+ᄆ/ETN,*
 더워지는,0,0,0,VA+EC+VX+ETM,*,T,더워지는,Inflect,VA,EC,덥/VA+어/EC+지/VX+는/ETM,*
@@ -10898,7 +10891,7 @@
 도와드릴께,0,0,0,VV+EC+VX+EF,*,F,도와드릴께,Inflect,VV,EC,돕/VV+아/EC+드리/VX+ᆯ께요/EF,*
 도와야,0,0,0,VV+EC,*,F,도와야,Inflect,VV,EC,돕/VV+아야/EC,*
 도와야할,0,0,0,VV+EC+VX+ETM,*,T,도와야할,Inflect,VV,EC,돕/VV+아야/EC+하/VX+ᆯ/ETM,*
-도와주,0,0,0,VV+EC+VX+SE,*,F,도와주,Inflect,VV,EC,돕/VV+아/EC+주/VX+…/SE,*
+도와주,0,0,0,VV+EC+VX,*,F,도와주,Inflect,VV,EC,돕/VV+아/EC+주/VX,*
 도와준,0,0,0,VV+ETM,*,T,도와준,Inflect,VV,ETM,도와주/VV+ᆫ/ETM,*
 도와준다,0,0,0,VV+EF,*,F,도와준다,Inflect,VV,EF,도와주/VV+ᆫ다/EF,*
 도와준다,0,0,0,VV+EC,*,F,도와준다,Inflect,VV,EC,도와주/VV+ᆫ다/EC,*
@@ -10927,7 +10920,7 @@
 도와줘요,0,0,0,VV+EF,*,F,도와줘요,Inflect,VV,EF,도와주/VV+어요/EF,*
 도와줬,0,0,0,VV+EP,*,T,도와줬,Inflect,VV,EP,도와주/VV+었/EP,*
 도왔,0,0,0,VV+EP,*,T,도왔,Inflect,VV,EP,돕/VV+았었/EP,*
-도왔고,0,0,0,VV+EP+EC+SE,*,F,도왔고,Inflect,VV,EP,돕/VV+았/EP+고/EC+…/SE,*
+도왔고,0,0,0,VV+EP+EC,*,F,도왔고,Inflect,VV,EP,돕/VV+았/EP+고/EC,*
 도요,0,0,0,EC+JX,*,F,도요,Inflect,EC,JX,ㅏ도/EC+요/JX,*
 도우,0,0,0,VV+EF,*,F,도우,Inflect,VV,EF,돕/VV+으리/EF,*
 도우려,0,0,0,VV+EC,*,F,도우려,Inflect,VV,EC,돕/VV+으려/EC,*
@@ -14614,8 +14607,7 @@
 뜨거울수록,0,0,0,VA+EC,*,T,뜨거울수록,Inflect,VA,EC,뜨겁/VA+ᆯ수록/EC,*
 뜨거움만큼은,0,0,0,VA+ETN+JKB+JX,*,T,뜨거움만큼은,Inflect,VA,ETN,뜨겁/VA+ᄆ/ETN+만큼/JKB+은/JX,*
 뜨거움이,0,0,0,VA+ETN+VCP+EF,*,F,뜨거움이,Inflect,VA,ETN,뜨겁/VA+ᄆ/ETN+이/VCP+에요/EF,*
-뜨거워,0,0,0,VA+EC,*,F,뜨거워,Inflect,VA,EC,뜨겁/VA+어서/EC,*
-뜨거워,0,0,0,VA+EC+SE,*,F,뜨거워,Inflect,VA,EC,뜨겁/VA+어/EC+…/SE,*
+뜨거워,0,0,0,VA+EC,*,F,뜨거워,Inflect,VA,EC,뜨겁/VA+어/EC,*
 뜨거워,0,0,0,VA+EC+VX+EP,*,F,뜨거워,Inflect,VA,EC,뜨겁/VA+어/EC+지/VX+었/EP,*
 뜨거워요,0,0,0,VA+EF,*,F,뜨거워요,Inflect,VA,EF,뜨겁/VA+어요/EF,*
 뜨거워져,0,0,0,VA+EC+VX+EF,*,F,뜨거워져,Inflect,VA,EC,뜨겁/VA+어/EC+지/VX+ㅓ요/EF,*
@@ -14811,7 +14803,6 @@
 라구,0,0,0,VCP+EC,*,F,라구,Inflect,VCP,EC,이/VCP+라구/EC,*
 라구,0,0,0,JKS+EC,*,F,라구,Inflect,JKS,EC,이/JKS+라구/EC,*
 라구,0,0,0,VCP+EF,*,F,라구,Inflect,VCP,EF,이/VCP+라구/EF,*
-라구,0,0,0,EC+SE,*,F,라구,Inflect,EC,SE,구/EC+…/SE,*
 라구요,0,0,0,VCP+EF,*,F,라구요,Inflect,VCP,EF,이/VCP+라구요/EF,*
 라구요,0,0,0,JKS+EF,*,F,라구요,Inflect,JKS,EF,이/JKS+라구요/EF,*
 라구요,0,0,0,VCP+EC,*,F,라구요,Inflect,VCP,EC,이/VCP+라구요/EC,*
@@ -14833,7 +14824,6 @@
 라냐,0,0,0,VCP+EC,*,F,라냐,Inflect,VCP,EC,이/VCP+라냐/EC,*
 라네,0,0,0,VCP+EF,*,F,라네,Inflect,VCP,EF,이/VCP+라네/EF,*
 라네,0,0,0,VCP+EC,*,F,라네,Inflect,VCP,EC,이/VCP+라네/EC,*
-라네,0,0,0,EC+SE,*,F,라네,Inflect,EC,SE,네/EC+…/SE,*
 라뇨,0,0,0,VCP+EC,*,F,라뇨,Inflect,VCP,EC,이/VCP+라뇨/EC,*
 라뇨,0,0,0,EC+EF,*,F,라뇨,Inflect,EC,EF,라니/EC+오/EF,*
 라뇨,0,0,0,VCP+EF,*,F,라뇨,Inflect,VCP,EF,이/VCP+라뇨/EF,*
@@ -14899,7 +14889,6 @@
 라며,0,0,0,VCP+EF,*,F,라며,Inflect,VCP,EF,이/VCP+라며/EF,*
 라면,0,0,0,VCP+EC,*,T,라면,Inflect,VCP,EC,이/VCP+라면/EC,*
 라면,0,0,0,VCP+EF,*,T,라면,Inflect,VCP,EF,이/VCP+라면/EF,*
-라면,0,0,0,EC+SE,*,T,라면,Inflect,EC,SE,면/EC+…/SE,*
 라면서,0,0,0,VCP+EC,*,F,라면서,Inflect,VCP,EC,이/VCP+라면서/EC,*
 라면서,0,0,0,VCP+EF,*,F,라면서,Inflect,VCP,EF,이/VCP+라면서/EF,*
 라면서요,0,0,0,VCP+EF,*,F,라면서요,Inflect,VCP,EF,이/VCP+라면서요/EF,*
@@ -15022,7 +15011,6 @@
 랬지,0,0,0,EC+VV+EP+EF,*,F,랬지,Inflect,EC,VV,라/EC+하/VV+았/EP+지/EF,*
 랴,0,0,0,VCP+EF,*,F,랴,Inflect,VCP,EF,이/VCP+랴/EF,*
 랴,0,0,0,VCP+EC,*,F,랴,Inflect,VCP,EC,이/VCP+랴/EC,*
-러,0,0,0,SE,*,F,러,*,*,*,…/SE,*
 러,0,0,0,VCP+EC,*,F,러,Inflect,VCP,EC,이/VCP+러/EC,*
 러는,0,0,0,EC+JX,*,T,러는,Inflect,EC,JX,어서/EC+는/JX,*
 러니,0,0,0,VCP+EC,*,F,러니,Inflect,VCP,EC,이/VCP+러니/EC,*
@@ -15102,8 +15090,6 @@
 로운데,0,0,0,XSA+EC,*,F,로운데,Inflect,XSA,EC,롭/XSA+ᆫ데/EC,*
 로울수록,0,0,0,XSA+EC,*,T,로울수록,Inflect,XSA,EC,롭/XSA+ᆯ수록/EC,*
 로움,0,0,0,XSA+ETN,*,T,로움,Inflect,XSA,ETN,롭/XSA+음/ETN,*
-로움,0,0,0,XSA+ETN+XSN+JKS,*,T,로움,Inflect,XSA,ETN,롭/XSA+음/ETN+들/XSN+이/JKS,*
-로움,0,0,0,XSA+ETN+SE,*,T,로움,Inflect,XSA,ETN,롭/XSA+ᄆ/ETN+…/SE,*
 로움만이,0,0,0,XSA+ETN+JX+JKC,*,F,로움만이,Inflect,XSA,ETN,롭/XSA+ᄆ/ETN+만/JX+이/JKC,*
 로움보다도,0,0,0,XSA+ETN+JKB+JX,*,F,로움보다도,Inflect,XSA,ETN,롭/XSA+ᄆ/ETN+보다/JKB+도/JX,*
 로움에서,0,0,0,XSA+ETN+JKB+VCP+EP+EF,*,F,로움에서,Inflect,XSA,ETN,롭/XSA+ᄆ/ETN+에서/JKB+이/VCP+었/EP+다/EF,*
@@ -15128,7 +15114,7 @@
 로워진,0,0,0,XSA+EC+VX+EF,*,T,로워진,Inflect,XSA,EC,롭/XSA+어/EC+지/VX+ᆫ다/EF,*
 로워진다고,0,0,0,XSA+EC+VX+EC,*,F,로워진다고,Inflect,XSA,EC,롭/XSA+어/EC+지/VX+ᆫ다고/EC,*
 로워질,0,0,0,XSA+EC+VX+ETM,*,T,로워질,Inflect,XSA,EC,롭/XSA+어/EC+지/VX+ᆯ/ETM,*
-로워집니다,0,0,0,XSA+EC+VX+EC+SE,*,F,로워집니다,Inflect,XSA,EC,롭/XSA+어/EC+지/VX+ᄇ니다/EC+…/SE,*
+로워집니다,0,0,0,XSA+EC+VX+EC,*,F,로워집니다,Inflect,XSA,EC,롭/XSA+어/EC+지/VX+ᄇ니다/EC,*
 로웠겠,0,0,0,XSA+EP+EP+EF,*,T,로웠겠,Inflect,XSA,EP,롭/XSA+었/EP+겠/EP+는가/EF,*
 로웠는가에,0,0,0,XSA+EP+EC+JKB,*,F,로웠는가에,Inflect,XSA,EP,롭/XSA+었/EP+는가/EC+에/JKB,*
 론,0,0,0,JKB+JX,*,T,론,Inflect,JKB,JX,로/JKB+ㄴ/JX,*
@@ -15178,7 +15164,6 @@
 마닸고,0,0,0,XR+XSV+EP+EC,*,F,마닸고,Inflect,XR,XSV,마다/XR+하/XSV+았/EP+고/EC,*
 마라,0,0,0,VX+EF,*,F,마라,Inflect,VX,EF,말/VX+아라/EF,*
 마라,0,0,0,VV+EF,*,F,마라,Inflect,VV,EF,말/VV+아라/EF,*
-마라,0,0,0,VX+EC+SE,*,F,마라,Inflect,VX,EC,말/VX+아/EC+…/SE,*
 마라,0,0,0,VV+EC,*,F,마라,Inflect,VV,EC,말/VV+아라/EC,*
 마라,0,0,0,VX+EC,*,F,마라,Inflect,VX,EC,말/VX+아라/EC,*
 마라는,0,0,0,VX+ETM,*,T,마라는,Inflect,VX,ETM,말/VX+아라는/ETM,*
@@ -15615,7 +15600,6 @@
 만해진,0,0,0,XSA+EC+VX+ETM,*,T,만해진,Inflect,XSA,EC,만하/XSA+아/EC+지/VX+ᆫ/ETM,*
 만했,0,0,0,VX+EP,*,T,만했,Inflect,VX,EP,만하/VX+ㅕㅆ/EP,*
 만환가,0,0,0,NNG+EF,*,F,만환가,Inflect,NNG,EF,만화/NNG+ㄴ가/EF,*
-말,0,0,0,SE+NNG,*,T,말,Inflect,SE,NNG,…/SE+말/NNG,*
 말간,0,0,0,VA+ETM,*,T,말간,Inflect,VA,ETM,말갛/VA+ᆫ/ETM,*
 말개진,0,0,0,VV+ETM,*,T,말개진,Inflect,VV,ETM,말개지/VV+ᆫ/ETM,*
 말갰,0,0,0,VA+EP,*,T,말갰,Inflect,VA,EP,말갛/VA+았/EP,*
@@ -16445,7 +16429,7 @@
 메말랐,0,0,0,VA+EP,*,T,메말랐,Inflect,VA,EP,메마르/VA+았/EP,*
 메스꺼,0,0,0,VA+ETN,*,F,메스꺼,Inflect,VA,ETN,메스껍/VA+ᄆ/ETN,*
 메스꺼운,0,0,0,VA+ETM,*,T,메스꺼운,Inflect,VA,ETM,메스껍/VA+ᆫ/ETM,*
-메스꺼움,0,0,0,VA+ETN+SE,*,T,메스꺼움,Inflect,VA,ETN,메스껍/VA+ᄆ/ETN+…/SE,*
+메스꺼움,0,0,0,VA+ETN,*,T,메스꺼움,Inflect,VA,ETN,메스껍/VA+ᄆ/ETN,*
 메스꺼워,0,0,0,VA+EC,*,F,메스꺼워,Inflect,VA,EC,메스껍/VA+어/EC,*
 메스꺼워서,0,0,0,VA+EC,*,F,메스꺼워서,Inflect,VA,EC,메스껍/VA+어서/EC,*
 메스꺼워지면서,0,0,0,VA+EC+VX+EC,*,F,메스꺼워지면서,Inflect,VA,EC,메스껍/VA+어/EC+지/VX+면서/EC,*
@@ -17249,7 +17233,7 @@
 무거워진다는,0,0,0,VA+EC+VX+ETM,*,T,무거워진다는,Inflect,VA,EC,무겁/VA+어/EC+지/VX+ᆫ다는/ETM,*
 무거웠,0,0,0,VA+EP+EP+EF,*,T,무거웠,Inflect,VA,EP,무겁/VA+었/EP+겠/EP+지/EF,*
 무거웠겠지만,0,0,0,VA+EP+EP+EC,*,T,무거웠겠지만,Inflect,VA,EP,무겁/VA+었/EP+겠/EP+지만/EC,*
-무거웠고,0,0,0,VA+EP+EC+SE,*,F,무거웠고,Inflect,VA,EP,무겁/VA+었/EP+고/EC+…/SE,*
+무거웠고,0,0,0,VA+EP+EC,*,F,무거웠고,Inflect,VA,EC,무겁/VA+었/EP+고/EC,*
 무거웠을까를,0,0,0,VA+EP+EC+JKO,*,T,무거웠을까를,Inflect,VA,EP,무겁/VA+었/EP+을까/EC+를/JKO,*
 무구와서,0,0,0,VV+EC,*,F,무구와서,Inflect,VV,EC,무굽/VV+아서/EC,*
 무너,0,0,0,VV+EC,*,F,무너,Inflect,VV,EC,무느/VV+어/EC,*
@@ -17340,15 +17324,13 @@
 무서우리만큼,0,0,0,VA+EC,*,T,무서우리만큼,Inflect,VA,EC,무섭/VA+리만큼/EC,*
 무서우면,0,0,0,VA+EC,*,T,무서우면,Inflect,VA,EC,무섭/VA+으면서/EC,*
 무서운,0,0,0,VA+EF,*,T,무서운,Inflect,VA,EF,무섭/VA+은데/EF,*
-무서운데,0,0,0,VA+EC+SE,*,F,무서운데,Inflect,VA,EC,무섭/VA+ᆫ데/EC+…/SE,*
+무서운데,0,0,0,VA+EC,*,F,무서운데,Inflect,VA,EC,무섭/VA+ᆫ데/EC,*
 무서운지,0,0,0,VA+EC,*,F,무서운지,Inflect,VA,EC,무섭/VA+은지/EC,*
 무서울걸,0,0,0,VA+EC,*,T,무서울걸,Inflect,VA,EC,무섭/VA+ᆯ걸/EC,*
 무서울게,0,0,0,VA+ETM+NNB+JKS,*,F,무서울게,Inflect,VA,ETM,무섭/VA+ᆯ/ETM+것/NNB+이/JKS,*
 무서울이만큼,0,0,0,VA+ETM+NNB+JKB,*,T,무서울이만큼,Inflect,VA,ETM,무섭/VA+ᆯ/ETM+이/NNB+만큼/JKB,*
 무서울정도로,0,0,0,VA+ETM+NNG+JKB,*,F,무서울정도로,Inflect,VA,ETM,무섭/VA+ᆯ/ETM+정도/NNG+로/JKB,*
 무서워,0,0,0,VA+EC,*,F,무서워,Inflect,VA,EC,무섭/VA+어서/EC,*
-무서워,0,0,0,VA+EC+SE,*,F,무서워,Inflect,VA,EC,무섭/VA+어/EC+…/SE,*
-무서워,0,0,0,VA+EC+VX+EP,*,F,무서워,Inflect,VA,EC,무섭/VA+어/EC+하/VX+았/EP,*
 무서워서,0,0,0,VA+EC+VCP,*,F,무서워서,Inflect,VA,EC,무섭/VA+어서/EC+이/VCP,*
 무서워선지,0,0,0,VA+EC+VCP+EC,*,F,무서워선지,Inflect,VA,EC,무섭/VA+어서/EC+이/VCP+ᆫ지/EC,*
 무서워요,0,0,0,VA+EF,*,F,무서워요,Inflect,VA,EF,무섭/VA+어요/EF,*
@@ -17991,7 +17973,7 @@
 미울,0,0,0,VA+EC,*,T,미울,Inflect,VA,EC,밉/VA+ᆯ지/EC,*
 미워,0,0,0,VA+EF,*,F,미워,Inflect,VA,EF,밉/VA+어야/EF,*
 미워도,0,0,0,VA+EC,*,F,미워도,Inflect,VA,EC,밉/VA+어도/EC,*
-미워서,0,0,0,VA+EC+SE,*,F,미워서,Inflect,VA,EC,밉/VA+어서/EC+…/SE,*
+미워서,0,0,0,VA+EC,*,F,미워서,Inflect,VA,EC,밉/VA+어서/EC,*
 미워서라도,0,0,0,VA+EC,*,F,미워서라도,Inflect,VA,EC,밉/VA+어서라도/EC,*
 미워져가는,0,0,0,VA+EC+VX+EC+VX+ETM,*,T,미워져가는,Inflect,VA,EC,밉/VA+어/EC+지/VX+어/EC+가/VX+는/ETM,*
 미워져서,0,0,0,VA+EC+VX+EC,*,F,미워져서,Inflect,VA,EC,밉/VA+어/EC+지/VX+어서/EC,*
@@ -19516,7 +19498,6 @@
 범해서,0,0,0,VV+EC,*,F,범해서,Inflect,VV,EC,범하/VV+아서/EC,*
 범해진,0,0,0,VV+EC+VX+ETM,*,T,범해진,Inflect,VV,EC,범하/VV+아/EC+지/VX+ᆫ/ETM,*
 범했,0,0,0,VV+EP,*,T,범했,Inflect,VV,EP,범하/VV+았/EP,*
-법,0,0,0,NNG,*,T,법,*,*,*,반/NNG,*
 법니다,0,0,0,VV+EF,*,F,법니다,Inflect,VV,EF,벌/VV+ᄇ니다/EF,*
 법댄데,0,0,0,NNG+EC,*,F,법댄데,Inflect,NNG,EC,법대/NNG+ㄴ데/EC,*
 법률상담손가,0,0,0,NNG+EC,*,F,법률상담손가,Inflect,NNG,EC,법률상담소/NNG+ㄴ가/EC,*
@@ -20448,7 +20429,7 @@
 부끄러운지,0,0,0,VA+EC,*,F,부끄러운지,Inflect,VA,EC,부끄럽/VA+ᆫ지/EC,*
 부끄러울까,0,0,0,VA+EC,*,F,부끄러울까,Inflect,VA,EC,부끄럽/VA+ᆯ까/EC,*
 부끄러울이만큼,0,0,0,VA+ETM+NNB+JKB,*,T,부끄러울이만큼,Inflect,VA,ETM,부끄럽/VA+ᆯ/ETM+이/NNB+만큼/JKB,*
-부끄러울테니까,0,0,0,VA+ETM+NNB+VCP+EC+SE,*,F,부끄러울테니까,Inflect,VA,ETM,부끄럽/VA+ᆯ/ETM+터/NNB+이/VCP+니까/EC+…/SE,*
+부끄러울테니까,0,0,0,VA+ETM+NNB+VCP+EC,*,F,부끄러울테니까,Inflect,VA,EC,부끄럽/VA+ᆯ/ETM+터/NNB+이/VCP+니까/EC,*
 부끄러워,0,0,0,VA+EC+VX+EP,*,F,부끄러워,Inflect,VA,EC,부끄럽/VA+어/EC+하/VX+았/EP,*
 부끄러워,0,0,0,VA+EC,*,F,부끄러워,Inflect,VA,EC,부끄럽/VA+어/EC,*
 부끄러워서,0,0,0,VA+EC+VCP+EP,*,F,부끄러워서,Inflect,VA,EC,부끄럽/VA+어서/EC+이/VCP+었/EP,*
@@ -20510,7 +20491,7 @@
 부드러우리라,0,0,0,VA+EC,*,F,부드러우리라,Inflect,VA,EC,부드럽/VA+리라/EC,*
 부드러우면,0,0,0,VA+EC,*,T,부드러우면,Inflect,VA,EC,부드럽/VA+으면서/EC,*
 부드러우면서도,0,0,0,VA+EC,*,F,부드러우면서도,Inflect,VA,EC,부드럽/VA+으면서도/EC,*
-부드러운,0,0,0,VA+ETM+SE,*,T,부드러운,Inflect,VA,ETM,부드럽/VA+ᆫ/ETM+…/SE,*
+부드러운,0,0,0,VA+ETM,*,T,부드러운,Inflect,VA,ETM,부드럽/VA+ᆫ/ETM,*
 부드러울,0,0,0,VA+ETM,*,T,부드러울,Inflect,VA,ETM,부드럽/VA+을/ETM,*
 부드러울수록,0,0,0,VA+EC,*,T,부드러울수록,Inflect,VA,EC,부드럽/VA+을수록/EC,*
 부드러움만을,0,0,0,VA+ETN+JX+JKO,*,T,부드러움만을,Inflect,VA,ETN,부드럽/VA+ᄆ/ETN+만/JX+을/JKO,*
@@ -20600,7 +20581,6 @@
 부러움인지,0,0,0,VA+ETN+VCP+EC,*,F,부러움인지,Inflect,VA,ETN,부럽/VA+음/ETN+이/VCP+ᆫ지/EC,*
 부러워,0,0,0,VA+EC+VX+EF,*,F,부러워,Inflect,VA,EC,부럽/VA+어/EC+하/VX+ㅕ/EF,*
 부러워,0,0,0,VA+EC+VX+EC,*,F,부러워,Inflect,VA,EC,부럽/VA+어/EC+하/VX+고/EC,*
-부러워,0,0,0,VA+EC+SE,*,F,부러워,Inflect,VA,EC,부럽/VA+어/EC+…/SE,*
 부러워,0,0,0,VA+EC+VX+ETN,*,F,부러워,Inflect,VA,EC,부럽/VA+어/EC+하/VX+기/ETN,*
 부러워,0,0,0,VA+EC,*,F,부러워,Inflect,VA,EC,부럽/VA+어라/EC,*
 부러워,0,0,0,VA+EC+VX+EP,*,F,부러워,Inflect,VA,EC,부럽/VA+어/EC+하/VX+았/EP,*
@@ -22689,7 +22669,7 @@
 사셨,0,0,0,VV+EP+EP+EF,*,T,사셨,Inflect,VV,EP,살/VV+시/EP+ㅓㅆ/EP+는데/EF,*
 사셨,0,0,0,VV+EP+EP,*,T,사셨,Inflect,VV,EP,살/VV+시/EP+었/EP,*
 사셨었,0,0,0,VV+EP+EP+EF,*,T,사셨었,Inflect,VV,EP,살/VV+시/EP+ㅓㅆ었/EP+거든/EF,*
-사신대,0,0,0,VV+EP+EC+SE,*,F,사신대,Inflect,VV,EP,살/VV+시/EP+ᆫ대/EC+…/SE,*
+사신대,0,0,0,VV+EP+EC,*,F,사신대,Inflect,VV,EC,살/VV+시/EP+ᆫ대/EC,*
 사쓸,0,0,0,NNG+JKO,*,T,사쓸,Inflect,NNG,JKO,사쓰/NNG+ᆯ/JKO,*
 사옵니다,0,0,0,EP+EF,*,F,사옵니다,Inflect,EP,EF,사오/EP+ᄇ니다/EF,*
 사옵니다만,0,0,0,EP+EC,*,T,사옵니다만,Inflect,EP,EC,사오/EP+ᄇ니다만/EC,*
@@ -23185,7 +23165,6 @@
 새로움들은,0,0,0,VA+ETN+XSN+JX,*,T,새로움들은,Inflect,VA,ETN,새롭/VA+ᄆ/ETN+들/XSN+은/JX,*
 새로움인,0,0,0,VA+ETN+VCP+EF,*,T,새로움인,Inflect,VA,ETN,새롭/VA+ᄆ/ETN+이/VCP+ᆫ가/EF,*
 새로워,0,0,0,VA+EC+VX+ETN,*,F,새로워,Inflect,VA,EC,새롭/VA+어/EC+지/VX+기/ETN,*
-새로워,0,0,0,VA+EC+SE,*,F,새로워,Inflect,VA,EC,새롭/VA+어/EC+…/SE,*
 새로워,0,0,0,VA+EC,*,F,새로워,Inflect,VA,EC,새롭/VA+어/EC,*
 새로워야,0,0,0,VA+EC,*,F,새로워야,Inflect,VA,EC,새롭/VA+어야/EC,*
 새로워져야,0,0,0,VA+EC+VX+EC,*,F,새로워져야,Inflect,VA,EC,새롭/VA+어/EC+지/VX+어야/EC,*
@@ -24334,7 +24313,7 @@
 쉬운,0,0,0,VA+EF,*,T,쉬운,Inflect,VA,EF,쉽/VA+은데/EF,*
 쉬운,0,0,0,VA+EC,*,T,쉬운,Inflect,VA,EC,쉽/VA+은데/EC,*
 쉬운,0,0,0,VA+ETM,*,T,쉬운,Inflect,VA,ETM,쉽/VA+은/ETM,*
-쉬운데,0,0,0,VA+EC+SE,*,F,쉬운데,Inflect,VA,EC,쉽/VA+ᆫ데/EC+…/SE,*
+쉬운데,0,0,0,VA+EC,*,F,쉬운데,Inflect,VA,EC,쉽/VA+ᆫ데/EC,*
 쉬운데,0,0,0,VA+EF,*,F,쉬운데,Inflect,VA,EF,쉽/VA+ᆫ데요/EF,*
 쉬운데다,0,0,0,VA+ETM+NNB+JX,*,F,쉬운데다,Inflect,VA,ETM,쉽/VA+ᆫ/ETM+데/NNB+다/JX,*
 쉬운데도,0,0,0,VA+EC,*,F,쉬운데도,Inflect,VA,EC,쉽/VA+ᆫ데도/EC,*
@@ -24347,7 +24326,7 @@
 쉬워,0,0,0,VA+EF,*,F,쉬워,Inflect,VA,EF,쉽/VA+어요/EF,*
 쉬워,0,0,0,VA+EC+VX+EF,*,F,쉬워,Inflect,VA,EC,쉽/VA+어/EC+지/VX+죠/EF,*
 쉬워야,0,0,0,VA+EC,*,F,쉬워야,Inflect,VA,EC,쉽/VA+어야/EC,*
-쉬워야지,0,0,0,VA+EC+SE,*,F,쉬워야지,Inflect,VA,EC,쉽/VA+어야지/EC+…/SE,*
+쉬워야지,0,0,0,VA+EC,*,F,쉬워야지,Inflect,VA,EC,쉽/VA+어야지/EC,*
 쉬워져,0,0,0,VA+EC+VX+EC,*,F,쉬워져,Inflect,VA,EC,쉽/VA+어/EC+지/VX+어/EC,*
 쉬워져,0,0,0,VA+EC+VX+EF,*,F,쉬워져,Inflect,VA,EC,쉽/VA+어/EC+지/VX+ㅓ요/EF,*
 쉬워지면서,0,0,0,VA+EC+VX+EC,*,F,쉬워지면서,Inflect,VA,EC,쉽/VA+어/EC+지/VX+면서/EC,*
@@ -26373,11 +26352,10 @@
 아름다운,0,0,0,VA+ETM+NNB+JKB,*,T,아름다운,Inflect,VA,ETM,아름답/VA+ᆫ/ETM+데/NNB+에/JKB,*
 아름다운,0,0,0,VA+ETM,*,T,아름다운,Inflect,VA,ETM,아름답/VA+은/ETM,*
 아름다운,0,0,0,VA+EC,*,T,아름다운,Inflect,VA,EC,아름답/VA+은지/EC,*
-아름다운,0,0,0,VA+ETM+SE,*,T,아름다운,Inflect,VA,ETM,아름답/VA+ᆫ/ETM+…/SE,*
 아름다운,0,0,0,VA+EF,*,T,아름다운,Inflect,VA,EF,아름답/VA+은고/EF,*
 아름다운걸,0,0,0,VA+EF,*,T,아름다운걸,Inflect,VA,EF,아름답/VA+ᆫ걸요/EF,*
 아름다운모델을,0,0,0,VA+ETM+NNG+JKO,*,T,아름다운모델을,Inflect,VA,ETM,아름답/VA+ᆫ/ETM+모델/NNG+을/JKO,*
-아름다운지,0,0,0,VA+EC+SE,*,F,아름다운지,Inflect,VA,EC,아름답/VA+ᆫ지/EC+…/SE,*
+아름다운지,0,0,0,VA+EC,*,F,아름다운지,Inflect,VA,EC,아름답/VA+ᆫ지/EC,*
 아름다운지라,0,0,0,VA+EC,*,F,아름다운지라,Inflect,VA,EC,아름답/VA+ᆫ지라/EC,*
 아름다울까,0,0,0,VA+EC,*,F,아름다울까,Inflect,VA,EC,아름답/VA+을까/EC,*
 아름다울지라,0,0,0,VA+EC,*,F,아름다울지라,Inflect,VA,EC,아름답/VA+ᆯ지라도/EC,*
@@ -26416,7 +26394,7 @@
 아름다움일,0,0,0,VA+ETN+JKB+VCP,*,T,아름다움일,Inflect,VA,ETN,아름답/VA+ᄆ/ETN+에서/JKB+이/VCP,*
 아름다워,0,0,0,VA+EC+VX+EP,*,F,아름다워,Inflect,VA,EC,아름답/VA+어/EC+지/VX+었/EP,*
 아름다워,0,0,0,VA+EC+VX,*,F,아름다워,Inflect,VA,EC,아름답/VA+어/EC+지/VX,*
-아름다워,0,0,0,VA+EC+SE,*,F,아름다워,Inflect,VA,EC,아름답/VA+어/EC+…/SE,*
+아름다워,0,0,0,VA+EC,*,F,아름다워,Inflect,VA,EC,아름답/VA+어/EC,*
 아름다워도,0,0,0,VA+EC,*,F,아름다워도,Inflect,VA,EC,아름답/VA+어도/EC,*
 아름다워서만은,0,0,0,VA+EC+JX+JX,*,T,아름다워서만은,Inflect,VA,EC,아름답/VA+어서/EC+만/JX+은/JX,*
 아름다워요,0,0,0,VA+EF,*,F,아름다워요,Inflect,VA,EF,아름답/VA+어요/EF,*
@@ -26765,7 +26743,7 @@
 안타까우,0,0,0,VA+EC,*,F,안타까우,Inflect,VA,EC,안타깝/VA+으면/EC,*
 안타까운,0,0,0,VA+ETM,*,T,안타까운,Inflect,VA,ETM,안타깝/VA+은/ETM,*
 안타까운듯,0,0,0,VA+EC,*,T,안타까운듯,Inflect,VA,EC,안타깝/VA+ᆫ듯/EC,*
-안타까운지,0,0,0,VA+EC+SE,*,F,안타까운지,Inflect,VA,EC,안타깝/VA+ᆫ지/EC+…/SE,*
+안타까운지,0,0,0,VA+EC,*,F,안타까운지,Inflect,VA,EC,안타깝/VA+ᆫ지/EC,*
 안타까움,0,0,0,VA+ETN+VCP+EF,*,T,안타까움,Inflect,VA,ETN,안타깝/VA+ᄆ/ETN+이/VCP+다/EF,*
 안타까움만을,0,0,0,VA+ETN+JX+JKO,*,T,안타까움만을,Inflect,VA,ETN,안타깝/VA+ᄆ/ETN+만/JX+을/JKO,*
 안타까움에도,0,0,0,VA+ETN+JKB+JX,*,F,안타까움에도,Inflect,VA,ETN,안타깝/VA+ᄆ/ETN+에/JKB+도/JX,*
@@ -27450,7 +27428,7 @@
 어두워도,0,0,0,VV+EC,*,F,어두워도,Inflect,VV,EC,어둡/VV+어도/EC,*
 어두워서인지,0,0,0,VA+EC+VCP+EC,*,F,어두워서인지,Inflect,VA,EC,어둡/VA+어서/EC+이/VCP+ᆫ지/EC,*
 어두워오,0,0,0,VA+EC+VX+EF,*,F,어두워오,Inflect,VA,EC,어둡/VA+어/EC+오/VX+는군/EF,*
-어두워오지,0,0,0,VA+EC+VX+EC+SE+SE,*,F,어두워오지,Inflect,VA,EC,어둡/VA+어/EC+오/VX+지/EC+…/SE+…/SE,*
+어두워오지,0,0,0,VA+EC+VX+EC,*,F,어두워오지,Inflect,VA,EC,어둡/VA+어/EC+오/VX+지/EC,*
 어두워져가고,0,0,0,VA+EC+VX+EC+VX+EC,*,F,어두워져가고,Inflect,VA,EC,어둡/VA+어/EC+지/VX+어/EC+가/VX+고/EC,*
 어두워져버리더랑,0,0,0,VA+EC+VX+EC+VX+EF,*,T,어두워져버리더랑,Inflect,VA,EC,어둡/VA+어/EC+지/VX+어/EC+버리/VX+더랑께요/EF,*
 어두워져버린,0,0,0,VA+VX+VX+ETM,*,T,어두워져버린,Inflect,VA,VX,어둡/VA+지/VX+버리/VX+ᆫ/ETM,*
@@ -27619,7 +27597,6 @@
 어려운,0,0,0,VA+ETM+NNB+JKB,*,T,어려운,Inflect,VA,ETM,어렵/VA+ᆫ/ETM+데/NNB+에/JKB,*
 어려운,0,0,0,VA+ETM,*,T,어려운,Inflect,VA,ETM,어렵/VA+은/ETM,*
 어려운게,0,0,0,VA+ETM+NNB+JKS,*,F,어려운게,Inflect,VA,ETM,어렵/VA+ᆫ/ETM+것/NNB+이/JKS,*
-어려운데,0,0,0,VA+EC+SE,*,F,어려운데,Inflect,VA,EC,어렵/VA+ᆫ데/EC+…/SE,*
 어려운데,0,0,0,VA+EC,*,F,어려운데,Inflect,VA,EC,어렵/VA+은데/EC,*
 어려울,0,0,0,VA+EF,*,T,어려울,Inflect,VA,EF,어렵/VA+을걸/EF,*
 어려울,0,0,0,VA+EC,*,T,어려울,Inflect,VA,EC,어렵/VA+을지/EC,*
@@ -27830,7 +27807,6 @@
 어지러움증이나,0,0,0,VA+ETN+NNG+JC,*,F,어지러움증이나,Inflect,VA,ETN,어지럽/VA+ᄆ/ETN+증/NNG+이나/JC,*
 어지러워,0,0,0,VA+EF,*,F,어지러워,Inflect,VA,EF,어지럽/VA+어요/EF,*
 어지러워,0,0,0,VA+EC+VX+EP,*,F,어지러워,Inflect,VA,EC,어지럽/VA+어/EC+지/VX+었/EP,*
-어지러워서,0,0,0,VA+EC+SE,*,F,어지러워서,Inflect,VA,EC,어지럽/VA+어서/EC+…/SE,*
 어지러워서,0,0,0,VA+EC,*,F,어지러워서,Inflect,VA,EC,어지럽/VA+어서/EC,*
 어지러워져도,0,0,0,VA+EC+VX+EC,*,F,어지러워져도,Inflect,VA,EC,어지럽/VA+어/EC+지/VX+어도/EC,*
 어지러워지,0,0,0,VA+EC+VX+EC,*,F,어지러워지,Inflect,VA,EC,어지럽/VA+어/EC+지/VX+느냐/EC,*
@@ -28400,7 +28376,6 @@
 엠에인데,0,0,0,NNG+EC,*,F,엠에인데,Inflect,NNG,EC,엠에이/NNG+ㄴ데/EC,*
 여,0,0,0,VX+EF,*,F,여,Inflect,VX,EF,있/VX+다/EF,*
 여,0,0,0,VX+EP,*,F,여,Inflect,VX,EP,주/VX+었/EP,*
-여,0,0,0,SE,*,F,여,*,*,*,…/SE,*
 여,0,0,0,VCP+EC,*,F,여,Inflect,VCP,EC,이/VCP+ㅓ/EC,*
 여,0,0,0,VV,*,F,여,*,*,*,열/VV,*
 여,0,0,0,VCP,*,F,여,*,*,*,이/VCP,*

@@ -19,7 +19,6 @@ $DICT_INDEX -p -d . -c UTF-8 -t UTF-8 -f UTF-8
 first="yes"
 model_file="model"
 for file in `ls corpus/*.txt`; do
-#for file in `ls corpus/BTAA0013.txt`; do
 	echo $file
 	if [ "$first" == "yes" ]; then
 		$COST_TRAIN -p 2 -c 1.0 $file ${model_file}.tmp
