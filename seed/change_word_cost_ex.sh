@@ -1,7 +1,26 @@
-#!/bin/bash -x
+#!/bin/bash
 
-# '이'로 시작하는 인명의 출현 비용을 낮춤
-#   -- 이/MM+승기/NNG와 같이 분석되는 것을 방지
-cost=3500
-sed -i -re "s/(^이[^,]+,[0-9]+,[0-9]+,)([-0-9]+)(,NNP,인명,)/\\1$cost\\3/g" ../final/Person.csv
-sed -i -re "s/(^이[^,]+,[0-9]+,[0-9]+,)([-0-9]+)(,NNP,인명,)/\\1$cost\\3/g" ../final/Person-actor.csv
+if [ -z "`command -v gawk`" ]; then
+    AWK=awk
+    MIN_LENGTH=9
+else
+    AWK=gawk
+    MIN_LENGTH=3
+fi
+TARGET_DIR='../final'
+for each in `ls $TARGET_DIR/Person*.csv $TARGET_DIR/Place*.csv`; do
+    echo "change word cost in $each ..."
+    cat $each | $AWK -F ',' -v min_length=$MIN_LENGTH 'BEGIN {
+        OFS = ","
+    }
+    {
+        if (length($1) >= min_length) {
+            decr_cost = int($4 * 0.6);
+        } else {
+            decr_cost = $4
+        }
+        print($1,$2,$3,decr_cost,$5,$6,$7,$8,$9,$10,$11,$12,$13)
+    }' > $each.tmp
+    rm -f $each
+    mv $each.tmp $each
+done
