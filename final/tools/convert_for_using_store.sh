@@ -13,8 +13,9 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 old_symbol_file=$DIR/../Symbol.csv.org
 symbol_file=$DIR/../Symbol.csv
+cp -f $symbol_file $old_symbol_file
 
 sf_line=`grep -E "^\.,[0-9]+,[0-9]+,[-0-9]+,SF," $old_symbol_file`
 left_id=`echo $sf_line | cut -d ',' -f 2`
 right_id=`echo $sf_line | cut -d ',' -f 3`
-sed -i -re "s/(^\],)([0-9]+),([0-9]+)(,.*)/\\1$left_id,$right_id\\4/g" $symbol_file
+sed -i -re "s/(^\],)([0-9]+),([0-9]+),([-0-9]+),SSC(,.*)/\\1$left_id,$right_id,\\4,SF\\5/g" $symbol_file
