@@ -1,5 +1,5 @@
-고양이로소이다,0,0,0,NNG+EF,*,F,고양이로소이다,Preanalysis,NNG,EF,고양이+로소이다,고양이/NNG/*/1/1+로소이다/EF/*/1/1
-고양이로소이다,0,0,0,NNG+EC,*,F,고양이로소이다,Preanalysis,NNG,EC,고양이+로소이다,고양이/NNG/*/1/1+로소이다/EC/*/1/1
+고양이로소이다,0,0,0,NNG+VCP+EF,*,F,고양이로소이다,Preanalysis,NNG,EF,고양이+(이)+로소이다,고양이/NNG/*/1/1+/VCP/*/1/1+로소이다/EF/*/1/1
+고양이로소이다,0,0,0,NNG+VCP+EC,*,F,고양이로소이다,Preanalysis,NNG,EC,고양이+(이)+로소이다,고양이/NNG/*/1/1+/VCP/*/1/1+로소이다/EC/*/1/1
 명강,0,0,0,XPN+NNG,*,T,명강,Preanalysis,XPN,NNG,명+강,명/XPN/*/1/1+강/NNG/*/1/1
 명강의,0,0,0,XPN+NNG,*,F,명강의,Preanalysis,XPN,NNG,명+강의,명/XPN/*/1/1+강의/NNG/*/1/1
 월드와이드웹,0,0,0,NNP,*,T,월드와이드웹,Preanalysis,NNG,NNG,월드+와이드+웹,월드/NNG/*/1/1+와이드/NNG/*/1/1+웹/NNG/*/1/1
