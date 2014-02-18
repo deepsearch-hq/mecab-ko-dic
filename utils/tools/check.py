@@ -46,19 +46,21 @@ def edit():
         # index expression check
         exprs = index_expr.split('+')
         for expr in exprs:
-            items = expr.split('/')
-            semantic_class = items[2]
-            position_incr = items[3]
-            position_length = items[4]
-            if len(items) != 5:
-                print('1.ERROR:', id, index_expr)
-            if not represents_int(position_incr) or \
-                    not represents_int(position_length):
-                print('2.ERROR:', id, index_expr)
-            if not (semantic_class == '*' or semantic_class == '인명' or
-                    semantic_class == '지명'):
-                print('3.ERROR:', id, index_expr)
-            break
+            try:
+                items = expr.split('/')
+                semantic_class = items[2]
+                position_incr = items[3]
+                position_length = items[4]
+                if len(items) != 5:
+                    print('1.ERROR:', id, index_expr)
+                if not represents_int(position_incr) or \
+                        not represents_int(position_length):
+                    print('2.ERROR:', id, index_expr)
+                if not (semantic_class == '*' or semantic_class == '인명' or
+                        semantic_class == '지명'):
+                    print('3.ERROR:', id, index_expr)
+            except:
+                print('Exception: ', row)
 
 
 def represents_int(s):
