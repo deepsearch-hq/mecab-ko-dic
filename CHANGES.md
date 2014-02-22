@@ -1,5 +1,18 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-1.5.0-20140223
+
+  - NN으로 표기되던 명사를 NNG(보통 명사), NNP(고유 명사)로 세분화
+  - NNB(의존 명사)를 NNB(의존 명사)와 NNBC(단위를 나타내는 명사)로 세분화
+  - 사전에서 semantic_class (의미 부류) 필드가 추가
+    - 다음과 같은 의미 부류가 추가
+      - NNP(고유 명사) - ‘인명’, ‘지명’
+      - MM(관형사) - ‘~명사’, ‘~가산명사’, ‘~인명명사’, ‘~수표현’ 등
+    - 변경된 사전 형식에 관해서는 다음 URL의 ‘사전 형식 v1.5’ 시트에서 확인하실 수 있습니다.
+      - https://docs.google.com/spreadsheet/ccc?key=0ApcJghR6UMXxdEdURGY2YzIwb3dSZ290RFpSaUkzZ0E&usp=sharing
+  - 인명 및 지명 사전에 다량의 데이터를 추가
+  - 위키피디아 사전에서 다량의 불필요한 단어를 제거하거나 수정
+
 ## mecab-ko-dic-1.4.3-20131115
 
   - 띄어쓰기 있는 긍정 지정사(VCP)에 페널티 비용 추가
