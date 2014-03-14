@@ -1,5 +1,9 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-1.5.0-20140314
+
+  - 사전 추가 및 오류 수정
+
 ## mecab-ko-dic-1.5.0-20140223
 
   - NN으로 표기되던 명사를 NNG(보통 명사), NNP(고유 명사)로 세분화

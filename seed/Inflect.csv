@@ -379,7 +379,7 @@
 가셔짐,0,0,0,VV+EC+VX+ETN,*,T,가셔짐,Inflect,VV,EC,가시/VV+어/EC+지/VX+ᄆ/ETN,*
 가셨,0,0,0,VV+EP,*,T,가셨,Inflect,VV,EP,가시/VV+었/EP,*
 가소로운,0,0,0,VA+ETM,*,T,가소로운,Inflect,VA,ETM,가소롭/VA+ᆫ/ETM,*
-가시낸데,0,0,0,NNG+VCP+EC,*,F,가시낸데,Inflect,NNG,VCP,가시내/NNG+이/VCP+ᆫ데/EC,*
+가시낸데,0,0,0,NNG+VCP+EC,*,F,가시낸데,Inflect,NNG,EC,가시내/NNG+이/VCP+ᆫ데/EC,*
 가신,0,0,0,VV+ETM,*,T,가신,Inflect,VV,ETM,가시/VV+ᆫ/ETM,*
 가신다,0,0,0,VV+EF,*,F,가신다,Inflect,VV,EF,가시/VV+ᆫ다/EF,*
 가실,0,0,0,VV+ETM,*,T,가실,Inflect,VV,ETM,가시/VV+ㄹ/ETM,*
@@ -697,7 +697,7 @@
 간댑니다,0,0,0,VV+EF,*,F,간댑니다,Inflect,VV,EF,가/VV+ㄴ댑니다/EF,*
 간댔어,0,0,0,VV+EF,*,F,간댔어,Inflect,VV,EF,가/VV+ᆫ댔어/EF,*
 간댔자,0,0,0,VV+EC,*,F,간댔자,Inflect,VV,EC,가/VV+ᆫ댔자/EC,*
-간데,0,0,0,XSN+VCP+EC,*,F,간데,Inflect,XSN,VCP,가/XSN+이/VCP+ᆫ데/EC,*
+간데,0,0,0,XSN+VCP+EC,*,F,간데,Inflect,XSN,EC,가/XSN+이/VCP+ᆫ데/EC,*
 간데,0,0,0,VV+EC,*,F,간데,Inflect,VV,EC,가/VV+ᆫ데/EC,*
 간드러진,0,0,0,VA+ETM,*,T,간드러진,Inflect,VA,ETM,간드러지/VA+ᆫ/ETM,*
 간들,0,0,0,VV+EC,*,T,간들,Inflect,VV,EC,가/VV+ᆫ들/EC,*
@@ -1212,7 +1212,7 @@
 갠가요,0,0,0,NNB+EF,*,F,갠가요,Inflect,NNB,EF,개/NNB+ㄴ가요/EF,*
 갠다,0,0,0,VV+EC,*,F,갠다,Inflect,VV,EC,개/VV+ᆫ다/EC,*
 갠데,0,0,0,NNB+EC,*,F,갠데,Inflect,NNB,EC,개/NNB+ㄴ데/EC,*
-갠데,0,0,0,NNG+VCP+EF,*,F,갠데,Inflect,NNG,VCP,개/NNG+이/VCP+ᆫ데/EF,*
+갠데,0,0,0,NNG+VCP+EF,*,F,갠데,Inflect,NNG,EF,개/NNG+이/VCP+ᆫ데/EF,*
 갠데,0,0,0,NNG+EC,*,F,갠데,Inflect,NNG,EC,개/NNG+ㄴ데/EC,*
 갠데,0,0,0,NNB+EF,*,F,갠데,Inflect,NNB,EF,개/NNB+ㄴ데/EF,*
 갠데요,0,0,0,NNG+VCP+EF,*,F,갠데요,Inflect,NNG,VCP,개/NNG+이/VCP+ᆫ데요/EF,*
@@ -4445,7 +4445,7 @@
 긴데,0,0,0,ETN+VCP+EF,*,F,긴데,Inflect,ETN,VCP,기/ETN+이/VCP+ᆫ데/EF,*
 긴데,0,0,0,VA+EC,*,F,긴데,Inflect,VA,EC,길/VA+ㄴ데/EC,*
 긴데,0,0,0,NNB+VCP+EC,*,F,긴데,Inflect,NNB,VCP,기/NNB+이/VCP+ᆫ데/EC,*
-긴데,0,0,0,NNB+VCP+EF,*,F,긴데,Inflect,NNB,VCP,기/NNB+이/VCP+ᆫ데/EF,*
+긴데,0,0,0,NNB+VCP+EF,*,F,긴데,Inflect,NNB,EF,기/NNB+이/VCP+ᆫ데/EF,*
 긴엔,0,0,0,ETN+JKB,*,T,긴엔,Inflect,ETN,JKB,기/ETN+에/JKB,*
 긴요,0,0,0,ETN+EF,*,F,긴요,Inflect,ETN,EF,기/ETN+ᆫ요/EF,*
 긴요,0,0,0,ETN+VCP+EF,*,F,긴요,Inflect,ETN,VCP,기/ETN+이/VCP+ᆫ요/EF,*
@@ -6822,13 +6822,13 @@
 남아돈다고,0,0,0,VV+EC,*,F,남아돈다고,Inflect,VV,EC,남아돌/VV+ᆫ다고/EC,*
 남아돈다는데,0,0,0,VV+EC,*,F,남아돈다는데,Inflect,VV,EC,남아돌/VV+ᆫ다는데/EC,*
 남아돈대요,0,0,0,VV+EF,*,F,남아돈대요,Inflect,VV,EF,남아돌/VV+ᆫ대요/EF,*
-남인데,0,0,0,VV+ETN+VCP+EC,*,F,남인데,Inflect,VV,ETN,나/VV+ᄆ/ETN+이/VCP+ᆫ데/EC,*
+남인데,0,0,0,VV+ETN+VCP+EC,*,F,남인데,Inflect,VV,EC,나/VV+ᄆ/ETN+이/VCP+ᆫ데/EC,*
 남잔,0,0,0,NNG+JX,*,T,남잔,Inflect,NNG,JX,남자/NNG+ㄴ/JX,*
 남잔,0,0,0,NNG+VCP,*,T,남잔,Inflect,NNG,VCP,남자/NNG+이/VCP,*
 남잔가,0,0,0,NNG+VCP+EC,*,F,남잔가,Inflect,NNG,VCP,남자/NNG+이/VCP+ᆫ가/EC,*
 남잔데,0,0,0,NNG+EF,*,F,남잔데,Inflect,NNG,EF,남자/NNG+ㄴ데/EF,*
 남잔데,0,0,0,NNG+EC,*,F,남잔데,Inflect,NNG,EC,남자/NNG+ㄴ데/EC,*
-남잔데,0,0,0,NNG+VCP+EC,*,F,남잔데,Inflect,NNG,VCP,남자/NNG+이/VCP+ᆫ데/EC,*
+남잔데,0,0,0,NNG+VCP+EC,*,F,남잔데,Inflect,NNG,EC,남자/NNG+이/VCP+ᆫ데/EC,*
 남잔지,0,0,0,NNG+EC,*,F,남잔지,Inflect,NNG,EC,남자/NNG+ㄴ지/EC,*
 남잘,0,0,0,NNG+JKO,*,T,남잘,Inflect,NNG,JKO,남자/NNG+ㄹ/JKO,*
 남잡니다,0,0,0,NNG+VCP+EC,*,F,남잡니다,Inflect,NNG,VCP,남자/NNG+이/VCP+ᄇ니다/EC,*
@@ -6913,7 +6913,7 @@
 내게맡겨라,0,0,0,NP+JKB+VV+EC,*,F,내게맡겨라,Inflect,NP,JKB,나/NP+에게/JKB+맡기/VV+어라/EC,*
 내게서,0,0,0,NP+JKB,*,F,내게서,Inflect,NP,JKB,나/NP+에게서/JKB,*
 내겐,0,0,0,NP+JKB,*,T,내겐,Inflect,NP,JKB,나/NP+에게/JKB,*
-내긴데,0,0,0,NNG+VCP+EF,*,F,내긴데,Inflect,NNG,VCP,내기/NNG+이/VCP+ᆫ데/EF,*
+내긴데,0,0,0,NNG+VCP+EF,*,F,내긴데,Inflect,NNG,EF,내기/NNG+이/VCP+ᆫ데/EF,*
 내깁니다,0,0,0,NNG+VCP+EF,*,F,내깁니다,Inflect,NNG,VCP,내기/NNG+이/VCP+ᄇ니다/EF,*
 내깔겨,0,0,0,VV+EC,*,F,내깔겨,Inflect,VV,EC,내깔기/VV+어/EC,*
 내깔긴다,0,0,0,VV+EF,*,F,내깔긴다,Inflect,VV,EF,내깔기/VV+ᆫ다/EF,*
@@ -7960,7 +7960,7 @@
 네요,0,0,0,VCP+EF,*,F,네요,Inflect,VCP,EF,이/VCP+네요/EF,*
 네키서,0,0,0,NR+JKS,*,F,네키서,Inflect,NR,JKS,넷/NR+이서/JKS,*
 넥타인,0,0,0,NNG+JX,*,T,넥타인,Inflect,NNG,JX,넥타이/NNG+ㄴ/JX,*
-넥타인데,0,0,0,NNG+VCP+EC,*,F,넥타인데,Inflect,NNG,VCP,넥타이/NNG+이/VCP+ᆫ데/EC,*
+넥타인데,0,0,0,NNG+VCP+EC,*,F,넥타인데,Inflect,NNG,EC,넥타이/NNG+이/VCP+ᆫ데/EC,*
 넨,0,0,0,XSN+JX,*,T,넨,Inflect,XSN,JX,네/XSN+ㄴ/JX,*
 넨,0,0,0,NP+VCP,*,T,넨,Inflect,NP,VCP,네/NP+이/VCP,*
 넨,0,0,0,XPN+JX,*,T,넨,Inflect,XPN,JX,네/XPN+ㄴ/JX,*
@@ -8488,7 +8488,7 @@
 누군가요,0,0,0,NP+VCP+EF,*,F,누군가요,Inflect,NP,VCP,누구/NP+이/VCP+ᆫ가요/EF,*
 누군고,0,0,0,NP+VCP+EF,*,F,누군고,Inflect,NP,VCP,누구/NP+이/VCP+ᆫ고/EF,*
 누군교,0,0,0,NP+VCP+EF,*,F,누군교,Inflect,NP,VCP,누구/NP+이/VCP+ᆫ교/EF,*
-누군데,0,0,0,NP+VCP+EF,*,F,누군데,Inflect,NP,VCP,누구/NP+이/VCP+ᆫ데/EF,*
+누군데,0,0,0,NP+VCP+EF,*,F,누군데,Inflect,NP,EF,누구/NP+이/VCP+ᆫ데/EF,*
 누군데,0,0,0,NP+VCP+EC,*,F,누군데,Inflect,NP,VCP,누구/NP+이/VCP+ᆫ데/EC,*
 누군데,0,0,0,NP+EF,*,F,누군데,Inflect,NP,EF,누구/NP+ㄴ데/EF,*
 누군데,0,0,0,NP+EC,*,F,누군데,Inflect,NP,EC,누구/NP+ㄴ데/EC,*
@@ -10279,7 +10279,7 @@
 댔,0,0,0,XSV+EP,*,T,댔,Inflect,XSV,EP,대/XSV+ㅓㅆ/EP,*
 댔,0,0,0,VX+EP,*,T,댔,Inflect,VX,EP,대/VX+ㅓㅆ/EP,*
 댔,0,0,0,VV+EP,*,T,댔,Inflect,VV,EP,대/VV+ㅓㅆ/EP,*
-댔는데,0,0,0,EC+VX+EP+EF,*,F,댔는데,Inflect,EC,VX,다/EC+하/VX+았/EP+는데/EF,*
+댔는데,0,0,0,EC+VX+EP+EF,*,F,댔는데,Inflect,EC,EF,다/EC+하/VX+았/EP+는데/EF,*
 댔니,0,0,0,EC+VX+EP+EF,*,F,댔니,Inflect,EC,VX,다/EC+하/VX+았/EP+니/EF,*
 댔던,0,0,0,EC+VV+EP+ETM,*,T,댔던,Inflect,EC,VV,다/EC+하/VV+았/EP+던/ETM,*
 댔소,0,0,0,EC+VX+EP+EF,*,F,댔소,Inflect,EC,VX,다/EC+하/VX+았/EP+소/EF,*
@@ -11320,7 +11320,7 @@
 동떨어진,0,0,0,VA+ETM,*,T,동떨어진,Inflect,VA,ETM,동떨어지/VA+ᆫ/ETM,*
 동떨어짐,0,0,0,VV+ETN,*,T,동떨어짐,Inflect,VV,ETN,동떨어지/VV+ᄆ/ETN,*
 동뜬,0,0,0,VA+ETM,*,T,동뜬,Inflect,VA,ETM,동뜨/VA+ᆫ/ETM,*
-동룐데,0,0,0,NNG+VCP+EC,*,F,동룐데,Inflect,NNG,VCP,동료/NNG+이/VCP+ᆫ데/EC,*
+동룐데,0,0,0,NNG+VCP+EC,*,F,동룐데,Inflect,NNG,EC,동료/NNG+이/VCP+ᆫ데/EC,*
 동맥경화,0,0,0,NNG+NNG,*,F,동맥경화,Inflect,NNG,NNG,대동맥/NNG+경화/NNG,*
 동문디,0,0,0,NNG+VCP+EF,*,F,동문디,Inflect,NNG,VCP,동무/NNG+이/VCP+ᆫ디/EF,*
 동물,0,0,0,NNG+JKO,*,T,동물,Inflect,NNG,JKO,동무/NNG+ᆯ/JKO,*
@@ -11882,8 +11882,8 @@
 될텐,0,0,0,VV+ETM+NNB+VCP,*,T,될텐,Inflect,VV,ETM,되/VV+ᆯ/ETM+터/NNB+이/VCP,*
 될텐데,0,0,0,VV+ETM+NNB+VCP+EC,*,F,될텐데,Inflect,VV,ETM,되/VV+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
 될텐데,0,0,0,XSV+EC,*,F,될텐데,Inflect,XSV,EC,되/XSV+ᆯ텐데/EC,*
-될텐데,0,0,0,VV+ETM+NNB+VCP+EF,*,F,될텐데,Inflect,VV,ETM,되/VV+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EF,*
-될텐데,0,0,0,XSV+ETM+NNB+VCP+EC,*,F,될텐데,Inflect,XSV,ETM,되/XSV+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
+될텐데,0,0,0,VV+ETM+NNB+VCP+EF,*,F,될텐데,Inflect,VV,EF,되/VV+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EF,*
+될텐데,0,0,0,XSV+ETM+NNB+VCP+EC,*,F,될텐데,Inflect,XSV,EC,되/XSV+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
 될텐디,0,0,0,VV+ETM+NNB+VCP+EF,*,F,될텐디,Inflect,VV,ETM,되/VV+ᆯ/ETM+터/NNB+이/VCP+ᆫ디/EF,*
 됨,0,0,0,XSV+ETN,*,T,됨,Inflect,XSV,ETN,되/XSV+ㅁ/ETN,*
 됨,0,0,0,XSA+ETN,*,T,됨,Inflect,XSA,ETN,되/XSA+ᄆ/ETN,*
@@ -14398,7 +14398,7 @@
 뗘졌,0,0,0,VV+EC+VX+EP,*,T,뗘졌,Inflect,VV,EC,띠/VV+ㅓ/EC+지/VX+ㅓㅆ/EP,*
 뗬,0,0,0,VV+EP,*,T,뗬,Inflect,VV,EP,떼/VV+었/EP,*
 또라인,0,0,0,NNG+ETM,*,T,또라인,Inflect,NNG,ETM,또라이/NNG+ㄴ/ETM,*
-또랜데,0,0,0,NNG+VCP+EC,*,F,또랜데,Inflect,NNG,VCP,또래/NNG+이/VCP+ᆫ데/EC,*
+또랜데,0,0,0,NNG+VCP+EC,*,F,또랜데,Inflect,NNG,EC,또래/NNG+이/VCP+ᆫ데/EC,*
 똑떨어진다는,0,0,0,VV+ETM,*,T,똑떨어진다는,Inflect,VV,ETM,똑떨어지/VV+ᆫ다는/ETM,*
 똑바른,0,0,0,VA+ETM,*,T,똑바른,Inflect,VA,ETM,똑바르/VA+ᆫ/ETM,*
 똑바른가,0,0,0,VA+EC,*,F,똑바른가,Inflect,VA,EC,똑바르/VA+ᆫ가/EC,*
@@ -16318,7 +16318,7 @@
 먼다는,0,0,0,VV+ETM,*,T,먼다는,Inflect,VV,ETM,멀/VV+ᆫ다는/ETM,*
 먼데,0,0,0,VA+EF,*,F,먼데,Inflect,VA,EF,멀/VA+ㄴ데/EF,*
 먼데,0,0,0,VA+EC,*,F,먼데,Inflect,VA,EC,멀/VA+ㄴ데/EC,*
-먼덴데,0,0,0,VA+ETM+NNB+VCP+EC,*,F,먼덴데,Inflect,VA,ETM,멀/VA+ᆫ/ETM+데/NNB+이/VCP+ᆫ데/EC,*
+먼덴데,0,0,0,VA+ETM+NNB+VCP+EC,*,F,먼덴데,Inflect,VA,EC,멀/VA+ᆫ/ETM+데/NNB+이/VCP+ᆫ데/EC,*
 먼델,0,0,0,VA+ETM+NNB+JKO,*,T,먼델,Inflect,VA,ETM,멀/VA+ᆫ/ETM+데/NNB+ᆯ/JKO,*
 먼도고도손가,0,0,0,NNG+EC,*,F,먼도고도손가,Inflect,NNG,EC,먼도고도소/NNG+ㄴ가/EC,*
 먼먼,0,0,0,VA+ETM+VA+ETM,*,T,먼먼,Inflect,VA,ETM,멀/VA+ᆫ/ETM+멀/VA+ᆫ/ETM,*
@@ -16841,7 +16841,7 @@
 목멘,0,0,0,VV+ETM,*,T,목멘,Inflect,VV,ETM,목메/VV+ᆫ/ETM,*
 목소린,0,0,0,NNG+JX,*,T,목소린,Inflect,NNG,JX,목소리/NNG+ㄴ/JX,*
 목소린,0,0,0,NNG+VCP,*,T,목소린,Inflect,NNG,VCP,목소리/NNG+이/VCP,*
-목소린데,0,0,0,NNG+VCP+EC,*,F,목소린데,Inflect,NNG,VCP,목소리/NNG+이/VCP+ᆫ데/EC,*
+목소린데,0,0,0,NNG+VCP+EC,*,F,목소린데,Inflect,NNG,EC,목소리/NNG+이/VCP+ᆫ데/EC,*
 목소릴,0,0,0,NNG+JKO,*,T,목소릴,Inflect,NNG,JKO,목소리/NNG+ㄹ/JKO,*
 목쉰,0,0,0,VV+ETM,*,T,목쉰,Inflect,VV,ETM,목쉬/VV+ᆫ/ETM,*
 목적으로,0,0,0,NNG+JKB,*,F,목적으로,Inflect,NNG,JKB,목적3/NNG+으로/JKB,*
@@ -17474,7 +17474,7 @@
 문젠가,0,0,0,NNG+VCP+EF,*,F,문젠가,Inflect,NNG,VCP,문제/NNG+이/VCP+ᆫ가/EF,*
 문젠가요,0,0,0,NNG+VCP+EF,*,F,문젠가요,Inflect,NNG,VCP,문제/NNG+이/VCP+ᆫ가요/EF,*
 문젠데,0,0,0,NNG+EC,*,F,문젠데,Inflect,NNG,EC,문제/NNG+ㄴ데/EC,*
-문젠데,0,0,0,NNG+VCP+EC,*,F,문젠데,Inflect,NNG,VCP,문제/NNG+이/VCP+ᆫ데/EC,*
+문젠데,0,0,0,NNG+VCP+EC,*,F,문젠데,Inflect,NNG,EC,문제/NNG+이/VCP+ᆫ데/EC,*
 문젠데,0,0,0,NNG+VCP+EF,*,F,문젠데,Inflect,NNG,VCP,문제/NNG+이/VCP+ᆫ데/EF,*
 문젠데요,0,0,0,NNG+VCP+EF,*,F,문젠데요,Inflect,NNG,VCP,문제/NNG+이/VCP+ᆫ데요/EF,*
 문젠데요,0,0,0,NNG+EF,*,F,문젠데요,Inflect,NNG,EF,문제/NNG+ㄴ데요/EF,*
@@ -21526,7 +21526,7 @@
 비싼지,0,0,0,VA+EC,*,F,비싼지,Inflect,VA,EC,비싸/VA+ㄴ지/EC,*
 비쌀,0,0,0,VA+ETM,*,T,비쌀,Inflect,VA,ETM,비싸/VA+ㄹ/ETM,*
 비쌀수록,0,0,0,VA+EC,*,T,비쌀수록,Inflect,VA,EC,비싸/VA+ᆯ수록/EC,*
-비쌀텐데,0,0,0,VA+ETM+NNB+VCP+EF,*,F,비쌀텐데,Inflect,VA,ETM,비싸/VA+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EF,*
+비쌀텐데,0,0,0,VA+ETM+NNB+VCP+EF,*,F,비쌀텐데,Inflect,VA,EF,비싸/VA+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EF,*
 비쌉니까,0,0,0,VA+EF,*,F,비쌉니까,Inflect,VA,EF,비싸/VA+ᄇ니까/EF,*
 비쌉니다,0,0,0,VA+EF,*,F,비쌉니다,Inflect,VA,EF,비싸/VA+ㅂ니다/EF,*
 비쌌,0,0,0,VA+EP,*,T,비쌌,Inflect,VA,EP,비싸/VA+았/EP,*
@@ -23897,7 +23897,7 @@
 소린겨,0,0,0,NNG+VCP+EF,*,F,소린겨,Inflect,NNG,VCP,소리/NNG+이/VCP+ᆫ겨/EF,*
 소린고,0,0,0,NNG+VCP+EF,*,F,소린고,Inflect,NNG,VCP,소리/NNG+이/VCP+ᆫ고/EF,*
 소린고,0,0,0,NNG+VCP+EC,*,F,소린고,Inflect,NNG,VCP,소리/NNG+이/VCP+ᆫ고/EC,*
-소린데,0,0,0,NNG+VCP+EF,*,F,소린데,Inflect,NNG,VCP,소리/NNG+이/VCP+ᆫ데/EF,*
+소린데,0,0,0,NNG+VCP+EF,*,F,소린데,Inflect,NNG,EF,소리/NNG+이/VCP+ᆫ데/EF,*
 소린데,0,0,0,NNG+VCP+EC,*,F,소린데,Inflect,NNG,VCP,소리/NNG+이/VCP+ᆫ데/EC,*
 소린지,0,0,0,NNG+VCP+EF,*,F,소린지,Inflect,NNG,VCP,소리/NNG+이/VCP+ᆫ지/EF,*
 소린지,0,0,0,NNG+EF,*,F,소린지,Inflect,NNG,EF,소리/NNG+ㄴ지/EF,*
@@ -24422,14 +24422,7 @@
 스러워할까봐,0,0,0,XSA+EC+VX+EC+VX+EC,*,F,스러워할까봐,Inflect,XSA,EC,스럽/XSA+어/EC+하/VX+ᆯ까/EC+보/VX+아/EC,*
 스러워해야,0,0,0,XSA+EC+VX+EC,*,F,스러워해야,Inflect,XSA,EC,스럽/XSA+어/EC+하/VX+아야/EC,*
 스러워했던가를,0,0,0,XSA+EC+VX+EP+EC+JKO,*,T,스러워했던가를,Inflect,XSA,EC,스럽/XSA+어/EC+하/VX+았/EP+던가/EC+를/JKO,*
-스러웠,0,0,0,XSA+EP+ETN+JKB,*,T,스러웠,Inflect,XSA,EP,스럽/XSA+었/EP+음/ETN+에/JKB,*
-스러웠겠,0,0,0,XSA+EP+EP+EF,*,T,스러웠겠,Inflect,XSA,EP,스럽/XSA+었/EP+겠/EP+구나/EF,*
-스러웠는,0,0,0,XSA+EP+EC+JKO,*,T,스러웠는,Inflect,XSA,EP,스럽/XSA+었/EP+는가/EC+를/JKO,*
-스러웠는지도,0,0,0,XSA+EP+EC+JX,*,F,스러웠는지도,Inflect,XSA,EP,스럽/XSA+었/EP+는지/EC+도/JX,*
-스러웠다기보단,0,0,0,XSA+EP+ETN+JKB,*,T,스러웠다기보단,Inflect,XSA,EP,스럽/XSA+았/EP+다기/ETN+보다/JKB,*
-스러웠을는지도,0,0,0,XSA+EP+EC+JX,*,F,스러웠을는지도,Inflect,XSA,EP,스럽/XSA+었/EP+을는지/EC+도/JX,*
-스러웠을지도,0,0,0,XSA+EP+EC+JX,*,F,스러웠을지도,Inflect,XSA,EP,스럽/XSA+었/EP+을지/EC+도/JX,*
-스러웠음을,0,0,0,XSA+EP+ETN+JKO,*,T,스러웠음을,Inflect,XSA,EP,스럽/XSA+었/EP+음/ETN+을/JKO,*
+스러웠,0,0,0,XSA+EP,*,T,스러웠,Inflect,XSA,EP,스럽/XSA+었/EP,*
 스러져,0,0,0,VV+EC,*,F,스러져,Inflect,VV,EC,스러지/VV+어/EC,*
 스러져간,0,0,0,VV+EC+VX+ETM,*,T,스러져간,Inflect,VV,EC,스러지/VV+어/EC+가/VX+ᆫ/ETM,*
 스러져간다,0,0,0,VV+EC+VX+EF,*,F,스러져간다,Inflect,VV,EC,스러지/VV+어/EC+가/VX+ᆫ다/EF,*
@@ -25005,7 +24998,7 @@
 신댔는데,0,0,0,EP+EC,*,F,신댔는데,Inflect,EP,EC,시/EP+ㄴ댔는데/EC,*
 신댔어,0,0,0,EP+EC+EP+EF,*,F,신댔어,Inflect,EP,EC,시/EP+ᆫ대/EC+었/EP+어/EF,*
 신댜,0,0,0,EP+EF,*,F,신댜,Inflect,EP,EF,시/EP+ᆫ댜/EF,*
-신데,0,0,0,VCP+EP+EF,*,F,신데,Inflect,VCP,EP,이/VCP+시/EP+ᆫ데/EF,*
+신데,0,0,0,VCP+EP+EF,*,F,신데,Inflect,VCP,EF,이/VCP+시/EP+ᆫ데/EF,*
 신데,0,0,0,VA+EC,*,F,신데,Inflect,VA,EC,시/VA+ㄴ데/EC,*
 신데,0,0,0,EP+EC,*,F,신데,Inflect,EP,EC,시/EP+ㄴ데/EC,*
 신데,0,0,0,NNG+EF,*,F,신데,Inflect,NNG,EF,시/NNG+ㄴ데/EF,*
@@ -25013,7 +25006,7 @@
 신데,0,0,0,NNB+EC,*,F,신데,Inflect,NNB,EC,시/NNB+ㄴ데/EC,*
 신데,0,0,0,EP+EF,*,F,신데,Inflect,EP,EF,시/EP+ㄴ데/EF,*
 신데,0,0,0,NNG+EC,*,F,신데,Inflect,NNG,EC,시/NNG+ㄴ데/EC,*
-신데,0,0,0,VCP+EP+EC,*,F,신데,Inflect,VCP,EP,이/VCP+시/EP+ᆫ데/EC,*
+신데,0,0,0,VCP+EP+EC,*,F,신데,Inflect,VCP,EC,이/VCP+시/EP+ᆫ데/EC,*
 신데도,0,0,0,EP+EC,*,F,신데도,Inflect,EP,EC,시/EP+ㄴ데도/EC,*
 신데렐란,0,0,0,NNG+JX,*,T,신데렐란,Inflect,NNG,JX,신데렐라/NNG+ㄴ/JX,*
 신데렐랄,0,0,0,NNG+JKO,*,T,신데렐랄,Inflect,NNG,JKO,신데렐라/NNG+ㄹ/JKO,*
@@ -25927,7 +25920,7 @@
 쓴지,0,0,0,VV+EC,*,F,쓴지,Inflect,VV,EC,쓸/VV+ᆫ지/EC,*
 쓸,0,0,0,VV+ETM,*,T,쓸,Inflect,VV,ETM,쓰/VV+ㄹ/ETM,*
 쓸,0,0,0,VA+ETM,*,T,쓸,Inflect,VA,ETM,쓰/VA+ㄹ/ETM,*
-쓸건데,0,0,0,VV+ETM+NNB+VCP+EF,*,F,쓸건데,Inflect,VV,ETM,쓰/VV+ᆯ/ETM+거/NNB+이/VCP+ᆫ데/EF,*
+쓸건데,0,0,0,VV+ETM+NNB+VCP+EF,*,F,쓸건데,Inflect,VV,EC,쓰/VV+ᆯ/ETM+거/NNB+이/VCP+ᆫ데/EF,*
 쓸걸요,0,0,0,VV+EF,*,F,쓸걸요,Inflect,VV,EF,쓰/VV+ㄹ걸요/EF,*
 쓸걸입쇼,0,0,0,VV+EC,*,F,쓸걸입쇼,Inflect,VV,EC,쓰/VV+ᆯ걸입쇼/EC,*
 쓸게,0,0,0,VV+ETM+NNB+JKS,*,F,쓸게,Inflect,VV,ETM,쓰/VV+ᆯ/ETM+것/NNB+이/JKS,*
@@ -26090,7 +26083,7 @@
 아,0,0,0,XSN+JKV,*,F,아,Inflect,XSN,JKV,들/XSN+아/JKV,*
 아,0,0,0,VCP+EF,*,F,아,Inflect,VCP,EF,이/VCP+아/EF,*
 아가씬,0,0,0,NNG+JX,*,T,아가씬,Inflect,NNG,JX,아가씨/NNG+ᆫ/JX,*
-아가씬데,0,0,0,NNG+VCP+EF,*,F,아가씬데,Inflect,NNG,VCP,아가씨/NNG+이/VCP+ᆫ데/EF,*
+아가씬데,0,0,0,NNG+VCP+EF,*,F,아가씬데,Inflect,NNG,EF,아가씨/NNG+이/VCP+ᆫ데/EF,*
 아가씬데,0,0,0,NNG+EC,*,F,아가씬데,Inflect,NNG,EC,아가씨/NNG+ㄴ데/EC,*
 아고요,0,0,0,VCP+EF,*,F,아고요,Inflect,VCP,EF,이/VCP+고요/EF,*
 아구,0,0,0,VCP+EF,*,F,아구,Inflect,VCP,EF,이/VCP+구/EF,*
@@ -26533,7 +26526,7 @@
 아인갑다,0,0,0,VCN+EF,*,F,아인갑다,Inflect,VCN,EF,아이/VCN+ᆫ갑다/EF,*
 아인걸요,0,0,0,NNG+VCP+EF,*,F,아인걸요,Inflect,NNG,VCP,아이/NNG+이/VCP+ᆫ걸요/EF,*
 아인교,0,0,0,VCN+EF,*,F,아인교,Inflect,VCN,EF,아이/VCN+ᆫ교/EF,*
-아인데,0,0,0,NNG+VCP+EF,*,F,아인데,Inflect,NNG,VCP,아이/NNG+이/VCP+ᆫ데/EF,*
+아인데,0,0,0,NNG+VCP+EF,*,F,아인데,Inflect,NNG,EF,아이/NNG+이/VCP+ᆫ데/EF,*
 아인데,0,0,0,VCN+EC,*,F,아인데,Inflect,VCN,EC,아이/VCN+ᆫ데/EC,*
 아인데,0,0,0,NNG+EC,*,F,아인데,Inflect,NNG,EC,아이/NNG+ㄴ데/EC,*
 아인데,0,0,0,NNG+VCP+EC,*,F,아인데,Inflect,NNG,VCP,아이/NNG+이/VCP+ᆫ데/EC,*
@@ -27174,7 +27167,7 @@
 야겠네,0,0,0,EC+VX+EP+EF,*,F,야겠네,Inflect,EC,VX,아야/EC+하/VX+겠/EP+네/EF,*
 야겠네요,0,0,0,EC+VX+EP+EF,*,F,야겠네요,Inflect,EC,VX,어야/EC+하/VX+겠/EP+네요/EF,*
 야겠는걸,0,0,0,EC+VX+EP+EF,*,T,야겠는걸,Inflect,EC,VX,어야/EC+하/VX+겠/EP+는걸/EF,*
-야겠는데,0,0,0,EC+VX+EP+EF,*,F,야겠는데,Inflect,EC,VX,아야/EC+하/VX+겠/EP+는데/EF,*
+야겠는데,0,0,0,EC+VX+EP+EF,*,F,야겠는데,Inflect,EC,EF,아야/EC+하/VX+겠/EP+는데/EF,*
 야겠는데,0,0,0,EC+VX+EP+EC,*,F,야겠는데,Inflect,EC,VX,아야/EC+하/VX+겠/EP+는데/EC,*
 야겠다,0,0,0,EC+VX+EP+EF,*,F,야겠다,Inflect,EC,VX,아야/EC+하/VX+겠/EP+다/EF,*
 야겠다,0,0,0,EC+VX+EP+EC,*,F,야겠다,Inflect,EC,VX,어야/EC+하/VX+겠/EP+다/EC,*
@@ -27337,7 +27330,7 @@
 얘긴가,0,0,0,NNG+EF,*,F,얘긴가,Inflect,NNG,EF,얘기/NNG+ㄴ가/EF,*
 얘긴가,0,0,0,NNG+VCP+EC,*,F,얘긴가,Inflect,NNG,VCP,얘기/NNG+이/VCP+ᆫ가/EC,*
 얘긴가요,0,0,0,NNG+VCP+EF,*,F,얘긴가요,Inflect,NNG,VCP,얘기/NNG+이/VCP+ᆫ가요/EF,*
-얘긴데,0,0,0,NNG+VCP+EC,*,F,얘긴데,Inflect,NNG,VCP,얘기/NNG+이/VCP+ᆫ데/EC,*
+얘긴데,0,0,0,NNG+VCP+EC,*,F,얘긴데,Inflect,NNG,EC,얘기/NNG+이/VCP+ᆫ데/EC,*
 얘긴데,0,0,0,NNG+EC,*,F,얘긴데,Inflect,NNG,EC,얘기/NNG+ㄴ데/EC,*
 얘긴데,0,0,0,NNG+EF,*,F,얘긴데,Inflect,NNG,EF,얘기/NNG+ㄴ데/EF,*
 얘긴데,0,0,0,NNG+VCP+EF,*,F,얘긴데,Inflect,NNG,VCP,얘기/NNG+이/VCP+ᆫ데/EF,*
@@ -27469,7 +27462,7 @@
 어딘가요,0,0,0,NP+VCP+EF,*,F,어딘가요,Inflect,NP,VCP,어디/NP+이/VCP+ᆫ가요/EF,*
 어딘교,0,0,0,NP+VCP+EF,*,F,어딘교,Inflect,NP,VCP,어디/NP+이/VCP+ᆫ교/EF,*
 어딘데,0,0,0,NP+EC,*,F,어딘데,Inflect,NP,EC,어디/NP+ㄴ데/EC,*
-어딘데,0,0,0,NP+VCP+EC,*,F,어딘데,Inflect,NP,VCP,어디/NP+이/VCP+ᆫ데/EC,*
+어딘데,0,0,0,NP+VCP+EC,*,F,어딘데,Inflect,NP,EC,어디/NP+이/VCP+ᆫ데/EC,*
 어딘데,0,0,0,NP+EF,*,F,어딘데,Inflect,NP,EF,어디/NP+ㄴ데/EF,*
 어딘데,0,0,0,NP+VCP+EF,*,F,어딘데,Inflect,NP,VCP,어디/NP+이/VCP+ᆫ데/EF,*
 어딘데요,0,0,0,NP+VCP+EF,*,F,어딘데요,Inflect,NP,VCP,어디/NP+이/VCP+ᆫ데요/EF,*
@@ -27502,7 +27495,7 @@
 어떠세요,0,0,0,VA+EP+EF,*,F,어떠세요,Inflect,VA,EP,어떻/VA+시/EP+어요/EF,*
 어떠셨,0,0,0,VA+EP+EP,*,T,어떠셨,Inflect,VA,EP,어떻/VA+시/EP+었/EP,*
 어떠셨,0,0,0,VA+EP+EP+EF,*,T,어떠셨,Inflect,VA,EP,어떻/VA+시/EP+ㅓㅆ/EP+어요/EF,*
-어떠셨는데,0,0,0,VA+EP+EP+EC,*,F,어떠셨는데,Inflect,VA,EP,어떻/VA+시/EP+ㅓㅆ/EP+는데/EC,*
+어떠셨는데,0,0,0,VA+EP+EP+EC,*,F,어떠셨는데,Inflect,VA,EC,어떻/VA+시/EP+ㅓㅆ/EP+는데/EC,*
 어떠한,0,0,0,VA+ETM,*,T,어떠한,Inflect,VA,ETM,어떠하/VA+ᆫ/ETM,*
 어떠한가,0,0,0,VA+EF,*,F,어떠한가,Inflect,VA,EF,어떠하/VA+ᆫ가/EF,*
 어떠한가,0,0,0,VA+EC,*,F,어떠한가,Inflect,VA,EC,어떠하/VA+ᆫ가/EC,*
@@ -28323,7 +28316,6 @@
 에둘렀,0,0,0,VV+EP,*,T,에둘렀,Inflect,VV,EP,에두르/VV+었/EP,*
 에둘린,0,0,0,VV+ETM,*,T,에둘린,Inflect,VV,ETM,에둘리/VV+ᆫ/ETM,*
 에둘릴,0,0,0,VV+ETM,*,T,에둘릴,Inflect,VV,ETM,에둘리/VV+ᆯ/ETM,*
-에러인랭귀지러닝엔유즌데,0,0,0,UNA+EC,*,F,에러인랭귀지러닝엔유즌데,Inflect,UNA,EC,에러인랭귀지러닝엔유즈/UNA+ㄴ데/EC,*
 에려,0,0,0,VA+EF,*,F,에려,Inflect,VA,EF,에리/VA+어/EF,*
 에렸,0,0,0,VA+EP,*,T,에렸,Inflect,VA,EP,에리/VA+었/EP,*
 에민,0,0,0,NNG+JX,*,T,에민,Inflect,NNG,JX,에미/NNG+ᆫ/JX,*
@@ -28539,10 +28531,10 @@
 여잔,0,0,0,NNG+JX,*,T,여잔,Inflect,NNG,JX,여자/NNG+ㄴ/JX,*
 여잔가,0,0,0,NNG+EF,*,F,여잔가,Inflect,NNG,EF,여자/NNG+ㄴ가/EF,*
 여잔가,0,0,0,NNG+VCP+EF,*,F,여잔가,Inflect,NNG,VCP,여자/NNG+이/VCP+ᆫ가/EF,*
-여잔데,0,0,0,NNG+VCP+EF,*,F,여잔데,Inflect,NNG,VCP,여자/NNG+이/VCP+ᆫ데/EF,*
+여잔데,0,0,0,NNG+VCP+EF,*,F,여잔데,Inflect,NNG,EF,여자/NNG+이/VCP+ᆫ데/EF,*
 여잔데,0,0,0,NNG+EF,*,F,여잔데,Inflect,NNG,EF,여자/NNG+ㄴ데/EF,*
 여잔데,0,0,0,NNG+EC,*,F,여잔데,Inflect,NNG,EC,여자/NNG+ㄴ데/EC,*
-여잔데,0,0,0,NNG+VCP+EC,*,F,여잔데,Inflect,NNG,VCP,여자/NNG+이/VCP+ᆫ데/EC,*
+여잔데,0,0,0,NNG+VCP+EC,*,F,여잔데,Inflect,NNG,EC,여자/NNG+이/VCP+ᆫ데/EC,*
 여잔데요,0,0,0,NNG+VCP+EF,*,F,여잔데요,Inflect,NNG,VCP,여자/NNG+이/VCP+ᆫ데요/EF,*
 여잔지,0,0,0,NNG+EC,*,F,여잔지,Inflect,NNG,EC,여자/NNG+ㄴ지/EC,*
 여잔진,0,0,0,NNG+EC,*,T,여잔진,Inflect,NNG,EC,여자/NNG+ㄴ지/EC,*
@@ -29092,7 +29084,7 @@
 올,0,0,0,NR+ETM,*,T,올,Inflect,NR,ETM,오/NR+ㄹ/ETM,*
 올,0,0,0,VCP+EC,*,T,올,Inflect,VCP,EC,이/VCP+올/EC,*
 올거,0,0,0,VV+ETM+NNB+VCP,*,F,올거,Inflect,VV,ETM,오/VV+ᆯ/ETM+것/NNB+이/VCP,*
-올건데,0,0,0,VV+ETM+NNB+VCP+EC,*,F,올건데,Inflect,VV,ETM,오/VV+ᆯ/ETM+것/NNB+이/VCP+ᆫ데/EC,*
+올건데,0,0,0,VV+ETM+NNB+VCP+EC,*,F,올건데,Inflect,VV,EC,오/VV+ᆯ/ETM+것/NNB+이/VCP+ᆫ데/EC,*
 올걸,0,0,0,VV+EF,*,T,올걸,Inflect,VV,EF,오/VV+ㄹ걸/EF,*
 올걸세,0,0,0,VV+ETM+NNB+VCP+EF,*,F,올걸세,Inflect,VV,ETM,오/VV+ᆯ/ETM+것/NNB+이/VCP+ᆯ세/EF,*
 올게,0,0,0,VX+EF,*,F,올게,Inflect,VX,EF,오/VX+ᆯ게/EF,*
@@ -29352,7 +29344,7 @@
 올테니,0,0,0,VV+EP,*,F,올테니,Inflect,VV,EP,올라오/VV+았/EP,*
 올테니,0,0,0,VV+EF,*,F,올테니,Inflect,VV,EF,오/VV+ᆯ테니/EF,*
 올테니까,0,0,0,VX+EC,*,F,올테니까,Inflect,VX,EC,오/VX+ᆯ테니까/EC,*
-올텐데,0,0,0,VV+ETM+NNB+VCP+EC,*,F,올텐데,Inflect,VV,ETM,오/VV+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
+올텐데,0,0,0,VV+ETM+NNB+VCP+EC,*,F,올텐데,Inflect,VV,EC,오/VV+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
 올핸,0,0,0,NNG+JX,*,T,올핸,Inflect,NNG,JX,올해/NNG+ᆫ/JX,*
 옭아맬,0,0,0,VV+ETM,*,T,옭아맬,Inflect,VV,ETM,옭아매/VV+ᆯ/ETM,*
 옭아맸,0,0,0,VV+EP,*,T,옭아맸,Inflect,VV,EP,옭아매/VV+었/EP,*
@@ -31596,7 +31588,7 @@
 일테면,0,0,0,VV+ETM+NNB+VCP,*,T,일테면,Inflect,VV,ETM,이르/VV+ᆯ/ETM+터/NNB+이/VCP,*
 일테지만,0,0,0,VCP+EC,*,T,일테지만,Inflect,VCP,EC,이/VCP+ᆯ테지만/EC,*
 일텐,0,0,0,VCP+ETM+NNB+VCP,*,T,일텐,Inflect,VCP,ETM,이/VCP+ᆯ/ETM+터/NNB+이/VCP,*
-일텐데,0,0,0,VCP+ETM+NNB+VCP+EF,*,F,일텐데,Inflect,VCP,ETM,이/VCP+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EF,*
+일텐데,0,0,0,VCP+ETM+NNB+VCP+EF,*,F,일텐데,Inflect,VCP,EF,이/VCP+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EF,*
 일텐데,0,0,0,VCP+EC,*,F,일텐데,Inflect,VCP,EC,이/VCP+ㄹ텐데/EC,*
 일텐데,0,0,0,VCP+ETM+NNB+VCP+EC,*,F,일텐데,Inflect,VCP,ETM,이/VCP+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
 일폰가,0,0,0,NNG+VCP+EC,*,F,일폰가,Inflect,NNG,VCP,일포/NNG+이/VCP+ᆫ가/EC,*
@@ -31983,7 +31975,7 @@
 잖여,0,0,0,VCP+EF,*,F,잖여,Inflect,VCP,EF,이/VCP+잖아/EF,*
 잖여,0,0,0,EC+VX+EF,*,F,잖여,Inflect,EC,VX,지/EC+않/VX+아/EF,*
 잖은,0,0,0,XSV+EC+VX+ETM,*,T,잖은,Inflect,XSV,EC,하/XSV+지/EC+않/VX+은/ETM,*
-잖은데,0,0,0,EC+VX+EC+EC,*,F,잖은데,Inflect,EC,VX,지/EC+않/VX+게/EC+은데/EC,*
+잖은데,0,0,0,EC+VX+EC+EC,*,F,잖은데,Inflect,EC,EC,지/EC+않/VX+게/EC+은데/EC,*
 잗다란,0,0,0,VA+ETM,*,T,잗다란,Inflect,VA,ETM,잗다랗/VA+ᆫ/ETM,*
 잘,0,0,0,VV+ETM,*,T,잘,Inflect,VV,ETM,자/VV+ㄹ/ETM,*
 잘,0,0,0,EC+VV,*,T,잘,Inflect,EC,VV,자/EC+하/VV,*
@@ -34964,7 +34956,7 @@
 짜린,0,0,0,XSN+JX,*,T,짜린,Inflect,XSN,JX,짜리/XSN+ᆫ/JX,*
 짜린가,0,0,0,XSN+EF,*,F,짜린가,Inflect,XSN,EF,짜리/XSN+ㄴ가/EF,*
 짜린가,0,0,0,XSN+EC,*,F,짜린가,Inflect,XSN,EC,짜리/XSN+ㄴ가/EC,*
-짜린데,0,0,0,XSN+VCP+EC,*,F,짜린데,Inflect,XSN,VCP,짜리/XSN+이/VCP+ᆫ데/EC,*
+짜린데,0,0,0,XSN+VCP+EC,*,F,짜린데,Inflect,XSN,EC,짜리/XSN+이/VCP+ᆫ데/EC,*
 짜린데,0,0,0,XSN+EF,*,F,짜린데,Inflect,XSN,EF,짜리/XSN+ㄴ데/EF,*
 짜린데,0,0,0,XSN+EC,*,F,짜린데,Inflect,XSN,EC,짜리/XSN+ㄴ데/EC,*
 짜린데도,0,0,0,XSN+EC,*,F,짜린데도,Inflect,XSN,EC,짜리/XSN+ㄴ데도/EC,*
@@ -35072,7 +35064,7 @@
 짼가,0,0,0,XSN+EC,*,F,짼가,Inflect,XSN,EC,째/XSN+ㄴ가/EC,*
 짼다,0,0,0,VV+EF,*,F,짼다,Inflect,VV,EF,째/VV+ㄴ다/EF,*
 짼다고,0,0,0,VV+EC,*,F,짼다고,Inflect,VV,EC,째/VV+ㄴ다고/EC,*
-짼데,0,0,0,XSN+VCP+EC,*,F,짼데,Inflect,XSN,VCP,째/XSN+이/VCP+ᆫ데/EC,*
+짼데,0,0,0,XSN+VCP+EC,*,F,짼데,Inflect,XSN,EC,째/XSN+이/VCP+ᆫ데/EC,*
 짼데,0,0,0,XSN+EC,*,F,짼데,Inflect,XSN,EC,째/XSN+ㄴ데/EC,*
 짼진,0,0,0,XSN+VCP+EC+JX,*,T,짼진,Inflect,XSN,VCP,째/XSN+이/VCP+ᆫ지/EC+ᆫ/JX,*
 쨀,0,0,0,VV+ETM,*,T,쨀,Inflect,VV,ETM,째/VV+ㄹ/ETM,*
@@ -35131,7 +35123,7 @@
 쪼끄매,0,0,0,VA+EF,*,F,쪼끄매,Inflect,VA,EF,쪼끄맣/VA+ㅕ/EF,*
 쪼끄매서,0,0,0,VA+EC,*,F,쪼끄매서,Inflect,VA,EC,쪼끄맣/VA+ㅕ서/EC,*
 쪼끄매졌,0,0,0,VA+EC+VX+EP,*,T,쪼끄매졌,Inflect,VA,EC,쪼끄맣/VA+ㅕ/EC+지/VX+ㅓㅆ/EP,*
-쪼단데,0,0,0,NNG+VCP+EF,*,F,쪼단데,Inflect,NNG,VCP,쪼다/NNG+이/VCP+ᆫ데/EF,*
+쪼단데,0,0,0,NNG+VCP+EF,*,F,쪼단데,Inflect,NNG,EF,쪼다/NNG+이/VCP+ᆫ데/EF,*
 쪼달렸,0,0,0,VV+EP,*,T,쪼달렸,Inflect,VV,EP,쪼달리/VV+었/EP,*
 쪼들려,0,0,0,VV+EC,*,F,쪼들려,Inflect,VV,EC,쪼들리/VV+어/EC,*
 쪼들려도,0,0,0,VV+EC,*,F,쪼들려도,Inflect,VV,EC,쪼들리/VV+어도/EC,*
@@ -36286,7 +36278,6 @@
 추운,0,0,0,VA+EF,*,T,추운,Inflect,VA,EF,춥/VA+은가/EF,*
 추운,0,0,0,VA+ETM,*,T,추운,Inflect,VA,ETM,춥/VA+은/ETM,*
 추운데,0,0,0,VA+EC,*,F,추운데,Inflect,VA,EC,춥/VA+은데/EC,*
-추운데,0,0,0,VA+EC+JX+JX,*,F,추운데,Inflect,VA,EC,춥/VA+은데/EC+도/JX+요/JX,*
 추울,0,0,0,VA+EF,*,T,추울,Inflect,VA,EF,춥/VA+을까/EF,*
 추울,0,0,0,VA+ETM+NNB+VCP,*,T,추울,Inflect,VA,ETM,춥/VA+을/ETM+터/NNB+이/VCP,*
 추울까,0,0,0,VA+EC,*,F,추울까,Inflect,VA,EC,춥/VA+ᆯ까/EC,*
@@ -37461,7 +37452,7 @@
 턴,0,0,0,NNB+VCP,*,T,턴,Inflect,NNB,VCP,터/NNB+이/VCP,*
 턴고,0,0,0,XSA+EC,*,F,턴고,Inflect,XSA,EC,하/XSA+던고/EC,*
 턴다,0,0,0,VV+EF,*,F,턴다,Inflect,VV,EF,털/VV+ᆫ다/EF,*
-턴데,0,0,0,NNB+VCP+EF,*,F,턴데,Inflect,NNB,VCP,터/NNB+이/VCP+ᆫ데/EF,*
+턴데,0,0,0,NNB+VCP+EF,*,F,턴데,Inflect,NNB,EF,터/NNB+이/VCP+ᆫ데/EF,*
 턴데쇼,0,0,0,NNB+VCP+EC,*,F,턴데쇼,Inflect,NNB,VCP,터/NNB+이/VCP+ᆫ데쇼/EC,*
 턴데쇼,0,0,0,NNB+VCP+EF,*,F,턴데쇼,Inflect,NNB,VCP,터/NNB+이/VCP+ᆫ데쇼/EF,*
 털럭거렸,0,0,0,VV+EP,*,T,털럭거렸,Inflect,VV,EP,털럭거리/VV+었/EP,*
@@ -37503,7 +37494,7 @@
 텐데,0,0,0,NNB+EF,*,F,텐데,Inflect,NNB,EF,터/NNB+ㄴ데/EF,*
 텐데,0,0,0,NNB+EC,*,F,텐데,Inflect,NNB,EC,터/NNB+ㄴ데/EC,*
 텐데,0,0,0,NNB+VCP+EC+VCP,*,F,텐데,Inflect,NNB,VCP,터/NNB+이/VCP+ᆫ데/EC+이/VCP,*
-텐데,0,0,0,ETM+NNB+VCP+EC,*,F,텐데,Inflect,ETM,NNB,ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
+텐데,0,0,0,ETM+NNB+VCP+EC,*,F,텐데,Inflect,ETM,EC,ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
 텐데,0,0,0,VCP+EC,*,F,텐데,Inflect,VCP,EC,터/VCP+ㄴ데/EC,*
 텐데,0,0,0,NNB+VCP+EC,*,F,텐데,Inflect,NNB,VCP,터/NNB+이/VCP+ᆫ데/EC,*
 텐데,0,0,0,NNG+EC,*,F,텐데,Inflect,NNG,EC,터/NNG+ㄴ데/EC,*
@@ -38682,7 +38673,7 @@
 하난,0,0,0,NR+VCP,*,T,하난,Inflect,NR,VCP,하나/NR+이/VCP,*
 하난,0,0,0,NR+JX,*,T,하난,Inflect,NR,JX,하나/NR+ㄴ/JX,*
 하난가,0,0,0,NR+EC,*,F,하난가,Inflect,NR,EC,하나/NR+ㄴ가/EC,*
-하난데,0,0,0,NR+VCP+EC,*,F,하난데,Inflect,NR,VCP,하나/NR+이/VCP+ᆫ데/EC,*
+하난데,0,0,0,NR+VCP+EC,*,F,하난데,Inflect,NR,EC,하나/NR+이/VCP+ᆫ데/EC,*
 하난데,0,0,0,NNG+EC,*,F,하난데,Inflect,NNG,EC,하나/NNG+ㄴ데/EC,*
 하난데,0,0,0,NR+EC,*,F,하난데,Inflect,NR,EC,하나/NR+ㄴ데/EC,*
 하난데요,0,0,0,NR+EF,*,F,하난데요,Inflect,NR,EF,하나/NR+ㄴ데요/EF,*
@@ -38781,7 +38772,7 @@
 한건,0,0,0,XSV+ETM+NNB+VCP,*,T,한건,Inflect,XSV,ETM,하/XSV+ᆫ/ETM+것/NNB+이/VCP,*
 한건,0,0,0,VV+ETM+NNB+VCP,*,T,한건,Inflect,VV,ETM,하/VV+ᆫ/ETM+것/NNB+이/VCP,*
 한건,0,0,0,VX+ETM+NNB+JX,*,T,한건,Inflect,VX,ETM,하/VX+ᆫ/ETM+것/NNB+ᆫ/JX,*
-한건데,0,0,0,VX+ETM+NNB+VCP+EC,*,F,한건데,Inflect,VX,ETM,하/VX+ᆫ/ETM+것/NNB+이/VCP+ᆫ데/EC,*
+한건데,0,0,0,VX+ETM+NNB+VCP+EC,*,F,한건데,Inflect,VX,EC,하/VX+ᆫ/ETM+것/NNB+이/VCP+ᆫ데/EC,*
 한걸,0,0,0,VX+EF,*,T,한걸,Inflect,VX,EF,하/VX+ᆫ걸/EF,*
 한걸,0,0,0,VV+EF,*,T,한걸,Inflect,VV,EF,하/VV+ᆫ걸/EF,*
 한걸,0,0,0,VX+ETM+NNB+JKO,*,T,한걸,Inflect,VX,ETM,하/VX+ᆫ/ETM+것/NNB+ᆯ/JKO,*
@@ -39213,7 +39204,7 @@
 할게요,0,0,0,XSV+EC,*,F,할게요,Inflect,XSV,EC,하/XSV+ᆯ게요/EC,*
 할고,0,0,0,XSV+EC,*,F,할고,Inflect,XSV,EC,하/XSV+ᆯ고/EC,*
 할고,0,0,0,XSV+EF,*,F,할고,Inflect,XSV,EF,하/XSV+ᆯ고/EF,*
-할긴데,0,0,0,XSA+ETM+NNB+EF,*,F,할긴데,Inflect,XSA,ETM,하/XSA+ᆯ/ETM+기/NNB+ᆫ데/EF,*
+할긴데,0,0,0,XSA+ETM+NNB+EF,*,F,할긴데,Inflect,XSA,EF,하/XSA+ᆯ/ETM+기/NNB+ᆫ데/EF,*
 할까,0,0,0,VV+EF,*,F,할까,Inflect,VV,EF,하/VV+ㄹ까/EF,*
 할까,0,0,0,XSV+EC,*,F,할까,Inflect,XSV,EC,하/XSV+ㄹ까/EC,*
 할까,0,0,0,VV+EC,*,F,할까,Inflect,VV,EC,하/VV+ㄹ까/EC,*
@@ -39468,7 +39459,7 @@
 할텐데,0,0,0,XSA+ETM+NNB+VCP+EC,*,F,할텐데,Inflect,XSA,ETM,하/XSA+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
 할텐데,0,0,0,XSV+EC,*,F,할텐데,Inflect,XSV,EC,하/XSV+ᆯ텐데/EC,*
 할텐데,0,0,0,VX+ETM+NNB+VCP+EF,*,F,할텐데,Inflect,VX,ETM,하/VX+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EF,*
-할텐데,0,0,0,VX+ETM+NNB+VCP+EC,*,F,할텐데,Inflect,VX,ETM,하/VX+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
+할텐데,0,0,0,VX+ETM+NNB+VCP+EC,*,F,할텐데,Inflect,VX,EC,하/VX+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
 할텐데,0,0,0,XSA+EF,*,F,할텐데,Inflect,XSA,EF,하/XSA+ᆯ텐데/EF,*
 할텐데,0,0,0,XSA+ETM+NNB+VCP+EF,*,F,할텐데,Inflect,XSA,ETM,하/XSA+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EF,*
 할텐데,0,0,0,VV+ETM+NNB+VCP+EF,*,F,할텐데,Inflect,VV,ETM,하/VV+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EF,*
@@ -39476,7 +39467,7 @@
 할텐데,0,0,0,VV+EC,*,F,할텐데,Inflect,VV,EC,하/VV+ᆯ텐데/EC,*
 할텐데,0,0,0,XSA+EC,*,F,할텐데,Inflect,XSA,EC,하/XSA+ᆯ텐데/EC,*
 할텐데,0,0,0,VX+EC,*,F,할텐데,Inflect,VX,EC,하/VX+ᆯ텐데/EC,*
-할텐데,0,0,0,XSV+ETM+NNB+VCP+EC,*,F,할텐데,Inflect,XSV,ETM,하/XSV+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
+할텐데,0,0,0,XSV+ETM+NNB+VCP+EC,*,F,할텐데,Inflect,XSV,EC,하/XSV+ᆯ/ETM+터/NNB+이/VCP+ᆫ데/EC,*
 할텐데요,0,0,0,VX+ETM+NNB+VCP+EF,*,F,할텐데요,Inflect,VX,ETM,하/VX+ᆯ/ETM+터/NNB+이/VCP+ᆫ데요/EF,*
 할텐데요,0,0,0,VV+EC+ETM+NNB+VCP+EF,*,F,할텐데요,Inflect,VV,EC,하/VV+아/EC+ᆯ/ETM+터/NNB+이/VCP+ᆫ데요/EF,*
 할텡께,0,0,0,VV+EC,*,F,할텡께,Inflect,VV,EC,하/VV+ᆯ텡께/EC,*
@@ -39502,7 +39493,7 @@
 함인가,0,0,0,XSA+ETN+VCP+EF,*,F,함인가,Inflect,XSA,ETN,하/XSA+ᄆ/ETN+이/VCP+ᆫ가/EF,*
 함인가,0,0,0,XSA+ETN+VCP+EC,*,F,함인가,Inflect,XSA,ETN,하/XSA+ᄆ/ETN+이/VCP+ᆫ가/EC,*
 함인가요,0,0,0,XSA+ETN+VCP+EF,*,F,함인가요,Inflect,XSA,ETN,하/XSA+ᄆ/ETN+이/VCP+ᆫ가요/EF,*
-함인데,0,0,0,XSV+ETN+VCP+EC,*,F,함인데,Inflect,XSV,ETN,하/XSV+ᄆ/ETN+이/VCP+ᆫ데/EC,*
+함인데,0,0,0,XSV+ETN+VCP+EC,*,F,함인데,Inflect,XSV,EC,하/XSV+ᄆ/ETN+이/VCP+ᆫ데/EC,*
 함인지,0,0,0,VV+ETN+VCP+EC,*,F,함인지,Inflect,VV,ETN,하/VV+ᄆ/ETN+이/VCP+ᆫ지/EC,*
 함인지,0,0,0,XSV+ETN+VCP+EC,*,F,함인지,Inflect,XSV,ETN,하/XSV+ᄆ/ETN+이/VCP+ᆫ지/EC,*
 함인지라는,0,0,0,XSV+ETN+VCP+EC+VCP+ETM,*,T,함인지라는,Inflect,XSV,ETN,하/XSV+ᄆ/ETN+이/VCP+ᆫ지/EC+이/VCP+라는/ETM,*
@@ -40503,7 +40494,7 @@
 했다니까,0,0,0,VV+EF,*,F,했다니까,Inflect,VV,EF,하/VV+ㅕㅆ다니까/EF,*
 했다니깐,0,0,0,VV+EP+EC+JX,*,T,했다니깐,Inflect,VV,EP,하/VV+았/EP+다니까/EC+ᆫ/JX,*
 했다잖,0,0,0,XSV+EP+EC+VX,*,T,했다잖,Inflect,XSV,EP,하/XSV+았/EP+다지/EC+않/VX,*
-했더랬는데,0,0,0,VV+EP+EC+VX+EP+EC,*,F,했더랬는데,Inflect,VV,EP,하/VV+았/EP+더라/EC+하/VX+았/EP+는데/EC,*
+했더랬는데,0,0,0,VV+EP+EC+VX+EP+EC,*,F,했더랬는데,Inflect,VV,EC,하/VV+았/EP+더라/EC+하/VX+았/EP+는데/EC,*
 했더랬다,0,0,0,XSA+EP+EC+VX+EP+EF,*,F,했더랬다,Inflect,XSA,EP,하/XSA+았/EP+더라/EC+하/VX+았/EP+다/EF,*
 했더랬습니다,0,0,0,XSA+EP+EC+VV+EP+EF,*,F,했더랬습니다,Inflect,XSA,EP,하/XSA+았/EP+더라/EC+하/VV+았/EP+습니다/EF,*
 했더랬습니다,0,0,0,VV+EP+EC+VV+EP+EF,*,F,했더랬습니다,Inflect,VV,EP,하/VV+았/EP+더라/EC+하/VV+았/EP+습니다/EF,*
@@ -41047,10 +41038,10 @@
 혔,0,0,0,XSA+EP,*,T,혔,Inflect,XSA,EP,하/XSA+었/EP,*
 혔,0,0,0,XSV+EP,*,T,혔,Inflect,XSV,EP,허/XSV+었/EP,*
 혔,0,0,0,VV+EP,*,T,혔,Inflect,VV,EP,허/VV+었/EP,*
-형긴데,0,0,0,NNG+VCP+EC,*,F,형긴데,Inflect,NNG,VCP,형기/NNG+이/VCP+ᆫ데/EC,*
+형긴데,0,0,0,NNG+VCP+EC,*,F,형긴데,Inflect,NNG,EC,형기/NNG+이/VCP+ᆫ데/EC,*
 형깁니다,0,0,0,NNG+VCP+EF,*,F,형깁니다,Inflect,NNG,VCP,형기/NNG+이/VCP+ᄇ니다/EF,*
 형산,0,0,0,NNG+VCP,*,T,형산,Inflect,NNG,VCP,형사/NNG+이/VCP,*
-형산데,0,0,0,NNG+VCP+EC,*,F,형산데,Inflect,NNG,VCP,형사/NNG+이/VCP+ᆫ데/EC,*
+형산데,0,0,0,NNG+VCP+EC,*,F,형산데,Inflect,NNG,EC,형사/NNG+이/VCP+ᆫ데/EC,*
 형상론자,0,0,0,NNG,*,F,형상론자,*,*,*,형성론자/NNG,*
 형석인데,0,0,0,NNG+VCP+EF,*,F,형석인데,Inflect,NNG,VCP,형석이/NNG+이/VCP+ᆫ데/EF,*
 형젠가,0,0,0,NNG+EC,*,F,형젠가,Inflect,NNG,EC,형제/NNG+ㄴ가/EC,*
@@ -41626,7 +41617,7 @@
 흔치,0,0,0,VA+EC,*,F,흔치,Inflect,VA,EC,흔하/VA+지/EC,*
 흔한,0,0,0,VA+ETM,*,T,흔한,Inflect,VA,ETM,흔하/VA+ㄴ/ETM,*
 흔한가,0,0,0,VA+EC,*,F,흔한가,Inflect,VA,EC,흔하/VA+ᆫ가/EC,*
-흔한건데,0,0,0,VA+ETM+NNB+VCP+EF,*,F,흔한건데,Inflect,VA,ETM,흔하/VA+ᆫ/ETM+것/NNB+이/VCP+ᆫ데/EF,*
+흔한건데,0,0,0,VA+ETM+NNB+VCP+EF,*,F,흔한건데,Inflect,VA,EF,흔하/VA+ᆫ/ETM+것/NNB+이/VCP+ᆫ데/EF,*
 흔한데,0,0,0,VA+EC,*,F,흔한데,Inflect,VA,EC,흔하/VA+ㄴ데/EC,*
 흔한데다가,0,0,0,VA+EC,*,F,흔한데다가,Inflect,VA,EC,흔하/VA+ᆫ데다가/EC,*
 흔한들,0,0,0,VA+EC,*,T,흔한들,Inflect,VA,EC,흔하/VA+ᆫ들/EC,*
@@ -41866,7 +41857,7 @@
 흩어진다는,0,0,0,VV+ETM,*,T,흩어진다는,Inflect,VV,ETM,흩어지/VV+ᆫ다는/ETM,*
 흩어질,0,0,0,VV+ETM,*,T,흩어질,Inflect,VV,ETM,흩어지/VV+ᆯ/ETM,*
 흩어짐,0,0,0,VV+ETN,*,T,흩어짐,Inflect,VV,ETN,흩어지/VV+ᄆ/ETN,*
-흩어짐일진데,0,0,0,VV+ETN+VCP+EC,*,F,흩어짐일진데,Inflect,VV,ETN,흩어지/VV+ᄆ/ETN+이/VCP+ᆯ진데/EC,*
+흩어짐일진데,0,0,0,VV+ETN+VCP+EC,*,F,흩어짐일진데,Inflect,VV,EC,흩어지/VV+ᄆ/ETN+이/VCP+ᆯ진데/EC,*
 흩트러,0,0,0,VV+EC,*,F,흩트러,Inflect,VV,EC,흩트리/VV+어/EC,*
 흩트려,0,0,0,VV+EC,*,F,흩트려,Inflect,VV,EC,흩트리/VV+어/EC,*
 흩트린,0,0,0,VV+ETM,*,T,흩트린,Inflect,VV,ETM,흩트리/VV+ᆫ/ETM,*
@@ -41927,7 +41918,7 @@
 힘낼게,0,0,0,VV+EF,*,F,힘낼게,Inflect,VV,EF,힘내/VV+ᆯ게/EF,*
 힘냅시다,0,0,0,VV+EF,*,F,힘냅시다,Inflect,VV,EF,힘내/VV+ᄇ시다/EF,*
 힘드,0,0,0,VA,*,F,힘드,*,*,*,힘들/VA,*
-힘드신데,0,0,0,VA+EP+ETM+NNB,*,F,힘드신데,Inflect,VA,EP,힘들/VA+시/EP+ᆫ/ETM+데/NNB,*
+힘드신데,0,0,0,VA+EP+ETM+NNB,*,F,힘드신데,Inflect,VA,NNB,힘들/VA+시/EP+ᆫ/ETM+데/NNB,*
 힘드신데두,0,0,0,VA+EP+EC+JX,*,F,힘드신데두,Inflect,VA,EP,힘들/VA+시/EP+ㄴ데/EC+두/JX,*
 힘드실,0,0,0,VA+EP,*,T,힘드실,Inflect,VA,EP,힘들/VA+시/EP,*
 힘든,0,0,0,VA+EF,*,T,힘든,Inflect,VA,EF,힘들/VA+ᆫ/EF,*
