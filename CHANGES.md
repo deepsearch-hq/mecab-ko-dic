@@ -1,5 +1,8 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-1.5.0-20140317
+  - Inflect end_pos 오류 수정
+
 ## mecab-ko-dic-1.5.0-20140314
 
   - 사전 추가 및 오류 수정
