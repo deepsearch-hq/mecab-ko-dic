@@ -16,26 +16,10 @@ popd
 rm -f *.dic *.bin model model.txt
 $DICT_INDEX -p -d . -c UTF-8 -t UTF-8 -f UTF-8
 
-first="yes"
 model_file="model"
-for file in `ls corpus/*.txt`; do
-	echo $file
-	if [ "$first" == "yes" ]; then
-		$COST_TRAIN -p 2 -c 1.0 $file ${model_file}.tmp
-        if [ "$?" != 0 ]; then
-            exit -1
-        fi
-		first="no"
-	else
-		$COST_TRAIN -p 2 -c 1.0 -M ${model_file} $file ${model_file}.tmp
-        if [ "$?" != 0 ]; then
-            exit -1
-        fi
-	fi
+corpus_file="corpus/eunjeon_corpus.txt"
+$COST_TRAIN -p 13 -c 1.0  ${corpus_file} ${model_file}
 
-	rm -f ${model_file}
-	mv ${model_file}.tmp ${model_file}
-done
 
 cp pos-id.def ../final/.
 $DICT_GEN -o ../final -m $model_file
@@ -43,9 +27,9 @@ $DICT_GEN -o ../final -m $model_file
 rm -rf ../final.org
 cp -R ../final ../final.org
 
-./change_word_cost_ex.sh
-./change_word_cost.sh
-./change_connection_cost.sh
+#./change_word_cost_ex.sh
+#./change_word_cost.sh
+#./change_connection_cost.sh
 
 pushd ../final
 ./configure; make
