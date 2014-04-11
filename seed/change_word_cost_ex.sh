@@ -10,18 +10,21 @@ else
     LENGTH_2=2
 fi
 TARGET_DIR='../final'
-for each in `ls $TARGET_DIR/Person*.csv $TARGET_DIR/Place*.csv`; do
+for each in `ls $TARGET_DIR/Person*.csv`; do
     echo "change word cost in $each ..."
     cat $each | $AWK -F ',' -v length_3=$LENGTH_3 -v length_2=$LENGTH_2 'BEGIN {
         OFS = ","
     }
     {
-        if (length($1) == length_2) {
-            decr_cost = int($4 * 0.7);
-        } else if (length($1) >= length_3) {
-            decr_cost = int($4 * 0.6);
-        } else {
-            decr_cost = $4
+        surface = $1
+        decr_cost = $4
+        if (length(surface) == length_2) {
+            # do nothing (추후 필요하면...)
+        } else if (length(surface) >= length_3) {
+            where = match(surface, "^이")
+            if (where && decr_cost > 0) {
+                decr_cost = int(decr_cost * 0.5);
+            }
         }
         print($1,$2,$3,decr_cost,$5,$6,$7,$8,$9,$10,$11,$12,$13)
     }' > $each.tmp
