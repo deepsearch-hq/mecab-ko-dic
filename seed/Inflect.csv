@@ -28639,7 +28639,6 @@
 안동소준가,0,0,0,NNP+VCP+EF,*,F,안동소준가,Inflect,NNP,EF,안동소주/NNP+이/VCP+ㄴ가/EF,*
 안돼,0,0,0,VA+EC,*,F,안돼,Inflect,VA,EC,안되/VA+어/EC,*
 안됐,0,0,0,VA+EP,*,T,안됐,Inflect,VA,EP,안되/VA+었/EP,*
-안됐내요,0,0,0,VA+EP+EF,*,F,안됐내요,Inflect,VA,EF,안되/VA+었/EP+네요/EF,*
 안된,0,0,0,VA+ETM,*,T,안된,Inflect,VA,ETM,안되/VA+ᆫ/ETM,*
 안된다,0,0,0,VA+EF,*,F,안된다,Inflect,VA,EF,안되/VA+ᆫ다/EF,*
 안된다는,0,0,0,VA+ETM,*,T,안된다는,Inflect,VA,ETM,안되/VA+ᆫ다는/ETM,*
