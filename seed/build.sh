@@ -27,9 +27,9 @@ $DICT_GEN -o ../final -m $model_file
 rm -rf ../final.org
 cp -R ../final ../final.org
 
-#./change_word_cost_ex.sh
-#./change_word_cost.sh
-#./change_connection_cost.sh
+./change_word_cost_ex.sh
+./change_word_cost.sh
+./change_connection_cost.sh
 
 pushd ../final
 ./configure; make
