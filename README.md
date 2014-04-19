@@ -55,6 +55,7 @@ tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 �
 
     :::text
     $ mecab -d /usr/local/lib/mecab/dic/mecab-ko-dic
+    mecab-ko-dic은 MeCab을 사용하여, 한국어 형태소 분석을 하기 위한 프로젝트입니다.
     mecab   SL,*,*,*,*,*,*,*,*
     -   SY,*,*,*,*,*,*,*,*
     ko  SL,*,*,*,*,*,*,*,*
@@ -75,8 +76,8 @@ tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 �
     기  ETN,*,F,기,*,*,*,*,*
     위한    VV+ETM,*,T,위한,Inflect,VV,ETM,위하/VV+ᆫ/ETM,*
     프로젝트    NNG,*,F,프로젝트,*,*,*,*,*
-    입  VV,*,T,입,*,*,*,*,*
-    니  EC,*,F,니,*,*,*,*,*
+    입니다  VCP+EF,*,F,입니다,Inflect,VCP,EF,이/VCP+ᄇ니다/EF,*
+    .   SF,*,*,*,*,*,*,*,*
     EOS
 
 mecab-ko-dic에서 사용하는 사전 형식이나 품사 태그에 대한 정보는 다음의 페이지에서 보실 수 있습니다.
