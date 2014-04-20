@@ -1,5 +1,12 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-1.6.0
+
+  - 학습 말뭉치를 모든 세종 말뭉치에서 50문장씩 사용하는 것으로 변경
+  - Inflect 사전 새로운 프로그램을 사용하여 재구성
+  - "·,:/"에 새로운 POS(SC) 부여 후 학습
+  - "“「" -> SSO, "”」" -> SSC 추가
+
 ## mecab-ko-dic-1.5.0-20140317
   - Inflect end_pos 오류 수정
 
