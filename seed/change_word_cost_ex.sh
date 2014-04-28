@@ -23,7 +23,7 @@ for each in `ls $TARGET_DIR/Person*.csv`; do
         } else if (length(surface) >= length_3) {
             where = match(surface, "^이")
             if (where && decr_cost > 0) {
-                decr_cost = int(decr_cost * 0.5);
+                decr_cost = int(decr_cost * 0.4);
             } else {
                 decr_cost = int(decr_cost * 0.7);
             }
