@@ -32741,7 +32741,6 @@
 이,0,0,0,XSN+JKS,*,F,이,Inflect,XSN,JKS,당/XSN+이/JKS,*
 이감갑니다,0,0,0,NNP+VCP+EF,*,F,이감갑니다,Inflect,NNP,EF,이감가/NNP+이/VCP+ᄇ니다/EF,*
 이거,0,0,0,NP+VCP,*,F,이거,Inflect,NP,VCP,이것/NP+이/VCP,*
-이거,0,0,0,NP,*,F,이거,Inflect,NP,NP,이것/NP,*
 이거요,0,0,0,NP+VCP+EF,*,F,이거요,Inflect,NP,EF,이것/NP+이/VCP+오/EF,*
 이건,0,0,0,NP+JX,*,T,이건,Inflect,NP,JX,이거/NP+ㄴ/JX,*
 이건,0,0,0,NP+VCP+ETM,*,T,이건,Inflect,NP,ETM,이것/NP+이/VCP+ᆫ/ETM,*
@@ -34651,7 +34650,6 @@
 저,0,0,0,NP,*,F,저,Inflect,NP,NP,제/NP,*
 저,0,0,0,VV,*,F,저,Inflect,VV,VV,젓/VV,*
 저거,0,0,0,NP+VCP,*,F,저거,Inflect,NP,VCP,저것/NP+이/VCP,*
-저거,0,0,0,NP,*,F,저거,Inflect,NP,NP,저것/NP,*
 저거야말로,0,0,0,NP+JX,*,F,저거야말로,Inflect,NP,JX,저것/NP+이야말로/JX,*
 저건,0,0,0,NP+JX,*,T,저건,Inflect,NP,JX,저것/NP+ᆫ/JX,*
 저건,0,0,0,NP+VCP+ETM,*,T,저건,Inflect,NP,ETM,저거/NP+이/VCP+ㄴ/ETM,*
