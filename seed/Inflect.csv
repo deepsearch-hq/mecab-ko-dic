@@ -3515,8 +3515,6 @@
 그걸세,0,0,0,NP+VCP+EF,*,F,그걸세,Inflect,NP,EF,그것/NP+이/VCP+ᆯ세/EF,*
 그겁니다,0,0,0,NP+VCP+EC,*,F,그겁니다,Inflect,NP,EC,그것/NP+이/VCP+ᄇ니다/EC,*
 그겁니다,0,0,0,NP+VCP+EF,*,F,그겁니다,Inflect,NP,EF,그것/NP+이/VCP+ᄇ니다/EF,*
-그것,0,0,0,NP+JKO,*,T,그것,Inflect,NP,JKO,그것/NP+ᆯ/JKO,*
-그것,0,0,0,NP,*,T,그것,Inflect,NP,NP,그거/NP,*
 그게,0,0,0,NP+JKC,*,F,그게,Inflect,NP,JKC,그것/NP+이/JKC,*
 그게,0,0,0,NP+JKS,*,F,그게,Inflect,NP,JKS,그것/NP+이/JKS,*
 그게,0,0,0,NP+VCP,*,F,그게,Inflect,NP,VCP,그거/NP+이/VCP,*
