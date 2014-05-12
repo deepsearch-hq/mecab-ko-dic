@@ -54,14 +54,14 @@ automake 버전 문제로 설치 도중 에러가 나는 경우, 다음과 같�
   - automake1.11 설치 후, 위와 동일하게 재시도 혹은,
   - autogen.sh 실행 후 재시도
 
-    :::text
-    $ tar zxfv mecab-ko-dic-XX.tar.gz
-    $ cd mecab-ko-dic-XX
-    $ ./autogen.sh
-    $ configure
-    $ make
-    $ su
-    # make install
+        :::text
+        $ tar zxfv mecab-ko-dic-XX.tar.gz
+        $ cd mecab-ko-dic-XX
+        $ ./autogen.sh
+        $ configure
+        $ make
+        $ su
+        # make install
 
 ## 사용
 
