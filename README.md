@@ -49,6 +49,20 @@ tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 �
     $ su
     # make install
 
+automake 버전 문제로 설치 도중 에러가 나는 경우, 다음과 같이 할 수 있습니다.
+
+  - automake1.11 설치 후, 위와 동일하게 재시도 혹은,
+  - autogen.sh 실행 후 재시도
+
+    :::text
+    $ tar zxfv mecab-ko-dic-XX.tar.gz
+    $ cd mecab-ko-dic-XX
+    $ ./autogen.sh
+    $ configure
+    $ make
+    $ su
+    # make install
+
 ## 사용
 
 다음과 같이 mecab을 실행하여 한국어 형태소 분석 결과를 보실 수 있습니다. 
