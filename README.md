@@ -3,7 +3,7 @@
 [mecab-ko-dic](https://bitbucket.org/bibreen/mecab-ko-dic)은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.googlecode.com/svn/trunk/mecab/doc/index.html)을 사용하여, 한국어 형태소 분석을 하기 위한 프로젝트입니다. 말뭉치 학습과 사전 목록 일부는 [21세기 세종계획](http://www.sejong.or.kr/)의 성과물을 사용하였습니다.
 
     :::text
-    mecab-ko-dic은 21세기 세종계획 모든 현대 말뭉치에서 50문장씩을 추출하여 학습에 이용하였습니다.
+    mecab-ko-dic은 21세기 세종계획 모든 현대 말뭉치에서 50문장씩을 추출하여 학습에 이용하였습니다. (총 23,615 문장)
 
 mecab-ko-dic은 [아파치 라이센스 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)에 따라 소프트웨어를 사용, 재배포 할 수 있습니다.
 
