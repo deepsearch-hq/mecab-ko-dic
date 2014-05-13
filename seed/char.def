@@ -62,6 +62,8 @@ CYRILLIC        1 1 0
 
 # HANGUL
 0xAC00..0xD7A3  HANGUL
+0x1100..0x11FF  HANGUL  # Hangul Jamo
+0x3130..0x318F  HANGUL  # Hangul Compatibility Jamo
 
 # HIRAGANA
 0x3041..0x309F  HIRAGANA
