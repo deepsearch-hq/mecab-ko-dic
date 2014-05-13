@@ -1,6 +1,6 @@
 # mecab-ko-dic 소개
 
-[mecab-ko-dic](https://bitbucket.org/bibreen/mecab-ko-dic)은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.googlecode.com/svn/trunk/mecab/doc/index.html)을 사용하여, 한국어 형태소 분석을 하기 위한 프로젝트입니다. 말뭉치 학습과 사전 목록 일부는 [21세기 세종계획](http://www.sejong.or.kr/)의 성과물을 사용하였습니다.
+[mecab-ko-dic](https://bitbucket.org/eunjeon/mecab-ko-dic)은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.googlecode.com/svn/trunk/mecab/doc/index.html)을 사용하여, 한국어 형태소 분석을 하기 위한 프로젝트입니다. 말뭉치 학습과 사전 목록 일부는 [21세기 세종계획](http://www.sejong.or.kr/)의 성과물을 사용하였습니다.
 
     :::text
     mecab-ko-dic은 21세기 세종계획 모든 현대 말뭉치에서 50문장씩을 추출하여 학습에 이용하였습니다. (총 23,615 문장)
@@ -13,9 +13,9 @@ mecab-ko-dic을 설치하고 사용하기 위해서 다음과 같은 작업이 �
 
 ## mecab-ko 설치
 
-[mecab-ko](https://bitbucket.org/bibreen/mecab-ko)는 한국어의 특성에 맞는 기능이 추가된 MeCab의 fork 프로젝트입니다.
+[mecab-ko](https://bitbucket.org/eunjeon/mecab-ko)는 한국어의 특성에 맞는 기능이 추가된 MeCab의 fork 프로젝트입니다.
 
-[mecab-ko 다운로드 페이지](https://bitbucket.org/bibreen/mecab-ko/downloads) 에서 mecab-ko의 소스를 다운 받고 설치합니다.
+[mecab-ko 다운로드 페이지](https://bitbucket.org/eunjeon/mecab-ko/downloads) 에서 mecab-ko의 소스를 다운 받고 설치합니다.
 tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 순서로 설치할 수 있습니다.
 
     :::text
@@ -29,12 +29,12 @@ tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 �
 
 자세한 내용은 다음의 URL을 참조하시기 바랍니다.
 
-  - [mecab-ko](https://bitbucket.org/bibreen/mecab-ko)
+  - [mecab-ko](https://bitbucket.org/eunjeon/mecab-ko)
   - [MeCab 홈페이지](http://mecab.googlecode.com/svn/trunk/mecab/doc/index.html)
 
 ## mecab-ko-dic 다운로드
 
-[mecab-ko-dic 다운로드 페이지](https://bitbucket.org/bibreen/mecab-ko-dic/downloads) 에서 mecab-ko-dic의 최신 버전을 다운 받습니다.
+[mecab-ko-dic 다운로드 페이지](https://bitbucket.org/eunjeon/mecab-ko-dic/downloads) 에서 mecab-ko-dic의 최신 버전을 다운 받습니다.
 
 ## mecab-ko-dic 설치
 

@@ -27,6 +27,7 @@ mecab-ko-dic은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.go
   - NNP.csv - 고유 명사
   - NP.csv - 대명사
   - NR.csv - 수사
+  - NorthKorea.csv - 북한어
   - Person-actor.csv - 배우 인명
   - Person.csv - 인명
   - Place-address.csv - 주소
