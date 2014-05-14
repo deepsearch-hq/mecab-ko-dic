@@ -18,7 +18,8 @@ $DICT_INDEX -p -d . -c UTF-8 -t UTF-8 -f UTF-8
 
 model_file="model"
 corpus_file="corpus/eunjeon_corpus.txt"
-$COST_TRAIN -p 13 -c 1.0  ${corpus_file} ${model_file}
+cpu_count=`grep -c '^processor' /proc/cpuinfo`
+$COST_TRAIN -p ${cpu_count} -c 1.0  ${corpus_file} ${model_file}
 
 
 cp pos-id.def ../final/.
