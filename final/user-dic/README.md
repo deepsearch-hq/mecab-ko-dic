@@ -1,7 +1,7 @@
 # 사용자 사전 추가
 
 ## 준비
-[mecab-ko](https://bitbucket.org/eunjeon/mecab-ko)와 [mecab-ko-dic](https://bitbucket.org/eunjeon/mecab-ko-dic) 을 다운받아 설치합니다.
+[mecab-ko](https://bitbucket.org/eunjeon/mecab-ko)와 [mecab-ko-dic](https://bitbucket.org/eunjeon/mecab-ko-dic) 을 다운받아 설치합니다. mecab-ko-dic 를 꼭 컴파일까지 하셔야 이후에 사전 추가가 가능합니다.
 
 ## 사전 추가
 내려받은 mecab-ko-dic/userdic 디렉토리 안에 csv 확장자로 사전 파일을 추가합니다.
@@ -50,3 +50,4 @@
 ## 설치
     :::text
     $ make install
+

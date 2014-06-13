@@ -3,7 +3,9 @@
 readonly PROG_NAME=$(basename $0)
 readonly PROG_DIR=$(readlink -m $(dirname $0))
 readonly DIC_PATH=$PROG_DIR/..
-readonly USERDIC_PATH=${DIC_PATH}/userdic
+readonly USERDIC_PATH=${DIC_PATH}/user-dic
+readonly MECAB_EXEC_PATH=/usr/local/libexec/mecab
+readonly DICT_INDEX=$MECAB_EXEC_PATH/mecab-dict-index
 
 get_userdics() {
     pushd $USERDIC_PATH &> /dev/null
@@ -15,7 +17,7 @@ gen_cost() {
     local input_dic=$1
     echo $input_dic
 
-    /usr/local/libexec/mecab/mecab-dict-index \
+    $DICT_INDEX \
         -m ${DIC_PATH}/model.def \
         -d ${DIC_PATH} \
         -u ${DIC_PATH}/user-${input_dic} \
