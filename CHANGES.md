@@ -1,5 +1,10 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-1.6.1-20140515
+
+  - 새로운 기능
+      - 사용자 사전 추가 스크립트 제공. (user-dic/README.md 참고)
+
 ## mecab-ko-dic-1.6.0-20140515
 
   - 새로운 기능
