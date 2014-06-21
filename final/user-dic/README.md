@@ -1,7 +1,7 @@
 # 사용자 사전 추가
 
 ## 준비
-[mecab-ko](https://bitbucket.org/eunjeon/mecab-ko)와 [mecab-ko-dic](https://bitbucket.org/eunjeon/mecab-ko-dic) 을 다운받아 설치합니다. mecab-ko-dic 를 꼭 컴파일까지 하셔야 이후에 사전 추가가 가능합니다.
+[mecab-ko](https://bitbucket.org/eunjeon/mecab-ko)와 [mecab-ko-dic](https://bitbucket.org/eunjeon/mecab-ko-dic) 을 다운받아 설치합니다. mecab-ko-dic 을 꼭 컴파일까지 하셔야 이후에 사전 추가가 가능합니다.
 
 ## 사전 추가
 내려받은 mecab-ko-dic/userdic 디렉토리 안에 csv 확장자로 사전 파일을 추가합니다.
@@ -37,7 +37,7 @@
     :::text
     $ mecab-ko-dic/tools/add-userdic.sh
 
-아래와 같이 user-xxx.csv 사전이 추가된 모습을 볼 수 있습니다. 사실 아래 파일은 컴파일 되기 직전의 파일이며, 실제로 sys.dic 파일에 바이너리로 컴파일 되 들어가게 됩니다.
+아래와 같이 user-xxx.csv 사전이 추가된 모습을 볼 수 있습니다. 사실 아래 파일은 컴파일 되기 직전의 파일이며, 실제로 sys.dic 파일에 바이너리로 컴파일 되어 들어가게 됩니다.
 
     :::text
     mecab-ko-dic
