@@ -67,8 +67,8 @@ libmecab.so.2를 찾을 수 없는 에러가 나는 경우, 다음과 같이 할
 
   -  라이브러리를 다시 링크하고 확인후 재시도
 
-	:::text
-	$ sudo ldconfig
+        :::text
+        $ sudo ldconfig
 
 ## 사용
 
