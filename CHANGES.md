@@ -1,5 +1,11 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-1.6.1-20140814
+
+  - 사전
+      - 누락된 중요한 일반 명사(NNG) 추가
+      - 몇몇 단어 추가 및 삭제
+
 ## mecab-ko-dic-1.6.1-20140515
 
   - 새로운 기능
