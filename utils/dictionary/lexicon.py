@@ -10,16 +10,16 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
 
-class Morpheme(Base):
+class Lexicon(Base):
 
-    __tablename__ = 'lexicon_new'
+    __tablename__ = 'lexicon_1_6'
 
     id = Column(Integer, Sequence('user_id_seq'), primary_key=True)
     surface = Column(String(64), nullable=False, index=True)
     pos = Column(String(64), nullable=False, index=True)
     semantic_class = Column(String(16), nullable=False)
     read = Column(String(64), nullable=False)
-    type_name = Column(String(16), name='type', nullable=False)
+    type = Column(String(16), nullable=False)
     start_pos = Column(String(16), nullable=False)
     end_pos = Column(String(16), nullable=False)
     compound_expression = Column(String(128), nullable=False)

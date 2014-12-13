@@ -10,7 +10,7 @@ from sqlalchemy.orm import sessionmaker
 script_path = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(script_path + '/..')
 
-from dictionary.morpheme import Morpheme
+from dictionary.lexicon import Lexicon
 
 engine = None
 db_session = None
@@ -30,7 +30,7 @@ def connect_db():
 
 
 def create_table(reset=True):
-    table = Morpheme.__table__
+    table = Lexicon.__table__
     if table.exists(bind=engine):
         if reset is True:
             table.drop(bind=engine)
@@ -50,7 +50,7 @@ def insert_morphemes_to_db(dir, file_name):
         if class_name == 'Wikipedia':
             is_inspected = 0
         for row in reader:
-            morph = Morpheme(surface=row[0],
+            morph = Lexicon(surface=row[0],
                              pos=row[4],
                              semantic_class=row[5],
                              read=row[7],
