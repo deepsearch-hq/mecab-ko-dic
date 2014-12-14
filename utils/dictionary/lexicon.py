@@ -12,18 +12,18 @@ Base = declarative_base()
 
 class Lexicon(Base):
 
-    __tablename__ = 'lexicon_1_6'
+    __tablename__ = 'lexicon_1_7'
 
     id = Column(Integer, Sequence('user_id_seq'), primary_key=True)
     surface = Column(String(64), nullable=False, index=True)
     pos = Column(String(64), nullable=False, index=True)
-    semantic_class = Column(String(16), nullable=False)
+    semantic_class = Column(String(16), default="*", nullable=False)
     read = Column(String(64), nullable=False)
-    type = Column(String(16), nullable=False)
-    start_pos = Column(String(16), nullable=False)
-    end_pos = Column(String(16), nullable=False)
-    compound_expression = Column(String(128), nullable=False)
-    index_expression = Column(String(128), nullable=False)
+    type_name = Column(String(16), name='type', default="*", nullable=False)
+    start_pos = Column(String(16), default="*", nullable=False)
+    end_pos = Column(String(16), default="*", nullable=False)
+    compound_expression = Column(String(128), default="*", nullable=False)
+    index_expression = Column(String(128), default="*", nullable=False)
     class_name = Column(String(64), name='class', index=True)
     is_available = Column(Integer, nullable=False, index=True)
     is_inspected = Column(Integer, nullable=False, index=True)
@@ -39,16 +39,17 @@ class Lexicon(Base):
     def __init__(self,
                  surface,
                  pos,
-                 semantic_class,
                  read,
-                 type_name,
-                 start_pos,
-                 end_pos,
-                 compound_expression,
-                 index_expression,
-                 class_name,
-                 is_available,
-                 is_inspected):
+                 semantic_class='*',
+                 type_name='*',
+                 start_pos='*',
+                 end_pos='*',
+                 compound_expression='*',
+                 index_expression='*',
+                 class_name=None,
+                 is_available=1,
+                 is_inspected=0,
+                 last_modified=datetime.now()):
         self.surface = surface
         self.pos = pos
         self.semantic_class = semantic_class

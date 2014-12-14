@@ -13,9 +13,6 @@ import pprint
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-
-script_path = os.path.dirname(os.path.realpath(__file__))
-sys.path.append(script_path + '/..')
 from dictionary.lexicon import Lexicon
 
 
@@ -34,9 +31,14 @@ class Editor(object):
             self.__connect_db()
         return self.db_session
 
+    def close(self):
+        if self.db_session is not None:
+            self.db_session.close()
+            self.db_session = None
+
     def __connect_db(self):
         if self.db_type == 'mysql':
-            url = 'mysql+mysqlconnector://%s:%s@%s/%s' % \
+            url = 'mysql+pymysql://%s:%s@%s/%s?charset=utf8' % \
                   (self.user, self.password, self.host, self.database)
             print('connect to ' + url)
             engine = create_engine(url)
@@ -52,41 +54,24 @@ class Editor(object):
             print("This is TEST MODE. it's not aplplied to database.")
             print("for applying to database, use '-a' parameter.")
             print("##################################################")
-        # rows = self.get_session().execute(query).fetchall()
         rows = self.get_query().all()
+
         for row in rows:
-            if is_apply:
-                print('writing to database.')
-                self.modify(row)
-            else:
-                pprint.pprint(row.__dict__)
+            self.modify(row)
 
         if is_apply:
+            print('writing to database.')
             self.get_session().commit()
 
-    def get_query(self):
-        # TODO: write select query
-        return self.get_session().query(Lexicon).limit(1)
+        self.close()
+        print('total count: %s' % len(rows))
 
-    def modify(self, lexicon):
-        # TODO: rebuild lexicon object
+
+    def get_query(self):
+        # TODO: write select query.
+        # return 'query'
         pass
 
-
-def main():
-    parser = argparse.ArgumentParser(prog='PROG')
-    parser.add_argument('--host', help='host')
-    parser.add_argument('-u', '--user', help='user')
-    parser.add_argument('-p', '--password', default=None, help='password')
-    parser.add_argument('-a', '--apply', default=False, action='store_true',
-                        help='apply to database')
-    args = parser.parse_args()
-    if args.password is None:
-        args.password = getpass.getpass()
-
-    editor = Editor('mysql', args.host, 'eunjeon', args.user, args.password)
-    editor.edit(args.apply)
-
-
-if __name__ == '__main__':
-    main()
+    def modify(self, lexicon):
+        # TODO: modify lexicon
+        pass
