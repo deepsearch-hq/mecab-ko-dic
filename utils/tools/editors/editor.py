@@ -54,17 +54,23 @@ class Editor(object):
             print("This is TEST MODE. it's not aplplied to database.")
             print("for applying to database, use '-a' parameter.")
             print("##################################################")
-        rows = self.get_query().all()
+        lexicons = self.get_query().all()
 
-        for row in rows:
-            self.modify(row)
+        for lexicon in lexicons:
+            new_lexicons = self.modify(lexicon)
+            print('### MODIFY #############################')
+            pprint.pprint(lexicon.__dict__)
+            for new_lexicon in new_lexicons:
+                print('### ADD #############################')
+                pprint.pprint(new_lexicon.__dict__)
+                self.get_session().add(new_lexicon)
 
         if is_apply:
             print('writing to database.')
             self.get_session().commit()
 
         self.close()
-        print('total count: %s' % len(rows))
+        print('total count: %s' % len(lexicons))
 
 
     def get_query(self):
@@ -74,4 +80,4 @@ class Editor(object):
 
     def modify(self, lexicon):
         # TODO: modify lexicon
-        pass
+        return []

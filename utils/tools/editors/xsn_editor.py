@@ -15,33 +15,62 @@ class XsnEditor(Editor):
             filter(Lexicon.type_name == 'Compound'). \
             filter(Lexicon.pos == 'NNG'). \
             filter(Lexicon.is_available == '1')
+            #filter(Lexicon.surface=='수륙양용기')
 
 
     def modify(self, lexicon):
+        new_lexicons = []
         if lexicon.compound_expression.split('+')[-1] in XSN:
 
             # TODO: rebuild lexicon object
-            # disable word
-            lexicon.type = 'Preanalysis'
+            lexicon.type_name = 'Preanalysis'
             mophemes = lexicon.compound_expression.split('+')
             expression = []
+            surface = ''
             for index, mopheme in enumerate(mophemes):
-                if index == len(mopheme):
-                    expression.append('%s/XSN/*' % mopheme)
+                surface += mopheme
+                length = index + 1
+                if index == 0:
+                    expression.append('%s/NNG/1/%s' % (surface, length))
+                    # 처음(single) 단어 추가
+                    new_lexicons.append(Lexicon(surface=surface,
+                                                pos='NNG',
+                                                read=surface))
                 else:
-                    expression.append('%s/NNG/*' % mopheme)
-            # 타나베/NNP/인명/1/1+미쿠/NNP/인명/1/1
+                    expression.append('%s/NNG/0/%s' % (surface, length))
+                    # 중간 단어들(compound) 추가
+                    if len(mophemes) != index+1:
+                        new_lexicons.append(build_prenaisis_lexicon(mophemes[0:index+1]))
+
+            lexicon.start_pos = 'NNG'
+            lexicon.end_pos = 'NNG'
             lexicon.index_expression = '+'.join(expression)
             lexicon.last_modified = datetime.now()
             lexicon.is_available = '0'
-            pprint.pprint(lexicon.__dict__)
 
-            # 두개짜리 합성명사면(아마도 대부분..) 앞 단어가 사전에 없다면 추가. 그리고 합성명사 자체는 미사용으로 처리.
-            new_lexicon = Lexicon(surface=mophemes[0],
-                                  pos='NNG',
-                                  read=mophemes[0])
-            pprint.pprint(new_lexicon.__dict__)
-            self.get_session().add(new_lexicon)
+        return new_lexicons
+
+
+def build_prenaisis_lexicon(word_list):
+    index_expression = []
+    surface = ''
+    for index, mopheme in enumerate(word_list):
+        surface += mopheme
+        length = index + 1
+        if index == 0:
+            index_expression.append('%s/NNG/1/%s' % (surface, length))
+        else:
+            index_expression.append('%s/NNG/0/%s' % (surface, length))
+
+
+    return Lexicon(surface=''.join(word_list),
+                   pos='NNG',
+                   read=''.join(word_list),
+                   start_pos='NNG',
+                   end_pos='NNG',
+                   compound_expression='+'.join(word_list),
+                   index_expression = '+'.join(index_expression))
+
 
 
 XSN = {
