@@ -17,38 +17,41 @@ class XsnEditor(Editor):
             filter(Lexicon.is_available == '1')
             #filter(Lexicon.surface=='수륙양용기')
 
+    def modify_xsn(self, lexicon):
+        new_lexicons = []
+        # TODO: rebuild lexicon object
+        lexicon.type_name = 'Preanalysis'
+        mophemes = lexicon.compound_expression.split('+')
+        expression = []
+        surface = ''
+        for index, mopheme in enumerate(mophemes):
+            surface += mopheme
+            length = index + 1
+            if index == 0:
+                expression.append('%s/NNG/1/%s' % (surface, length))
+                # 처음(single) 단어 추가
+                new_lexicons.append(Lexicon(surface=surface,
+                                            pos='NNG',
+                                            read=surface))
+            else:
+                expression.append('%s/NNG/0/%s' % (surface, length))
+                # 중간 단어들(compound) 추가
+                if len(mophemes) != index+1:
+                    new_lexicons.append(build_prenaisis_lexicon(mophemes[0:index+1]))
+
+        lexicon.start_pos = 'NNG'
+        lexicon.end_pos = 'NNG'
+        lexicon.index_expression = '+'.join(expression)
+        lexicon.last_modified = datetime.now()
+        #lexicon.is_available = '0'
+        return new_lexicons
+
 
     def modify(self, lexicon):
-        new_lexicons = []
         if lexicon.compound_expression.split('+')[-1] in XSN:
-
-            # TODO: rebuild lexicon object
-            lexicon.type_name = 'Preanalysis'
-            mophemes = lexicon.compound_expression.split('+')
-            expression = []
-            surface = ''
-            for index, mopheme in enumerate(mophemes):
-                surface += mopheme
-                length = index + 1
-                if index == 0:
-                    expression.append('%s/NNG/1/%s' % (surface, length))
-                    # 처음(single) 단어 추가
-                    new_lexicons.append(Lexicon(surface=surface,
-                                                pos='NNG',
-                                                read=surface))
-                else:
-                    expression.append('%s/NNG/0/%s' % (surface, length))
-                    # 중간 단어들(compound) 추가
-                    if len(mophemes) != index+1:
-                        new_lexicons.append(build_prenaisis_lexicon(mophemes[0:index+1]))
-
-            lexicon.start_pos = 'NNG'
-            lexicon.end_pos = 'NNG'
-            lexicon.index_expression = '+'.join(expression)
-            lexicon.last_modified = datetime.now()
-            #lexicon.is_available = '0'
-
-        return new_lexicons
+            return self.modify_xsn(lexicon)
+        else:
+            return self.modify_xsn(lexicon)
 
 
 def build_prenaisis_lexicon(word_list):
