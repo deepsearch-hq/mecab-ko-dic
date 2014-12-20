@@ -46,7 +46,7 @@ class XsnEditor(Editor):
             lexicon.end_pos = 'NNG'
             lexicon.index_expression = '+'.join(expression)
             lexicon.last_modified = datetime.now()
-            lexicon.is_available = '0'
+            #lexicon.is_available = '0'
 
         return new_lexicons
 
