@@ -54,12 +54,13 @@ class Editor(object):
             print("This is TEST MODE. it's not aplplied to database.")
             print("for applying to database, use '-a' parameter.")
             print("##################################################")
-        lexicons = self.get_query().all()
+        lexicons = self.get_lexicons()
 
         for lexicon in lexicons:
             new_lexicons = self.modify(lexicon)
-            print('### MODIFY #############################')
-            pprint.pprint(lexicon.__dict__)
+            if isinstance(lexicon, Lexicon):
+                print('### MODIFY #############################')
+                pprint.pprint(lexicon.__dict__)
             for new_lexicon in new_lexicons:
                 print('### ADD #############################')
                 pprint.pprint(new_lexicon.__dict__)
@@ -73,11 +74,13 @@ class Editor(object):
         print('total count: %s' % len(lexicons))
 
 
-    def get_query(self):
+    # @virtual
+    def get_lexicons(self):
         # TODO: write select query.
         # return 'query'
-        pass
+        return []
 
+    # @virtual
     def modify(self, lexicon):
         # TODO: modify lexicon
         return []

@@ -9,13 +9,21 @@ from tools.editors.editor import Editor
 
 class XsnEditor(Editor):
 
-    def get_query(self):
+    # @override
+    def get_lexicons(self):
         # TODO: write select query
         return self.get_session().query(Lexicon). \
             filter(Lexicon.type_name == 'Compound'). \
             filter(Lexicon.pos == 'NNG'). \
-            filter(Lexicon.is_available == '1')
+            filter(Lexicon.is_available == '1').all()
             #filter(Lexicon.surface=='수륙양용기')
+
+    # @override
+    def modify(self, lexicon):
+        if lexicon.compound_expression.split('+')[-1] in XSN:
+            return self.modify_xsn(lexicon)
+        else:
+            return self.modify_xsn(lexicon)
 
     def modify_xsn(self, lexicon):
         new_lexicons = []
@@ -45,13 +53,6 @@ class XsnEditor(Editor):
         lexicon.last_modified = datetime.now()
         #lexicon.is_available = '0'
         return new_lexicons
-
-
-    def modify(self, lexicon):
-        if lexicon.compound_expression.split('+')[-1] in XSN:
-            return self.modify_xsn(lexicon)
-        else:
-            return self.modify_xsn(lexicon)
 
 
 def build_prenaisis_lexicon(word_list):
