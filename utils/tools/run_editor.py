@@ -9,6 +9,7 @@ import pprint
 script_path = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(script_path + '/..')
 from tools.editors.xsn_editor import XsnEditor
+from tools.editors.compound_editor import CompoundEditor
 from tools.editors.street_insertor import StreetNameEditor
 
 def main():
@@ -22,10 +23,12 @@ def main():
     if args.password is None:
         args.password = getpass.getpass()
 
+    compound_editor = CompoundEditor('mysql', args.host, 'eunjeon', args.user, args.password)
+    compound_editor.edit(args.apply)
     # editor = XsnEditor('mysql', args.host, 'eunjeon', args.user, args.password)
     # editor.edit(args.apply)
-    street_name_editor = StreetNameEditor('mysql', args.host, 'eunjeon', args.user, args.password)
-    street_name_editor.edit(args.apply)
+    #street_name_editor = StreetNameEditor('mysql', args.host, 'eunjeon', args.user, args.password)
+    #street_name_editor.edit(args.apply)
 
 
 if __name__ == '__main__':

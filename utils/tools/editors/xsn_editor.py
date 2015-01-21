@@ -15,8 +15,8 @@ class XsnEditor(Editor):
         return self.get_session().query(Lexicon). \
             filter(Lexicon.type_name == 'Compound'). \
             filter(Lexicon.pos == 'NNG'). \
-            filter(Lexicon.is_available == '1').all()
-            #filter(Lexicon.surface=='수륙양용기')
+            filter(Lexicon.surface=='수륙양용기').all()
+            #filter(Lexicon.is_available == '1').all()
 
     # @override
     def modify(self, lexicon):
