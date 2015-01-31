@@ -22,8 +22,7 @@ class Lexicon(Base):
     type_name = Column(String(16), name='type', default="*", nullable=False)
     start_pos = Column(String(16), default="*", nullable=False)
     end_pos = Column(String(16), default="*", nullable=False)
-    compound_expression = Column(String(128), default="*", nullable=False)
-    index_expression = Column(String(128), default="*", nullable=False)
+    expression = Column(String(128), default="*", nullable=False)
     class_name = Column(String(64), name='class', index=True)
     is_available = Column(Integer, nullable=False, index=True)
     is_inspected = Column(Integer, nullable=False, index=True)
@@ -44,8 +43,7 @@ class Lexicon(Base):
                  type_name='*',
                  start_pos='*',
                  end_pos='*',
-                 compound_expression='*',
-                 index_expression='*',
+                 expression='*',
                  class_name=None,
                  is_available=1,
                  is_inspected=0,
@@ -57,8 +55,7 @@ class Lexicon(Base):
         self.type_name = type_name
         self.start_pos = start_pos
         self.end_pos = end_pos
-        self.compound_expression = compound_expression
-        self.index_expression = index_expression
+        self.expression = expression
         self.class_name = class_name if class_name else '*'
         self.is_available = is_available if is_available else 1
         self.is_inspected = is_inspected if is_inspected else 0
@@ -72,8 +69,7 @@ class Lexicon(Base):
                                self.type_name,
                                self.start_pos,
                                self.end_pos,
-                               self.compound_expression,
-                               self.index_expression,
+                               self.expression,
                                self.class_name,
                                str(self.is_available),
                                str(self.is_inspected))) + '>'
