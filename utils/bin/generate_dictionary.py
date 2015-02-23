@@ -22,7 +22,7 @@ def connect_db(db_type, host, database, user, password):
     global engine
     global db_session
     if db_type == 'mysql':
-        url = 'mysql+mysqlconnector://%s:%s@%s/%s' % \
+        url = 'mysql+mysqlconnector://%s:%s@%s/%s?charset=utf8' % \
               (user, password, host, database)
         print('connect to ' + url)
         engine = create_engine(url)
@@ -48,7 +48,7 @@ def generate_dictionary_csv_files():
 def get_pos_names():
     output = []
     sql = """
-    SELECT distinct(pos) FROM lexicon_1_6 WHERE class IS NULL
+    SELECT distinct(pos) FROM lexicon_2_0 WHERE class IS NULL
     """
     rows = db_session.execute(sql).fetchall()
     for row in rows:
@@ -60,7 +60,7 @@ def get_pos_names():
 def get_class_names():
     output = []
     sql = """
-    SELECT distinct(class) FROM lexicon_1_6 WHERE class IS NOT NULL
+    SELECT distinct(class) FROM lexicon_2_0 WHERE class IS NOT NULL
     """
     rows = db_session.execute(sql).fetchall()
     for row in rows:
@@ -72,8 +72,8 @@ def get_class_names():
 def select_pos_rows(pos):
     sql = """
     SELECT  surface, pos, semantic_class, `read`, `type`, start_pos, end_pos,
-        compound_expression, index_expression
-    FROM lexicon_1_6
+        expression
+    FROM lexicon_2_0
     WHERE pos=:pos AND class IS NULL AND is_available = 1
     ORDER BY surface ASC
     """
@@ -84,8 +84,8 @@ def select_pos_rows(pos):
 def select_class_rows(class_name):
     sql = """
     SELECT  surface, pos, semantic_class, `read`, `type`, start_pos, end_pos,
-        compound_expression, index_expression
-    FROM lexicon_1_6
+        expression
+    FROM lexicon_2_0
     WHERE class=:cls AND is_available = 1
     ORDER BY surface ASC
     """
@@ -111,8 +111,7 @@ def write_dic(writer, row):
                      row['type'],
                      row['start_pos'],
                      row['end_pos'],
-                     row['compound_expression'],
-                     row['index_expression']])
+                     row['expression']])
 
 
 def main():

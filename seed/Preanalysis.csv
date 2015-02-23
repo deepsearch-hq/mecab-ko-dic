@@ -1,4 +1,4 @@
-고양이로소이다,0,0,0,NNG+VCP+EF,*,F,고양이로소이다,Preanalysis,NNG,EF,고양이+(이)+로소이다,고양이/NNG/*/1/1+/VCP/*/1/1+로소이다/EF/*/1/1
-고양이로소이다,0,0,0,NNG+VCP+EC,*,F,고양이로소이다,Preanalysis,NNG,EC,고양이+(이)+로소이다,고양이/NNG/*/1/1+/VCP/*/1/1+로소이다/EC/*/1/1
-월드와이드웹,0,0,0,NNP,*,T,월드와이드웹,Preanalysis,NNG,NNG,월드+와이드+웹,월드/NNG/*/1/1+와이드/NNG/*/1/1+웹/NNG/*/1/1
-은전한닢,0,0,0,NNG+NR+NNG,*,T,은전한닢,Preanalysis,NNG,NR,은전+한+닢,은전/NNG/*/1/1+한/NR/*/1/1+닢/NNG/*/1/1
+고양이로소이다,0,0,0,NNG+VCP+EF,*,F,고양이로소이다,Preanalysis,NNG,EF,고양이/NNG/*+/VCP/*+로소이다/EF/*
+고양이로소이다,0,0,0,NNG+VCP+EC,*,F,고양이로소이다,Preanalysis,NNG,EC,고양이/NNG/*+/VCP/*+로소이다/EC/*
+월드와이드웹,0,0,0,NNP,*,T,월드와이드웹,Preanalysis,NNG,NNG,월드/NNG/*+와이드/NNG/*+웹/NNG/*
+은전한닢,0,0,0,NNG+NR+NNG,*,T,은전한닢,Preanalysis,NNG,NNG,은전/NNG/*+한/NR/*+닢/NNG/*

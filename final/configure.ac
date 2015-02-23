@@ -1,5 +1,5 @@
 AC_INIT(matrix.def)
-AM_INIT_AUTOMAKE(mecab-ko-dic, 1.6.1)
+AM_INIT_AUTOMAKE(mecab-ko-dic, 2.0.0)
 AC_PROG_INSTALL
 AC_SUBST(datarootdir)
 
