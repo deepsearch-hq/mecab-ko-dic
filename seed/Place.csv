@@ -3459,7 +3459,6 @@
 닐기리구릉,0,0,0,NNP,지명,T,닐기리구릉,Preanalysis,NNP,NNG,닐기리/NNP/지명+구릉/NNG/*
 닐기리스,0,0,0,NNP,지명,F,닐기리스,*,*,*,*
 닐기리스구릉,0,0,0,NNP,지명,T,닐기리스구릉,Preanalysis,NNP,NNG,닐기리스/NNP/지명+구릉/NNG/*
-님,0,0,0,NNP,지명,T,님,*,*,*,*
 님바,0,0,0,NNP,지명,F,님바,*,*,*,*
 님바산,0,0,0,NNP,지명,T,님바산,Preanalysis,NNP,NNG,님바/NNP/지명+산/NNG/*
 님바산맥,0,0,0,NNP,지명,T,님바산맥,Preanalysis,NNP,NNG,님바/NNP/지명+산맥/NNG/*
