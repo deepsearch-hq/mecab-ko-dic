@@ -1,5 +1,16 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-2.0.0-2015XXXX
+
+  - 새로운 기능
+    - POS ID 체언 세분화
+      - 기존: NNG|NNP|NNB|NNBC|NR|NP->150
+      - 변경: NNG->150, NNP->151, NNB->152, NNBC->153, NR->154, NP->155
+  - 사전
+    - 사전 포맷(csv) 형식 변경 (원형과 인덱시 표현 필드 통합)
+    - 우리나라 지하철역명 사전 추가
+    - 몇몇 단어 추가
+
 ## mecab-ko-dic-1.6.1-20140814
 
   - 사전
