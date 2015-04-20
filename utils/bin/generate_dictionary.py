@@ -22,7 +22,8 @@ def connect_db(db_type, host, database, user, password):
     global engine
     global db_session
     if db_type == 'mysql':
-        url = 'mysql+mysqlconnector://%s:%s@%s/%s?charset=utf8' % \
+        # url = 'mysql+mysqlconnector://%s:%s@%s/%s?charset=utf8' % \
+        url = 'mysql+pymysql://%s:%s@%s/%s?charset=utf8' % \
               (user, password, host, database)
         print('connect to ' + url)
         engine = create_engine(url)
