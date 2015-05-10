@@ -1043,7 +1043,6 @@
 칠곡역,0,0,0,NNP,지명,T,칠곡역,Compound,*,*,칠곡/NNP/지명+역/NNG/*
 칠성시장역,0,0,0,NNP,지명,T,칠성시장역,Compound,*,*,칠성/NNG/*+시장/NNG/*+역/NNG/*
 캠퍼스타운역,0,0,0,NNP,지명,T,캠퍼스타운역,Compound,*,*,캠퍼스/NNG/*+타운/NNG/*+역/NNG/*
-큰고개역,0,0,0,NNP,지명,T,큰고개역,Preanalysis,*,*,큰/VA+ETM/*+고개/NNG/*+역/NNG/*
 탄방역,0,0,0,NNP,지명,T,탄방역,Compound,*,*,탄방/NNP/지명+역/NNG/*
 탄부역,0,0,0,NNP,지명,T,탄부역,Compound,*,*,탄부/NNP/지명+역/NNG/*
 탄현역,0,0,0,NNP,지명,T,탄현역,Compound,*,*,탄현/NNP/지명+역/NNG/*
