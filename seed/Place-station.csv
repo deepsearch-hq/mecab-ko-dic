@@ -914,7 +914,7 @@
 장유역,0,0,0,NNP,지명,T,장유역,Compound,*,*,장유/NNP/지명+역/NNG/*
 장전역,0,0,0,NNP,지명,T,장전역,Compound,*,*,장전/NNP/지명+역/NNG/*
 장지역,0,0,0,NNP,지명,T,장지역,Compound,*,*,장지/NNP/지명+역/NNG/*
-장한평역,0,0,0,NNP,지명,T,장한평역,Compound,*,*,장한/VA+ETM/*+평/NNG/*+역/NNG/*
+장한평역,0,0,0,NNP,지명,T,장한평역,Compound,*,*,장한평/NNP/지명+역/NNG/*
 장항역,0,0,0,NNP,지명,T,장항역,Compound,*,*,장항/NNP/지명+역/NNG/*
 장항화물역,0,0,0,NNP,지명,T,장항화물역,Compound,*,*,장항/NNP/지명+화물/NNG/*+역/NNG/*
 장흥역,0,0,0,NNP,지명,T,장흥역,Compound,*,*,장흥/NNP/지명+역/NNG/*
@@ -1057,7 +1057,7 @@
 태화강역,0,0,0,NNP,지명,T,태화강역,Compound,*,*,태화/NNG/*+강/NNG/*+역/NNG/*
 테크노파크역,0,0,0,NNP,지명,T,테크노파크역,Compound,*,*,테/NNP/*+파크/NNG/*+역/NNG/*
 토성역,0,0,0,NNP,지명,T,토성역,Compound,*,*,토성/NNP/지명+역/NNG/*
-통해역,0,0,0,NNP,지명,T,통해역,Compound,*,*,통해/VV+EC/*+역/NNG/*
+통해역,0,0,0,NNP,지명,T,통해역,Compound,*,*,통해/NNP/지명+역/NNG/*
 퇴계원역,0,0,0,NNP,지명,T,퇴계원역,Compound,*,*,퇴계원/NNP/지명+역/NNG/*
 파주역,0,0,0,NNP,지명,T,파주역,Compound,*,*,파주/NNP/지명+역/NNG/*
 판교역,0,0,0,NNP,지명,T,판교역,Compound,*,*,판교/NNP/지명+역/NNG/*
