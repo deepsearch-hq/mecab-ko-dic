@@ -51,8 +51,8 @@ tar.gz를 압축 해제하시고 일반적인 자유 소프트웨어와 같은 �
 
 automake 버전 문제로 설치 도중 에러가 나는 경우, 다음과 같이 할 수 있습니다.
 
-  - automake1.11 설치 후, 위와 동일하게 재시도 혹은,
-  - autogen.sh 실행 후 재시도
+- automake1.11 설치 후, 위와 동일하게 재시도 혹은,
+- autogen.sh 실행 후 재시도
 
         :::text
         $ tar zxfv mecab-ko-dic-XX.tar.gz
@@ -65,7 +65,7 @@ automake 버전 문제로 설치 도중 에러가 나는 경우, 다음과 같�
 
 libmecab.so.2를 찾을 수 없는 에러가 나는 경우, 다음과 같이 할 수 있습니다.
 
-  -  라이브러리를 다시 링크하고 확인후 재시도
+-  라이브러리를 다시 링크하고 확인후 재시도
 
         :::text
         $ sudo ldconfig
@@ -103,9 +103,10 @@ libmecab.so.2를 찾을 수 없는 에러가 나는 경우, 다음과 같이 할
 
 mecab-ko-dic에서 사용하는 사전 형식이나 품사 태그에 대한 정보는 다음의 페이지에서 보실 수 있습니다.
 
-  - [mecab-ko-dic 품사 태그 설명](https://docs.google.com/spreadsheet/ccc?key=0ApcJghR6UMXxdEdURGY2YzIwb3dSZ290RFpSaUkzZ0E&usp=sharing)
+- [mecab-ko-dic 품사 태그 설명](https://docs.google.com/spreadsheet/ccc?key=0ApcJghR6UMXxdEdURGY2YzIwb3dSZ290RFpSaUkzZ0E&usp=sharing)
 
 ## 기타
-  - 형태소 분석기 학습에 사용된 말뭉치(corpus)는 저작권이 있기 때문에 배포가 불가능합니다.
-  - 단어 추가 방법은 다음의 URL에서 확인하실 수 있습니다.
-    [MeCab 단어 추가 방법](http://mecab.googlecode.com/svn/trunk/mecab/doc/dic.html) \(일본어\)
+
+- 형태소 분석기 학습에 사용된 말뭉치(corpus)는 저작권이 있기 때문에 배포가 불가능합니다.
+- 단어 추가 방법은 다음의 URL에서 확인하실 수 있습니다.
+    [사용자 사전 추가](final/user-dic/README.md)
