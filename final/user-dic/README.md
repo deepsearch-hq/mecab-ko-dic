@@ -16,19 +16,19 @@
   * 일반적인 고유명사 추가
     
         :::text
-        대우,,,,NNP,*,F,대우,*,*,*,*,*
-        구글,,,,NNP,*,T,구글,*,*,*,*,*
+        대우,,,,NNP,*,F,대우,*,*,*,*
+        구글,,,,NNP,*,T,구글,*,*,*,*
 
   * 인명 추가
 
         :::text
-        까비,,,,NNP,인명,F,까비,*,*,*,*,*
+        까비,,,,NNP,인명,F,까비,*,*,*,*
     
   * 지명 추가
 
         :::text
-        세종,,,,NNP,지명,T,세종,*,*,*,*,*
-        세종시,,,,NNP,지명,F,세종시,Compound,*,*,세종+시,세종/NNP/지명/1/1+세종시/Compound/지명/0/2+시/NNG/*/1/1
+        세종,,,,NNP,지명,T,세종,*,*,*,*
+        세종시,,,,NNP,지명,F,세종시,Compound,*,*,세종/NNP/지명+시/NNG/*
 
 그 외의 품사 추가가 필요한 경우에는 [품사태그표](https://docs.google.com/spreadsheet/ccc?key=0ApcJghR6UMXxdEdURGY2YzIwb3dSZ290RFpSaUkzZ0E&usp=sharing#gid=4) 를 참고하세요.
 
