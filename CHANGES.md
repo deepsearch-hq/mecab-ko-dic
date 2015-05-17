@@ -1,6 +1,6 @@
 # mecab-ko-dic ChangeLog
 
-## mecab-ko-dic-2.0.0-2015XXXX
+## mecab-ko-dic-2.0.0-20150517
 
 - 새로운 기능
     - 체언 POS ID 세분화
