@@ -31,7 +31,7 @@ for each in `ls $TARGET_DIR/Person*.csv`; do
                 decr_cost = int(decr_cost * 0.8);
             }
         }
-        print($1,$2,$3,decr_cost,$5,$6,$7,$8,$9,$10,$11,$12,$13)
+        print($1,$2,$3,decr_cost,$5,$6,$7,$8,$9,$10,$11,$12)
     }' > $each.tmp
     rm -f $each
     mv $each.tmp $each
@@ -58,7 +58,7 @@ for each in `ls $TARGET_DIR/Place*.csv`; do
                 decr_cost = int(decr_cost * 0.4);
             }
         }
-        print($1,$2,$3,decr_cost,$5,$6,$7,$8,$9,$10,$11,$12,$13)
+        print($1,$2,$3,decr_cost,$5,$6,$7,$8,$9,$10,$11,$12)
     }' > $each.tmp
     rm -f $each
     mv $each.tmp $each
