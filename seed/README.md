@@ -48,3 +48,15 @@ mecab-ko-dic은 오픈 소스 형태소 분석 엔진인 [MeCab](http://mecab.go
 - Wikipedia.csv - 한국어 위키백과에서 추출한 명사
 
     Wikipedia*.csv는 다소 거칠게 추출한 사전이라 잘못된 명사가 있을 수 있지만, 인명이나 여러 고유 명사의 보충을 위해 사용되었습니다.
+
+## 학습 방법
+
+학습에 필요한 말뭉치는 mecab을 실행하여 형태소 분석 결과를 얻었을 때의 형식과 동일합니다. [말뭉치 샘플 파일](corpus/eunjeon_corpus.txt) 참조. 형태소 분석기 학습에 사용된 말뭉치(corpus)는 저작권이 있기 때문에 배포가 불가능합니다.
+
+[mecab-ko](https://bitbucket.org/eunjeon/mecab-ko)가 설치되어 있는 환경에서 다음과 같이 실행하면 학습을 테스트하실 수 있습니다. 최종 결과물은 final 디렉터리에 생성됩니다.
+
+    $ cd seed
+    $ ./build
+
+mecab 학습에 관한 보다 자세한 사항은 다음 URL을 참조하시기 바랍니다.
+    http://taku910.github.io/mecab/learn.html \(일본어\)
