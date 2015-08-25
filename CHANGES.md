@@ -1,5 +1,11 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-2.0.1-20150825
+
+- 사전
+    - 일반 명사로 등록된 인명 제거 or 'NNP/인명'으로 수정
+    - 이성계/NNP/인명 출현 비용 낮춤
+
 ## mecab-ko-dic-2.0.1-20150707
 
 - 사전
