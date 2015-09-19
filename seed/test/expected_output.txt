@@ -664,3 +664,10 @@ EOS
 다	EF,*,F,다,*,*,*,*
 .	SF,*,*,*,*,*,*,*
 EOS
+자연주의	NNG,*,F,자연주의,Compound,*,*,자연/NNG/*+주의/NNG/*
+쇼핑몰	NNG,*,T,쇼핑몰,Compound,*,*,쇼핑/NNG/*+몰/NNG/*
+은	JX,*,T,은,*,*,*,*
+무엇	NP,*,T,무엇,*,*,*,*
+인가	VCP+EF,*,F,인가,Inflect,VCP,EF,이/VCP/*+ᆫ가/EF/*
+?	SF,*,*,*,*,*,*,*
+EOS
