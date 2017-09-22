@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # -*-coding:utf-8-*-
 import csv
-import getpass
 import os
 import sys
 
@@ -18,20 +17,15 @@ base_dir = os.path.dirname(os.path.realpath(__file__))
 target_dir = base_dir + '/../../seed'
 
 
-def connect_db(db_type, host, database, user, password):
+def connect_db(db_url):
     global engine
     global db_session
-    if db_type == 'mysql':
-        # url = 'mysql+mysqlconnector://%s:%s@%s/%s?charset=utf8' % \
-        url = 'mysql+pymysql://%s:%s@%s/%s?charset=utf8' % \
-              (user, password, host, database)
-        print('connect to ' + url)
-        engine = create_engine(url)
-        Session = sessionmaker(bind=engine)
-        db_session = Session()
-        return db_session
-    else:
-        raise RuntimeError('Invalid db type: ' + type)
+
+    print('connect to ' + db_url)
+    engine = create_engine(db_url)
+    Session = sessionmaker(bind=engine)
+    db_session = Session()
+    return db_session
 
 
 def generate_dictionary_csv_files():
@@ -76,7 +70,7 @@ def select_pos_rows(pos):
         expression
     FROM lexicon_2_0
     WHERE pos=:pos AND class IS NULL AND is_available = 1
-    ORDER BY surface ASC
+    ORDER BY surface, pos, semantic_class ASC
     """
     rows = db_session.execute(sql, {'pos': pos}).fetchall()
     return rows
@@ -88,7 +82,7 @@ def select_class_rows(class_name):
         expression
     FROM lexicon_2_0
     WHERE class=:cls AND is_available = 1
-    ORDER BY surface ASC
+    ORDER BY surface, pos, semantic_class ASC
     """
     rows = db_session.execute(sql, {'cls': class_name}).fetchall()
     return rows
@@ -116,12 +110,10 @@ def write_dic(writer, row):
 
 
 def main():
-    host = input('Host: ')
-    user = input('User: ')
-    password = getpass.getpass()
-    connect_db('mysql', host, 'eunjeon', user, password)
+    db_url = input('DB URL (ex: sqlite:///...):')
+    #db_url = 'sqlite:////home/kayden/eunjeon/eunjeon_lexicon_2_0_20170918.sqlite'
+    connect_db(db_url)
     generate_dictionary_csv_files()
-
 
 if __name__ == '__main__':
     main()
