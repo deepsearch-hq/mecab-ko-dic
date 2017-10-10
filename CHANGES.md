@@ -1,5 +1,9 @@
 # mecab-ko-dic ChangeLog
 
+## mecab-ko-dic-2.0.3-20170922
+- 오류 수정
+    - add-userdic.sh 오류 수정
+
 ## mecab-ko-dic-2.0.2-20170922
 
 - 사전
