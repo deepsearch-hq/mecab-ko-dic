@@ -1,7 +1,7 @@
 #!/bin/bash
 
 readonly PROG_NAME=$(basename $0)
-if [ -x `which greadlink` ]; then   # for macOS
+if [ -n "`which greadlink`" ]; then   # for macOS
     readonly PROG_DIR=$(greadlink -m $(dirname $0)) # if not installed: `brew install coreutils`
 else
     readonly PROG_DIR=$(readlink -m $(dirname $0))
