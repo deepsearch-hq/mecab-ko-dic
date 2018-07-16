@@ -12,7 +12,7 @@ Base = declarative_base()
 
 class Lexicon(Base):
 
-    __tablename__ = 'lexicon_2_0'
+    __tablename__ = 'lexicon_2_1'
 
     id = Column(Integer, Sequence('user_id_seq'), primary_key=True)
     surface = Column(String(64), nullable=False, index=True)

@@ -9,6 +9,7 @@ from sqlalchemy.orm import sessionmaker
 
 script_path = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(script_path + '/..')
+
 from dictionary.utils import get_end_with_jongsung
 
 engine = None
@@ -43,7 +44,7 @@ def generate_dictionary_csv_files():
 def get_pos_names():
     output = []
     sql = """
-    SELECT distinct(pos) FROM lexicon_2_0 WHERE class IS NULL
+    SELECT distinct(pos) FROM lexicon_2_1 WHERE class IS NULL
     """
     rows = db_session.execute(sql).fetchall()
     for row in rows:
@@ -55,7 +56,7 @@ def get_pos_names():
 def get_class_names():
     output = []
     sql = """
-    SELECT distinct(class) FROM lexicon_2_0 WHERE class IS NOT NULL
+    SELECT distinct(class) FROM lexicon_2_1 WHERE class IS NOT NULL
     """
     rows = db_session.execute(sql).fetchall()
     for row in rows:
@@ -68,7 +69,7 @@ def select_pos_rows(pos):
     sql = """
     SELECT  surface, pos, semantic_class, `read`, `type`, start_pos, end_pos,
         expression
-    FROM lexicon_2_0
+    FROM lexicon_2_1
     WHERE pos=:pos AND class IS NULL AND is_available = 1
     ORDER BY surface, pos, semantic_class ASC
     """
@@ -80,7 +81,7 @@ def select_class_rows(class_name):
     sql = """
     SELECT  surface, pos, semantic_class, `read`, `type`, start_pos, end_pos,
         expression
-    FROM lexicon_2_0
+    FROM lexicon_2_1
     WHERE class=:cls AND is_available = 1
     ORDER BY surface, pos, semantic_class ASC
     """
@@ -110,8 +111,8 @@ def write_dic(writer, row):
 
 
 def main():
+    # db_url = 'sqlite:////home/kayden/eunjeon/eunjeon_lexicon_2_1.sqlite'
     db_url = input('DB URL (ex: sqlite:///...):')
-    #db_url = 'sqlite:////home/kayden/eunjeon/eunjeon_lexicon_2_0_20170918.sqlite'
     connect_db(db_url)
     generate_dictionary_csv_files()
 

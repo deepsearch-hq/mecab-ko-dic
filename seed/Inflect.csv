@@ -1027,7 +1027,7 @@
 갈테니,0,0,0,VV+EC,*,F,갈테니,Inflect,VV,EC,가/VV/*+ᆯ테니/EC/*
 갈텐데,0,0,0,VV+EC,*,F,갈텐데,Inflect,VV,EC,가/VV/*+ᆯ텐데/EC/*
 갈텐데,0,0,0,VV+ETM+NNB+VCP+EC,*,F,갈텐데,Inflect,VV,EC,가/VV/*+ᆯ/ETM/*+터/NNB/*+이/VCP/*+ᆫ데/EC/*
-갈팡질팡,0,0,0,MAG,성분부사/양태부사,T,갈팡질팡,Inflect,MAG,MAG,갈팡지팡/MAG/*
+갈팡질팡,0,0,0,MAG,성분부사|양태부사,T,갈팡질팡,Inflect,MAG,MAG,갈팡지팡/MAG/*
 감,0,0,0,EC+VV+ETN,*,T,감,Inflect,EC,ETN,어/EC/*+가/VV/*+ᄆ/ETN/*
 감,0,0,0,EC+VX+ETN,*,T,감,Inflect,EC,ETN,어/EC/*+가/VX/*+ᄆ/ETN/*
 감,0,0,0,VV+EC,*,T,감,Inflect,VV,EC,가/VV/*+ᄆ/EC/*
@@ -5532,7 +5532,7 @@
 꽃필,0,0,0,VV+ETM,*,T,꽃필,Inflect,VV,ETM,꽃피/VV/*+ᆯ/ETM/*
 꽃필려고,0,0,0,VV+EC,*,F,꽃필려고,Inflect,VV,EC,꽃피/VV/*+ㄹ려고/EC/*
 꽉차,0,0,0,VV+EC,*,F,꽉차,Inflect,VV,EC,꽉차/VV/*+아/EC/*
-꽤,0,0,0,MAG,성분부사/정도부사,F,꽤,Inflect,MAG,MAG,꾀/MAG/*
+꽤,0,0,0,MAG,성분부사|정도부사,F,꽤,Inflect,MAG,MAG,꾀/MAG/*
 꽤해,0,0,0,VV+EC,*,F,꽤해,Inflect,VV,EC,꾀하/VV/*+아/EC/*
 꾀어낸,0,0,0,VV+ETM,*,T,꾀어낸,Inflect,VV,ETM,꾀어내/VV/*+ᆫ/ETM/*
 꾀어드,0,0,0,VV,*,F,꾀어드,Inflect,VV,VV,꾀어들/VV/*
@@ -6111,7 +6111,7 @@
 끝났으면,0,0,0,VV+EP+EC,*,T,끝났으면,Inflect,VV,EC,끝나/VV/*+았/EP/*+으면/EC/*
 끝났으므로,0,0,0,VV+EP+EC,*,F,끝났으므로,Inflect,VV,EC,끝나/VV/*+았/EP/*+으므로/EC/*
 끝났을지도,0,0,0,VV+EP+EC+JX,*,F,끝났을지도,Inflect,VV,JX,끝나/VV/*+았/EP/*+을지/EC/*+도/JX/*
-끝내,0,0,0,MAG,성분부사/시간부사,F,끝내,Inflect,MAG,MAG,끝내어/MAG/*
+끝내,0,0,0,MAG,성분부사|시간부사,F,끝내,Inflect,MAG,MAG,끝내어/MAG/*
 끝내,0,0,0,VV+EC,*,F,끝내,Inflect,VV,EC,끝내/VV/*+어/EC/*
 끝내,0,0,0,VV+EF,*,F,끝내,Inflect,VV,EF,끝내/VV/*+어/EF/*
 끝내준다,0,0,0,VV+EF,*,F,끝내준다,Inflect,VV,EF,끝내주/VV/*+ㄴ다/EF/*
@@ -16539,7 +16539,7 @@
 마춰,0,0,0,VV+EC,*,F,마춰,Inflect,VV,EC,마추/VV/*+어/EC/*
 마춰준다,0,0,0,VV+EC+VX+EF,*,F,마춰준다,Inflect,VV,EF,마추/VV/*+어/EC/*+주/VX/*+ᆫ다/EF/*
 마춰줄까,0,0,0,VV+EC+VX+EF,*,F,마춰줄까,Inflect,VV,EF,마추/VV/*+어/EC/*+주/VX/*+ᆯ까/EF/*
-마치,0,0,0,MAG,문장부사/양상부사,F,마치,Inflect,MAG,MAG,마디/MAG/*
+마치,0,0,0,MAG,문장부사|양상부사,F,마치,Inflect,MAG,MAG,마디/MAG/*
 마친,0,0,0,VV+ETM,*,T,마친,Inflect,VV,ETM,마치/VV/*+ᆫ/ETM/*
 마친다,0,0,0,VV+EF,*,F,마친다,Inflect,VV,EF,마치/VV/*+ᆫ다/EF/*
 마친다고,0,0,0,VV+EC,*,F,마친다고,Inflect,VV,EC,마치/VV/*+ᆫ다고/EC/*
@@ -18964,7 +18964,7 @@
 물려줬,0,0,0,VV+EP,*,T,물려줬,Inflect,VV,EP,물려주/VV/*+었/EP/*
 물렸,0,0,0,VA+EP,*,T,물렸,Inflect,VA,EP,물리/VA/*+ㅓㅆ/EP/*
 물렸,0,0,0,VV+EP,*,T,물렸,Inflect,VV,EP,물리/VV/*+었/EP/*
-물론,0,0,0,MAG,문장부사/접속부사,T,물론,Inflect,MAG,MAG,몰론/MAG/*
+물론,0,0,0,MAG,문장부사|접속부사,T,물론,Inflect,MAG,MAG,몰론/MAG/*
 물르,0,0,0,VV,*,F,물르,Inflect,VV,VV,무르/VV/*
 물르잖어,0,0,0,VV+EC+VX+EF,*,F,물르잖어,Inflect,VV,EF,무르/VV/*+지/EC/*+않/VX/*+어/EF/*
 물른다메,0,0,0,VV+EF,*,F,물른다메,Inflect,VV,EF,무르/VV/*+ᆫ다메/EF/*
@@ -19299,7 +19299,7 @@
 미뤄질,0,0,0,VV+EC+VX+ETM,*,T,미뤄질,Inflect,VV,ETM,미루/VV/*+어/EC/*+지/VX/*+ᆯ/ETM/*
 미뤘,0,0,0,VV+EP,*,T,미뤘,Inflect,VV,EP,미루/VV/*+었/EP/*
 미뤘으면,0,0,0,VV+EP+EC,*,T,미뤘으면,Inflect,VV,EC,미루/VV/*+었/EP/*+으면/EC/*
-미리,0,0,0,MAG,성분부사/시간부사,F,미리,Inflect,MAG,MAG,미리미리/MAG/*
+미리,0,0,0,MAG,성분부사|시간부사,F,미리,Inflect,MAG,MAG,미리미리/MAG/*
 미셨,0,0,0,VV+EP+EP,*,T,미셨,Inflect,VV,EP,밀/VV/*+시/EP/*+었/EP/*
 미스테린,0,0,0,NNG+VCP+ETM,*,T,미스테린,Inflect,NNG,ETM,미스테리/NNG/*+이/VCP/*+ㄴ/ETM/*
 미습니다,0,0,0,NNG+VCP+EF,*,F,미습니다,Inflect,NNG,EF,미스/NNG/*+이/VCP/*+ㅂ니다/EF/*
@@ -24033,7 +24033,7 @@
 뽑힐지,0,0,0,VV+EC,*,F,뽑힐지,Inflect,VV,EC,뽑히/VV/*+ᆯ지/EC/*
 뽑힘,0,0,0,VV+ETN,*,T,뽑힘,Inflect,VV,ETN,뽑히/VV/*+ᄆ/ETN/*
 뽑힙니다,0,0,0,VV+EF,*,F,뽑힙니다,Inflect,VV,EF,뽑히/VV/*+ᄇ니다/EF/*
-뾰쪽,0,0,0,MAG,성분부사/양태부사,T,뾰쪽,Inflect,MAG,MAG,뾰족/MAG/*
+뾰쪽,0,0,0,MAG,성분부사|양태부사,T,뾰쪽,Inflect,MAG,MAG,뾰족/MAG/*
 뾰쪽한,0,0,0,MAG+XSA+ETM,*,T,뾰쪽한,Inflect,MAG,ETM,뾰족/MAG/*+하/XSA/*+ᆫ/ETM/*
 뿅간,0,0,0,VV+ETM,*,T,뿅간,Inflect,VV,ETM,뿅가/VV/*+ㄴ/ETM/*
 뿌개,0,0,0,VV+EC,*,F,뿌개,Inflect,VV,EC,뿌개/VV/*+ㅓ/EC/*
@@ -30832,7 +30832,7 @@
 예요,0,0,0,VCP+EF,*,F,예요,Inflect,VCP,EF,이/VCP/*+ㅔ요/EF/*
 예울,0,0,0,NNG+JKO,*,T,예울,Inflect,NNG,JKO,예우/NNG/*+ᆯ/JKO/*
 예정된,0,0,0,NNG+XSV+ETM,*,T,예정된,Inflect,NNG,ETM,새벽/NNG/*+되/XSV/*+ᆫ/ETM/*
-예컨대,0,0,0,MAG,문장부사/접속부사,F,예컨대,Inflect,MAG,MAG,예컨데/MAG/*
+예컨대,0,0,0,MAG,문장부사|접속부사,F,예컨대,Inflect,MAG,MAG,예컨데/MAG/*
 예컨데,0,0,0,MAJ,*,F,예컨데,Inflect,MAJ,MAJ,예컨대/MAJ/*
 예펜넨,0,0,0,NNG+JX,*,T,예펜넨,Inflect,NNG,JX,예펜네/NNG/*+ᆫ/JX/*
 옌지,0,0,0,NNG+VCP+EC,*,F,옌지,Inflect,NNG,EC,예/NNG/*+이/VCP/*+ㄴ지/EC/*
@@ -31377,7 +31377,7 @@
 올수록,0,0,0,VV+EC,*,T,올수록,Inflect,VV,EC,오/VV/*+ᆯ수록/EC/*
 올수록,0,0,0,VX+EC,*,T,올수록,Inflect,VX,EC,오/VX/*+ᆯ수록/EC/*
 올아와,0,0,0,VV+EC,*,F,올아와,Inflect,VV,EC,올아오/VV/*+아/EC/*
-올올히,0,0,0,MAG,성분부사/양태부사,F,올올히,Inflect,MAG,MAG,올올이/MAG/*
+올올히,0,0,0,MAG,성분부사|양태부사,F,올올히,Inflect,MAG,MAG,올올이/MAG/*
 올지,0,0,0,EC+VV+EC,*,F,올지,Inflect,EC,EC,아/EC/*+오/VV/*+ᆯ지/EC/*
 올지,0,0,0,VV+EC,*,F,올지,Inflect,VV,EC,오/VV/*+ᆯ지/EC/*
 올지,0,0,0,VV+EF,*,F,올지,Inflect,VV,EF,오/VV/*+ᆯ지/EF/*
@@ -36116,6 +36116,7 @@
 줄어듦에,0,0,0,VV+ETN+JKB,*,F,줄어듦에,Inflect,VV,JKB,줄어들/VV/*+ᄆ/ETN/*+에/JKB/*
 줄어듦으로,0,0,0,VV+ETN+JKB,*,F,줄어듦으로,Inflect,VV,JKB,줄어들/VV/*+ᄆ/ETN/*+으로/JKB/*
 줄어듦으로써,0,0,0,VV+ETN+JKB,*,F,줄어듦으로써,Inflect,VV,JKB,줄어들/VV/*+ㅁ/ETN/*+으로써/JKB/*
+줄어듭니다,0,0,0,VV+EC,*,F,줄어듭니다,Inflect,VV,EC,줄어들/VV/*+ᄇ니다/EC/*
 줄어야,0,0,0,VV+EC,*,F,줄어야,Inflect,VV,EC,줄이/VV/*+어야/EC/*
 줄어져서,0,0,0,VV+EC,*,F,줄어져서,Inflect,VV,EC,줄어지/VV/*+어서/EC/*
 줄어진,0,0,0,VV+ETM,*,T,줄어진,Inflect,VV,ETM,줄어지/VV/*+ᆫ/ETM/*
@@ -41361,7 +41362,7 @@
 하여본,0,0,0,VV+ETM,*,T,하여본,Inflect,VV,ETM,해보/VV/*+ᆫ/ETM/*
 하여볼,0,0,0,VV+ETM,*,T,하여볼,Inflect,VV,ETM,해보/VV/*+ᆯ/ETM/*
 하여지,0,0,0,VV,*,F,하여지,Inflect,VV,VV,해지/VV/*
-하여튼,0,0,0,MAG,문장부사/접속부사,T,하여튼,Inflect,MAG,MAG,하튼/MAG/*
+하여튼,0,0,0,MAG,문장부사|접속부사,T,하여튼,Inflect,MAG,MAG,하튼/MAG/*
 하였,0,0,0,NNG+XSA+EP,*,T,하였,Inflect,NNG,EP,점/NNG/*+하/XSA/*+았/EP/*
 하이스튼가,0,0,0,NNP+VCP+EC,*,F,하이스튼가,Inflect,NNP,EC,하이스트/NNP/*+이/VCP/*+ㄴ가/EC/*
 하이얀,0,0,0,VA+ETM,*,T,하이얀,Inflect,VA,ETM,하이얗/VA/*+ᆫ/ETM/*
